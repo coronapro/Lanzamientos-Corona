@@ -1,0 +1,32 @@
+/*
+1. Posicioning
+2. Box Model
+3. Tipography
+4. Visuals (shadow, etc)
+5. Others (transformation, etc)
+*/
+
+:root {
+    /*COLORES*/
+    --Cocinas: color #FCF4DD;
+    --Lavaderos: color #3A849A;
+    --Baños: color #2E2E82;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+Header iframe {
+    width: 100%;
+    aspect-ratio: 16/9;
+    display: flex;
+    background-color: var(--Lavaderos);
+}
