@@ -31,7 +31,7 @@ html {
 
 header {
     position: relative;
-    width: 100vw;
+    width: 100%;
     min-height: 100vh;
     overflow: hidden;
     display: flex;
@@ -181,6 +181,13 @@ header {
 .heroFooter span.pinterest {
     background-image: url(./assets/icons/pinterest.svg);
 }
+
+/*PAGE COCINAS*/
+.ku-embed {
+    width: 100%;
+    aspect-ratio: 1/2;
+}
+
 /*RESPONSIVE*/
 /*TABLETS*/
 @media only screen and (min-width: 641px) {
