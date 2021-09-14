@@ -16,7 +16,7 @@ CSS will be constructed on Mobile First
     --PaddingMobile-12px: 12px;
     --PaddingTablet-48px: 48px;
     --PaddingLaptop-86px: 86px;
-    --PaddingDesktop-15: 10%;
+    --PaddingDesktop-15: 15%;
 }
 
 * {
