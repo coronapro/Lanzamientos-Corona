@@ -118,6 +118,8 @@ header {
 .heroCard span {
     display: block;
     background-size: contain;
+    background-repeat: none;
+    background-position: center;
     width: 4rem;
     height: 4rem;
     background-image: url(./assets/icons/arrow-diagonal.svg);
@@ -139,10 +141,32 @@ header {
     display: flex;
     justify-content: space-evenly;
 }
+.heroFooter div:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 1.6rem;
+}
 .heroFooter h2 {
     font-size: 1.8rem;
     text-transform: uppercase;
     font-weight: 400;
+    margin-bottom: 0.8rem;
+}
+.heroFooter a {
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 100;
+    text-decoration: none;
+}
+.heroFooter span {
+    display: block;
+    background-size: contain;
+    background-repeat: none;
+    background-position: center;
+    width: 4rem;
+    height: 3rem;
+    background-image: url(./assets/icons/);
 }
 
 /*RESPONSIVE*/
