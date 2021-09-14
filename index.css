@@ -1,4 +1,5 @@
 /*
+CSS will be constructed on Mobile First
 1. Posicioning
 2. Box Model
 3. Tipography
@@ -25,6 +26,9 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+
+/*HOME PAGE*/
+
 header {
     position: relative;
     width: 100vw;
@@ -35,7 +39,6 @@ header {
     justify-content: center;
     align-items: center;
     padding: 12px;
-    
 }
 .heroBackground {
     position: absolute;
@@ -138,7 +141,7 @@ header {
     gap: var(--Gap);
     color: white;
 }
-.heroFooter div {
+.heroFooter-logos {
     display: flex;
     justify-content: space-between;
 }
@@ -179,19 +182,47 @@ header {
     background-image: url(./assets/icons/pinterest.svg);
 }
 /*RESPONSIVE*/
-/* @media only screen and (min-width: 641px) {
+/*TABLETS*/
+@media only screen and (min-width: 641px) {
     header {
-        padding: 24px;
+       padding: 48px 86px;
+    }
+    .heroCard {
+        height: 220px;
+    } 
+}
+/*LAPTOPS UP TO 1440*/
+@media only screen and (min-width: 1008px) {
+    header {
+       padding: 48px 48px;
     }
     .heroHeader {
-        height: 80px;
+        height: 90px;
+    }
+    .heroCard-container {
+        grid-template-columns: 1fr 1fr;
+        margin-top: 6.4rem;
+    }
+    .heroCard {
+        height: 220px;
+    } 
+    .line {
+        margin: 6.4rem 0;
+    }
+    .heroFooter {
+        grid-template-columns: 1fr 1fr;
+        align-items: flex-start;
+    }
+    .heroFooter div:last-child {
+        margin-top: 0rem;
+    }
+    .heroFooter-logos {
+        order: 1;
+        justify-content: flex-end;
     }
 }
-@media only screen and (min-width: 1007px) {
+/*LAPTOPS BIGGER THAN 1440*/
+@media only screen and (min-width: 1440px) {
     header {
-        padding: 100px;
+       padding: 48px 15%;
     }
-    .heroHeader {
-        height: 100px;
-    }
-} */
