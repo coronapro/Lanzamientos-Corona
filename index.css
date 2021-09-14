@@ -13,6 +13,10 @@ CSS will be constructed on Mobile First
     --Lavaderos: #3A849A;
     --Banos: #2E2E82;
     --Gap: 16px;
+    --PaddingMobile-12px: 12px;
+    --PaddingTablet-48px: 48px;
+    --PaddingLaptop-86px: 86px;
+    --PaddingDesktop-15: 10%,
 }
 
 * {
@@ -38,7 +42,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 12px;
+    padding: var(--PaddingMobile-12px);
 }
 .heroBackground {
     position: absolute;
@@ -185,14 +189,22 @@ header {
 /*PAGE COCINAS*/
 .ku-embed {
     width: 100%;
-    aspect-ratio: 1/2;
+    height: 80vh;
+}
+section {
+    width: 100%;
+    padding: var(--PaddingMobile-12px);
+}
+section div:first-child {
+    display: grid;
+    grid-template-columns: repeat(3) 1fr;
 }
 
 /*RESPONSIVE*/
 /*TABLETS*/
 @media only screen and (min-width: 641px) {
     header {
-       padding: 48px 86px;
+       padding: var(--PaddingTablet-48px) 86px;
     }
     .heroCard {
         height: 220px;
@@ -201,7 +213,7 @@ header {
 /*LAPTOPS UP TO 1440*/
 @media only screen and (min-width: 1008px) {
     header {
-       padding: 48px 48px;
+       padding: var(--PaddingTablet-48px);
     }
     .heroHeader {
         height: 90px;
@@ -231,5 +243,5 @@ header {
 /*LAPTOPS BIGGER THAN 1440*/
 @media only screen and (min-width: 1440px) {
     header {
-       padding: 48px 15%;
+       padding: var(--PaddingTablet-48px) var(--PaddingDesktop-15);
     }
