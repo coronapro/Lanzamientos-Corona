@@ -17,9 +17,14 @@ CSS will be constructed on Mobile First
     --PaddingTablet-48px: 48px;
     --PaddingLaptop-86px: 86px;
     --PaddingDesktop-15: 15%;
+    --SpacerMobile-32px: 3.2rem;
+    --SpacerLaptop-64px: 6.4rem;
+    --Shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.35);
+
 }
 
 * {
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -92,7 +97,7 @@ header {
     display: grid;
     grid-template-columns: 1fr;
     gap: var(--Gap);
-    margin-top: 3.2rem;
+    margin-top: var(--SpacerMobile-32px);
 }
 .heroCard {
     height: auto;
@@ -102,7 +107,7 @@ header {
     padding: 2.4rem;
     background-color: white;
     border-radius: 10px;
-    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+    box-shadow: var(--Shadow);
 }
 .banos {
     color: var(--Banos);
@@ -133,7 +138,7 @@ header {
     background-image: url(./assets/icons/arrow-diagonal.svg);
 }
 .line {
-    margin: 3.2rem 0;
+    margin: var(--SpacerMobile-32px) 0;
     width: 100%;
     height: 2px;
     background-color: white;
@@ -194,10 +199,57 @@ header {
 section {
     width: 100%;
     padding: var(--PaddingMobile-12px);
+    color: var(--Lavaderos);
+    font-size: 1.4rem;
+    overflow-x: scroll;
+
 }
-section div:first-child {
+.section1 div {
     display: grid;
-    grid-template-columns: repeat(3) 1fr;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    gap: var(--Gap);
+}
+.section1 h2 {
+    font-size: 2rem;
+    color:var(--Lavaderos);    
+}
+.section1 p {
+    justify-self: flex-end;
+}
+.section2 {
+    width: auto;
+    overflow-x: scroll;
+}
+.section2_cardContainer {
+    width: 400vw;
+    height: auto;
+    display: flex;
+    padding: var(--SpacerMobile-32px) 0;
+}
+.slider {
+    display: flex;
+}
+.cardProduct {
+    height: 100%;
+    width: 80vw;
+    aspect-ratio: 1/1.1;
+    background-color: grey;
+    margin-right: var(--Gap);
+    border-radius: 10px;
+    box-shadow: var(--Shadow);
+}
+#cardProduct1 {
+    background-color: blue;
+}
+.cardProduct2 {
+    background-color: rgb(51, 255, 0);
+}
+.cardProduct3 {
+    background-color: rgb(255, 0, 191);
+}
+.cardProduct4 {
+    background-color: rgb(255, 102, 0);
 }
 
 /*RESPONSIVE*/
