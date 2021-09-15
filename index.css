@@ -229,6 +229,7 @@ section {
 }
 .slider {
     display: flex;
+    width: 400vw;
 }
 .cardProduct {
     height: 100%;

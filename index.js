@@ -9,7 +9,7 @@ const slider = document.querySelector('.slider');
 function slide () {
    slider.style.transform = "translateX(-75vw)";
 }
-card1.addEventListener("touchmove", slide);
+slider.addEventListener("touchmove", slide);
 
 // card1.addEventListener ("click",slide)
 // card2.addEventListener ("click",slide)
