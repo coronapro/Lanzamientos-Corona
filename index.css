@@ -34,7 +34,16 @@ html {
     font-size: 62.5%;
     font-family: 'Roboto', sans-serif;
 }
-
+.mobileTittle {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 0.8rem;
+}
+.mobileSubtittle {
+    font-size: 1.8rem;
+    text-transform: none;
+    margin-bottom: 0.8rem;
+}
 
 /*HOME PAGE*/
 
