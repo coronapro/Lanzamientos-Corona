@@ -198,7 +198,7 @@ header {
 }
 section {
     width: 100%;
-    padding: var(--PaddingMobile-12px);
+    padding: 0 var(--PaddingMobile-12px);
     color: var(--Lavaderos);
     font-size: 1.4rem;
     overflow-x: scroll;
@@ -209,6 +209,7 @@ section {
     grid-template-columns: 1fr 2fr;
     align-items: center;
     gap: var(--Gap);
+    margin-top: 1.6rem;
 }
 .section1 h2 {
     font-size: 2rem;
@@ -217,7 +218,7 @@ section {
 .section1 p {
     justify-self: flex-end;
 }
-.section2 {
+.section2, .section4 {
     width: auto;
     overflow-x: scroll;
 }
@@ -235,23 +236,147 @@ section {
     height: 100%;
     width: 80vw;
     aspect-ratio: 1/1.1;
-    background-color: grey;
     margin-right: var(--Gap);
     border-radius: 10px;
     box-shadow: var(--Shadow);
+    overflow: hidden;
 }
-#cardProduct1 {
-    background-color: blue;
+.cardProduct_imageContainer {
+    position: relative;
+    height: 40%;
+    width: 100%;
+}
+.cardProduct_image {
+    height: 100%;
+    width: 100%;
+    background-image: url(./assets/img/Savona-liquid-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+}
+.cardProduct_image-2 {
+    background-image: url(./assets/img/Cocina-provenza-frontal-horno1.png);
+    background-position: center ;
+}
+.cardProduct_image-3 {
+    background-image: url(./assets/img/Cocina-provenza-frontal-horno1.png);
+    background-position: center ;
+}
+.cardProduct_image-4 {
+    background-image: url(./assets/img/Cocina-provenza-frontal-horno1.png);
+    background-position: center ;
+}
+.cardProduct_image-5 {
+    background-image: url(./assets/img/Cocina-provenza-frontal-horno1.png);
+    background-position: center ;
+}
+.rectangle {
+    position: absolute;
+    bottom: 5%;
+    left: -5%;
+    width: 70%;
+    height: 60%;
+    border: solid 2px var(--Lavaderos);
+    z-index: -1;
+}
+.cardProduct_text {
+    padding: 1.6rem;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cardProduct_text h2{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 0.8rem;
+}
+.cardProduct_text div:last-child {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-end;
+    width: 100%;
+}
+.cardProduct_text a {
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 3rem;
+    height: 3rem;
+    background-image: url(./assets/icons/arrow-diagonal-lavaderos.svg);
+    color: black;
+}
+
+.sectionHero {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    aspect-ratio: 4/3;
+    padding: 1.6rem;
+    margin: var(--SpacerMobile-32px) 0;
+    background-image: url(./assets/img/Cocina1-mobile.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10px;
+
+}
+.sectionHero_H2 {
+    font-size: 1.8rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 100;
+    align-self: flex-end;
+}
+.line2 {
+    margin: var(--SpacerMobile-32px) 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--Lavaderos);
+}
+.sectionHero_grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: var(--SpacerMobile-32px);
+}
+.subtittle {
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 1.6rem;
+
+}
+.videoInterno {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background-color: violet;
+    position: relative;
+    margin-top: 1.6rem;
+}
+
+.section4 {
+    width: 400vw;
+    height: auto;
+    display: flex;
+    padding: var(--SpacerMobile-32px) 0;
 }
 .cardProduct2 {
-    background-color: rgb(51, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 80vw;
+    aspect-ratio: 2/1;
+    margin-right: var(--Gap);
+    border-radius: 10px;
+    box-shadow: var(--Shadow);
+    overflow: hidden;
 }
-.cardProduct3 {
-    background-color: rgb(255, 0, 191);
-}
-.cardProduct4 {
-    background-color: rgb(255, 102, 0);
-}
+
+
+
 
 /*RESPONSIVE*/
 /*TABLETS*/
