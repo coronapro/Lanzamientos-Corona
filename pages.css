@@ -49,6 +49,15 @@ h3 {
     text-transform: none;
     margin-bottom: 0.8rem;
 }
+h4 {
+    font-family: 'brandon-grotesque', sans-serif;
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+    text-transform: uppercase;
+    margin-bottom: 0.8rem;
+    margin-top: 0.8rem;
+}
 p {
     font-size: 1.4rem;
 }
@@ -56,7 +65,7 @@ p {
 /* PAGE BANOS */
 .ku-embed { /*IMAGEN 360°*/
     width: 100%;
-    height: 80vh;
+    height: 70vh;
 }
 .sectionTour_textContainer {
     display: grid;
@@ -86,13 +95,12 @@ p {
 }
 .sectionIndex {
     background-color: #2e2e822a;
-    padding: 1.6rem 0;
+    padding: 3.2rem 0;
 }
 .horizontalScrolling_container {
     width: auto;
     overflow-x: scroll;
     padding: 1.6rem 1.6rem;
-
 }
 .sectionIndex>h3 {
     padding-left: 1.6rem;
@@ -110,7 +118,7 @@ p {
     display: grid;
     grid-template-rows: 1fr 1fr;
     width: 80vw;
-    height: calc(80vw * 1.14);
+    height:auto;
     /* aspect-ratio: 1/1.4; */
     border-radius: 10px;
     background-color: white;
@@ -118,22 +126,9 @@ p {
     overflow: hidden;
 }
 .gridIndex_card-image, .gridProduct_card-image {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url(./assets/img/banosIndex1.jpg);
-}
-.gridIndex_card-image2 {
-    background-image: url(./assets/img/banosIndex2.jpg);
-}
-.gridIndex_card-image3 {
-    background-image: url(./assets/img/banosIndex3.jpg);
-}
-.gridIndex_card-image4 {
-    background-image: url(./assets/img/banosIndex4.jpg);
-}
-.gridIndex_card-image5 {
-    background-image: url(./assets/img/banosIndex5.jpg);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
 .gridIndex_card-textContainer{
     display: flex;
@@ -164,8 +159,6 @@ p {
     flex-direction: column;
     justify-content: flex-end;
     height: 100vw;
-    background-image: url(./assets/img/banosIntro.jpg);
-    background-size: cover;
     margin-bottom: 1.6rem;
 }
 .sectionIntro_text {
@@ -210,7 +203,16 @@ p {
 /* SECTION PRODUCT */
 
 .heroImage_sectionProduct {
-    background-image: url(./assets/img/CascadeVital-Hero.jpg);
+    position: relative;
+    width: 100vw;
+    height: auto;
+    color: white;
+}
+.heroImage_sectionProduct div{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 1.6rem;
 }
 .sectionProduct_text {
     padding: 1.6rem;
@@ -224,12 +226,13 @@ p {
 .horizontalScrolling>h3 {
     padding-left: 1.6rem;
 }
-.gridProduct {
+.gridProduct, .gridProduct_detail {
     display: grid;
     grid-template-columns:  repeat(7, 1fr) auto;
     gap: 1.6rem;
     width: auto;
     height: auto;
+    margin-bottom: 3.2rem;
 }
 .gridProduct_card-textContainer {
     display: flex;
@@ -238,15 +241,6 @@ p {
     align-items: center;
     padding: 1.6rem;
     text-align: center;
-}
-.gridProduct_card-image1 {
-    background-image: url(./assets/img/CascadeVital1.jpg);
-}
-.gridProduct_card-image2 {
-    background-image: url(./assets/img/CascadeVital2.jpg);
-}
-.gridProduct_card-image3 {
-    background-image: url(./assets/img/CascadeVital3.jpg);
 }
 .gridProduct_card {
     height: calc (80vw * 1.15);
@@ -258,7 +252,7 @@ p {
     justify-content: center;
     align-items: center;
     width: 80vw;
-    height: calc (80vw * 1.15);
+    height: auto;
     /* aspect-ratio: 1/1.15; */
     border-radius: 10px;
     color: white;
@@ -280,12 +274,15 @@ p {
     justify-content: center;
     align-items: center;
     width: 80vw;
-    aspect-ratio: 1/1.15;
     border-radius: 10px;
     color: white;
     box-shadow: var(--Shadow);
     overflow: hidden;
     background-image: url(./assets/img/CascadeVital4.jpg);
+    padding: 1.6rem;
+}
+.gridProduct_card-lottie.plus {
+    background-image: url(./assets/img/CascadePlus4.jpg);
 }
 .gridProduct_card-lottie2 {
     display: grid;
@@ -293,8 +290,6 @@ p {
     justify-content: center;
     align-items: center;
     width: 80vw;
-    height: calc (80vw * 1.15);
-    /* aspect-ratio: 1/1.15; */
     border-radius: 10px;
     color: var(--Banos);
     box-shadow: var(--Shadow);
@@ -309,6 +304,14 @@ p {
     background-repeat: no-repeat;
     background-size: contain;
 }
+.gridProduct_card-image4-3 {
+    width: 100%;
+    height: 100%;
+    background-image: url(./assets/img/CascadeVital4-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 .gridProduct_card-image5 {
     width: 100%;
     height: 100%;
@@ -316,6 +319,14 @@ p {
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url(./assets/img/CascadeVital5.jpg);
+}
+.gridProduct_card-image6 {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(./assets/img/CascadePlus4.jpg);
 }
 .gridProduct_card-fondo {
     width: 80vw;
@@ -335,7 +346,26 @@ p {
     box-shadow: var(--Shadow);
     overflow: hidden;
 }
+.gridProduct_card-fondo.fondoPlus {
+    background-image: url(./assets/img/CascadePlus7.jpg);
+}
 .rightPadd {
     width: 1px;
     height: 5px;
+}
+.gridProduct_detail {
+    grid-template-columns:  repeat(5, 1fr) auto;
+}
+.gridProduct_detail-card {
+    width: 80vw;
+    height: calc (80vw / 2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.imageContainer {
+    width: 100%;
+}
+.imageContainerAbsolute {
+    width: 100%;
+    z-index: -1;
 }
