@@ -296,13 +296,12 @@ p {
     overflow: hidden;
     background-color: white;
 }
-.gridProduct_card-image4-2 {
+.lottieContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 100%;
-    background-image: url(./assets/img/CascadeVital4-2.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 .gridProduct_card-image4-3 {
     width: 100%;
