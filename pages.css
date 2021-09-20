@@ -125,7 +125,14 @@ p {
     box-shadow: var(--Shadow);
     overflow: hidden;
 }
+.cascadeNegro {
+    grid-template-rows: 2fr 1fr;
+
+}
 .gridIndex_card-image, .gridProduct_card-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 100%;
     overflow: hidden;
