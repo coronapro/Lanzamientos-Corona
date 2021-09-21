@@ -9,44 +9,40 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/wib4mjw.css">
     <!-- <link rel="stylesheet" href="./index.css"> -->
-    <link rel="stylesheet" href="./pages.css">
+    <link rel="stylesheet" href="./pageHome.css">
     <title>Banos 2021</title>
 </head>
 <body>
     <main class="banos">
-        <section class="sectionTour">  <!-- Tour 360 -->
+        <section class="tour360">  <!-- Tour 360 -->
             <iframe class="ku-embed" frameborder="0" allowfullscreen allow="xr-spatial-tracking; gyroscope; accelerometer" scrolling="no" src="https://kuula.co/share/collection/7kDhq?logo=-1&info=0&fs=1&vr=0&sd=1&gyro=0&thumbs=-1&margin=9&alpha=0.60"></iframe>
-            <div class="sectionTour_textContainer">
+            <div>
                 <div>
                     <h2>Baños</h2>
                     <p>Conoce todas las novedades en muebles de baño y lavamanos que Corona trae para ti.</p>
                 </div>
-                <div>
-                    <a href=""><span class="arrowContainer arrowDown-banos"></span></a>
-                </div>
+                <div><a href=""><span class="arrowContainer arrowDown-banos"></span></a></div>
+            </div>
+        </section>
+
+        <section class="intro"> <!-- Intro Categoría -->
+            <div>
+                 <h3>Muebles tan diversos como las familias latinoamericanas</h3>
+                 <p>Este año hemos ampliado la familia de producto Cascade al introducir los muebles Cascade Vital y Cascade Plus, al igual que los nuevos acabados para el Lavamanos Cascade. Adicionalmente, desarrollamos un nuevo acabado antimicrobiano para nuestras griferías de baño Liquid y Koral. </p>
+                 <div class="videoInterno" style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/600387663?h=1bdf66a803&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
             </div>
         </section>
     
-        <section class="sectionIndex"> <!-- Index -->
+        <section class=index> <!-- Index -->
             <h3>Conoce nuestros nuevos lanzamientos</h3>
             <div class="horizontalScrolling_container">
-                <div class="gridIndex">
-                    <div class="gridIndex_card"> <!-- Index Card 1 -->
-                        <div class="gridIndex_card-image"><img class="imageContainer" src="./assets/img/banosIndex1.jpg" alt=""></div>
-                        <div class="gridIndex_card-textContainer">
-                            <div>
-                                <h3>Cocinas prácticas para toda la familia</h3>
-                                <p>Nuestras cocinas son ideales para todo tipo de espacios, gustos y personas. </p>
-                            </div>
-                            <div>
-                                <p>Conoce por qué</p>
-                                <a href=""><span class="arrowContainer arrowDiag-banos"></span></a>
-                            </div>
+                <div class="index_grid"> <!-- Este es el contenedor de las tarjetas -->
+
+                    <div class="index_card"> <!-- Index Card 1 -->
+                        <div>
+                            <img class="imageContainer" src="./assets/img/banosIndex2.jpg" alt="">
                         </div>
-                    </div>
-                    <div class="gridIndex_card"> <!-- Index Card 2 -->
-                        <div class="gridIndex_card-image"><img class="imageContainer" src="./assets/img/banosIndex2.jpg" alt=""></div>
-                        <div class="gridIndex_card-textContainer">
+                        <div class="index_card-textContainer">
                             <div>
                                 <h3>Mueble Cascade Vital</h3>
                                 <p>Un mueble único y vanguardista llega a nuestra línea Vital. </p>
@@ -57,9 +53,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="gridIndex_card"> <!-- Index Card 3 -->
-                        <div class="gridIndex_card-image"><img class="imageContainer" src="./assets/img/banosIndex3.jpg" alt=""></div>
-                        <div class="gridIndex_card-textContainer">
+
+                    <div class="index_card"> <!-- Index Card 2 -->
+                        <div>
+                            <img class="imageContainer" src="./assets/img/banosIndex3.jpg" alt="">
+                        </div>
+                        <div class="index_card-textContainer">
                             <div>
                                 <h3>Mueble Cascade Plus</h3>
                                 <p>Nuestra Línea Plus se complementa por un mueble estilizado y moderno.  </p>
@@ -70,9 +69,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="gridIndex_card"> <!-- Index Card 4 -->
-                        <div class="gridIndex_card-image"><img class="imageContainer" src="./assets/img/banosIndex4.jpg" alt=""></div>
-                        <div class="gridIndex_card-textContainer">
+
+                    <div class="index_card"> <!-- Index Card 3 -->
+                        <div>
+                            <img class="imageContainer" src="./assets/img/banosIndex4.jpg" alt="">
+                        </div>
+                        <div class="index_card-textContainer">
                             <div>
                                 <h3>Nuevos acabados Lavamanos Cascade</h3>
                                 <p> </p>
@@ -83,9 +85,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="gridIndex_card"> <!-- Index Card 5 -->
-                        <div class="gridIndex_card-image"><img class="imageContainer" src="./assets/img/banosIndex5.jpg" alt=""></div>
-                        <div class="gridIndex_card-textContainer">
+
+                    <div class="index_card"> <!-- Index Card 4 -->
+                        <div>
+                            <img class="imageContainer" src="./assets/img/banosIndex5.jpg" alt="">
+                        </div>
+                        <div class="index_card-textContainer">
                             <div>
                                 <h3>Acabados Antimicrobianos</h3>
                                 <p> </p>
@@ -96,388 +101,18 @@
                             </div>
                         </div>
                     </div>
-                    <div class="rightPadd"></div>
+
+                    <div class="rightPadd"></div> <!-- Index Card final -->
+
                 </div>
              </div>
         </section>
     
-        <section class="sectionIntro"> <!-- Intro Categoría -->
-            <div class="heroImage_sectionProduct">
-                <img class="imageContainerAbsolute" src="./assets/img/banosIntro.jpg" alt="">
-                <div>
-                    <p>Continuamos expandiendo nuestra categoría de muebles de baño</p>
-                    <h4>Muebles de baño para todo tipo de gustos</h4>
-                </div>
-            </div>
-            
-            <div class="sectionIntro_text">
-                 <h3>Muebles tan diversos como las familias latinoamericanas</h3>
-                 <p>Este año hemos ampliado la familia de producto Cascade al introducir los muebles Cascade Vital y Cascade Plus, al igual que los nuevos acabados para el Lavamanos Cascade. Adicionalmente, desarrollamos un nuevo acabado antimicrobiano para nuestras griferías de baño Liquid y Koral. </p>
-                 <div class="videoInterno" style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/600387663?h=1bdf66a803&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-                 <h3>Muebles para tu baño a tu manera.</h3>
-            </div>
-
-            <div class="horizontalScrolling_container"> <!-- Intro Card container -->
-            <div class="gridIntro">
-                <div class="gridIntro_card"> <!-- Intro Card 1 -->
-                    <div class="gridIntro_card-textContainer">
-                        <h3>Línea Básica </h3>
-                        <p>Nuestra línea Aluvia. </p>
-                    </div>
-                    <div class="gridIntro_card-image"><img class="imageContainer" src="./assets/img/banosIntro1.png" alt=""></div>
-                </div>
-                <div class="gridIntro_card"> <!-- Intro Card 2 -->
-                    <div class="gridIntro_card-textContainer">
-                        <h3>Línea Vital</h3>
-                        <p>Muebles listos para armar.</p>
-                    </div>
-                    <div class="gridIntro_card-image"><img class="imageContainer" src="./assets/img/banosIntro2.png" alt=""></div>
-                </div>
-                <div class="gridIntro_card"> <!-- Intro Card 3 -->
-                    <div class="gridIntro_card-textContainer">
-                        <h3>Línea Plus</h3>
-                        <p>Muebles listos para instalar.</p>
-                    </div>
-                    <div class="gridIntro_card-image"><img class="imageContainer" src="./assets/img/banosIntro3.png" alt=""></div>
-                </div>
-                <div class="rightPadd"></div>
-            </div>
-        </section>
-    
-    
-        <section class="sectionProduct"> <!-- Cascade Vital -->
-            <div class="heroImage_sectionProduct">
-                <img class="imageContainerAbsolute" src="./assets/img/CascadeVital-Hero.jpg" alt="">
-                <div>
-                    <p>Nuevo mueble de baño de 60cm</p>
-                    <h4>Cascade Vital</h4>
-                </div>
-                
-            </div>
-            <div class="sectionProduct_text">
-                <div>
-                    <h3>Único y Vanguardista</h3>
-                    <p>El mueble Cascade Vital le dará a tu baño un estilo único y vanguardista gracias a sus cortes diagonales laterales y a su combinación de colores miel y taupé, inspirados en las últimas tendencias de decoración.</p>
-                </div>
-                <div>
-                    <h3>Lanzamiento</h3>
-                    <p>20 de octubre, 2021</p>
-                </div>
-                <div>
-                    <h3>PVP Sugerido</h3>
-                    <p>719.900,00 COP</p>
-                </div>
-            </div>
-        </section>
-        <section class="horizontalScrolling">
-            <h3>Conoce sus atributos</h3>
-            <div class="horizontalScrolling_container">
-                <div class="gridProduct">
-                    <div class="gridProduct_card"> <!-- Cascade Vital Card 1 -->
-                        <div class="gridProduct_card-textContainer">
-                            <div>
-                                <h3>Almacenamiento libre</h3>
-                                <p>Cuenta con espacio amplio para que organices a tu gusto.</p>
-                            </div>
-                        </div>
-                        <div class="gridProduct_card-image"><img class="imageContainer"src="./assets/img/CascadeVital1.jpg" alt=""></div>
-                    </div>
-                    <div class="gridProduct_card"> <!-- Cascade Vital Card 2 -->
-                        <div class="gridProduct_card-textContainer">
-                            <div>
-                                <h3>Lavamanos incrustar petite</h3>
-                                <p>Pozo amplio y profundo evita salpiques en el momento de su uso.</p>
-                            </div>
-                        </div>
-                        <div class="gridProduct_card-image"><img class="imageContainer"src="./assets/img/CascadeVital2.jpg" alt=""></div>
-                    </div>
-                    <div class="gridProduct_card-full"> <!-- Cascade Vital Card 3 / Video armado -->
-                        <div class="videoContainer">
-                            <iframe src="https://player.vimeo.com/video/604275492?h=a29fdbfbb4&autoplay=1&loop=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                        <div class="gridProduct_card-textContainer">
-                            <div>
-                                <h3>Listo para armar</h3>
-                                <p>Este mueble debe ser armado en su totalidad por el usuario.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gridProduct_card-lottie"> <!-- Cascade Vital Card 4 / lottie CoronaStone -->
-                        <div class="lottieContainer">
-                            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-                            <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_4n40xgbr.json"  background="transparent"  speed="1"  style="width: 100%; height: auto;"  loop  autoplay></lottie-player>
-                        </div>
-                        <div class="gridProduct_card-textContainer">
-                            <p>Alta resistencia a manchas, rayones y golpes, además, muy higiénicos debido a su baja absorción de impurezas.</p>
-                        </div>
-                    </div>
-                    <div class="gridProduct_card-full"> <!-- Cascade Vital Card 5 / Video cierre -->
-                        <div class="videoContainer">
-                            <iframe src="https://player.vimeo.com/video/604416447?h=9d154ac97a&autoplay=1&loop=1&title=0&byline=0&portrait=0" width="711" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                        <div class="gridProduct_card-textContainer">
-                            <div>
-                                <h3>Cierre lento</h3>
-                                <p>Puertas con chaflan interno que facilitan su apertura y cierre suave que evita molestos golpes y deterioro por impacto.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gridProduct_card-lottie2"> <!-- Cascade Vital Card 6 / RH-->
-                        <div class="gridProduct_card-image5"></div>
-                        <div class="gridProduct_card-textContainer">
-                            <h3>Resistencia a la humedad</h3>
-                            <p>Melamina con mayor resistencia a la humedad propia del baño.</p>
-                        </div>
-                    </div>
-                    <div class="gridProduct_card-fondo"> <!-- Cascade Vital Card 7 / Mayor resistencia -->
-                        <div class="gridProduct_card-textContainer">
-                            <div>
-                                <h3>Mayor resistencia</h3>
-                                <p>Cuenta con cantos rígidos para mayor durabilidad.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="rightPadd"></div>
-                </div>
-            </div>
-            <h3>Miralo en detalle</h3>
-            <div class="horizontalScrolling_container">
-                <div class="gridProduct_detail">
-                    <div class="gridProduct_detail-card"><img class="imageContainer" src="./assets/img/CascadeVital-Detalle1.jpg" alt=""></div> <!-- Product Detail Card 1 -->
-                    <div class="gridProduct_detail-card"><img class="imageContainer" src="./assets/img/CascadeVital-Detalle2.jpg" alt=""></div> <!-- Product Detail Card 2 -->
-                    <div class="gridProduct_detail-card"><img class="imageContainer" src="./assets/img/CascadeVital-Detalle3.jpg" alt=""></div> <!-- Product Detail Card 3 -->
-                    <div class="gridProduct_detail-card"><img class="imageContainer" src="./assets/img/CascadeVital-Detalle4.jpg" alt=""></div> <!-- Product Detail Card 4 -->
-                    <div class="gridProduct_detail-card"><img class="imageContainer" src="./assets/img/CascadeVital-Detalle5.jpg" alt=""></div> <!-- Product Detail Card 5 -->
-                    <div class="rightPadd"></div>
-                </div>
-            </div>
-        </section>
-      
-        <section class="sectionProduct"> <!-- Cascade Plus -->
-            <div class="heroImage_sectionProduct">
-                <img class="imageContainerAbsolute" src="./assets/img/cascadePlusHero.jpg" alt="">
-                <div>
-                    <p>Nuevo mueble de baño de 70cm</p>
-                    <h4>Cascade Plus</h4>
-                </div>
-                
-            </div>
-            <div class="sectionProduct_text">
-                <div>
-                    <h3>Estilizado y Moderno</h3>
-                    <p>El mueble Cascade Plus ofrece un estilo moderno gracias a la combinación de frentes y laterales en color taupé con cajones en color rovere. Además, su diseño limpio con sistema tipo push garantiza una apertura más cómoda.</p>
-                </div>
-                <div>
-                    <h3>Lanzamiento</h3>
-                    <p>Se anunciara pronto</p>
-                </div>
-                <div>
-                    <h3>PVP Sugerido</h3>
-                    <p>1'099.900,00 COP</p>
-                </div>
-            </div>
-        </section>
-        <section class="horizontalScrolling">
-            <h3>Conoce sus atributos</h3>
-            <div class="horizontalScrolling_container">
-                <div class="gridProduct">
-                    <div class="gridProduct_card"> <!-- Cascade Plus Card 1 -->
-                        <div class="gridProduct_card-textContainer">
-                            <div>
-                                <h3>Almacenamiento guiado</h3>
-                                <p>Cuenta con dos cajones para mayor comodidad.</p>
-                            </div>
-                        </div>
-                        <div class="gridProduct_card-image"><img class="imageContainer"src="./assets/img/CascadePlus1.jpg" alt=""></div>
-                    </div>
-                    <div class="gridProduct_card"> <!-- Cascade Plus Card 2 -->
-                        <div class="gridProduct_card-textContainer">
-                            <div>
-                                <h3>Lavamanos Cascade Vessel</h3>
-                                <p>Pozo amplio y profundo evita salpiques en el momento de su uso.</p>
-                            </div>
-                        </div>
-                        <div class="gridProduct_card-image"><img class="imageContainer"src="./assets/img/CascadePlus2.jpg" alt=""></div>
-                    </div>
-                    <div class="gridProduct_card-full"> <!-- Cascade Plus Card 3 / Video armado-->
-                        <div class="videoContainer">
-                            <iframe src="https://player.vimeo.com/video/604275366?h=a29fdbfbb4&autoplay=1&loop=1&title=0&byline=0&portrait=0" width="640" height="370" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                        <div class="gridProduct_card-textContainer">
-                            <div>
-                                <h3>Listo para instalar</h3>
-                                <p>Este mueble viene listo para que el usuario lo instale en su baño.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gridProduct_card-lottie plus"> <!-- Cascade Plus Card 4 / lottie CoronaStone -->
-                        <div class="lottieContainer">
-                            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-                            <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_4n40xgbr.json"  background="transparent"  speed="1"  style="width: 100%; height: auto;"  loop  autoplay></lottie-player>
-                        </div>
-                        <div class="gridProduct_card-textContainer">
-                            <p>Alta resistencia a manchas, rayones y golpes, además, muy higiénicos debido a su baja absorción de impurezas.</p>
-                        </div>
-                    </div>
-                    <div class="gridProduct_card-full"> <!-- Cascade Plus Card 5 / Video cierre -->
-                        <div class="videoContainer">
-                            <iframe src="https://player.vimeo.com/video/604881356?h=9d154ac97a&autoplay=1&loop=1&title=0&byline=0&portrait=0" width="711" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                        <div class="gridProduct_card-textContainer">
-                            <div>
-                                <h3>Apertura tipo push</h3>
-                                <p>Cuenta con dos cajones de apertura tipo push, que con tan solo un impulso en el frente ofrecen mayor comodidad en su manipulación. </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gridProduct_card-lottie2"> <!-- Cascade Plus Card 6 / RH -->
-                        <div class="gridProduct_card-image5"></div>
-                        <div class="gridProduct_card-textContainer">
-                            <h3>Resistencia a la humedad</h3>
-                            <p>Melamina con mayor resistencia a la humedad propia del baño.</p>
-                        </div>
-                    </div>
-                    <div class="gridProduct_card-fondo fondoPlus"> <!-- Cascade Plus Card 7 / Mayor resistencia -->
-                        <div class="gridProduct_card-textContainer">
-                            <div>
-                                <h3>Mayor Resistencia</h3>
-                                <p>Cuenta con cantos rígidos para mayor durabilidad.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="rightPadd"></div>
-                </div>
-            </div>
-            <h3>Miralo en detalle</h3>
-            <div class="horizontalScrolling_container">
-                <div class="gridProduct_detail">
-                    <div class="gridProduct_detail-card"><img class="imageContainer" src="./assets/img/CascadePlus-Detalle1.jpg" alt=""></div> <!-- Product Detail Card 1 -->
-                    <div class="gridProduct_detail-card"><img class="imageContainer" src="./assets/img/CascadePlus-Detalle2.jpg" alt=""></div> <!-- Product Detail Card 1 -->
-                    <div class="gridProduct_detail-card"><img class="imageContainer" src="./assets/img/CascadePlus-Detalle3.jpg" alt=""></div> <!-- Product Detail Card 1 -->
-                    <div class="gridProduct_detail-card"><img class="imageContainer" src="./assets/img/CascadePlus-Detalle4.jpg" alt=""></div> <!-- Product Detail Card 1 -->
-                    <div class="gridProduct_detail-card"><img class="imageContainer" src="./assets/img/CascadePlus-Detalle5.jpg" alt=""></div> <!-- Product Detail Card 1 -->
-                    <div class="rightPadd"></div>
-                </div>
-            </div>
-        </section>
-      
-        <section class="sectionProduct"> <!-- Cascade Negro -->
-            <div class="heroImage_sectionProduct">
-                <img class="imageContainerAbsolute" src="./assets/img/cascadeNegroHero.jpg" alt="">
-                <div>
-                    <p>Nuevos acabados</p>
-                    <h4>Lavamanos Cascade Vessel</h4>
-                </div>
-                
-            </div>
-            <div class="sectionProduct_text">
-                <div>
-                    <h3>Sofisticado y ...</h3>
-                    <p>El diseño del lavamanos Cascade se inspira en la caída del agua, por lo tanto, su forma es fluida y robusta. Además, gracias a su nuevo color negro disponible en acabados mate y brillante, será el complemento ideal para ambientes modernos e inspirados en las últimas tendencias.</p>
-                </div>
-                <div>
-                    <h3>Lanzamiento</h3>
-                    <p>20 de octubre, 2021</p>
-                </div>
-                <div>
-                    <h3>PVP Sugerido - Negro brillante</h3>
-                    <p>319.900,00 COP</p>
-                </div>
-                <div>
-                    <h3>PVP Sugerido - Negro mate</h3>
-                    <p>359.900,00 COP</p>
-                </div>
-            </div>
-        </section>
-        <section class="horizontalScrolling">
-            <h3>Conoce sus atributos</h3>
-            <div class="horizontalScrolling_container">
-                <div class="gridProduct">
-                    <div class="gridProduct_card cascadeNegro"> <!-- Cascade Negro Card 1 -->
-                        <div class="gridProduct_card-image"><img class="imageContainer"src="./assets/img/CascadeNegro1.jpg" alt=""></div>
-                        <div class="gridProduct_card-textContainer">
-                            <div>
-                                <p>Acabado uniforme que impide la acumulación de agua y residuos.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gridProduct_card cascadeNegro"> <!-- Cascade Negro Card 2 -->
-                        <div class="gridProduct_card-image"><img class="imageContainer"src="./assets/img/CascadeNegro2.jpg" alt=""></div>
-                        <div class="gridProduct_card-textContainer">
-                            <div>
-                                <p>Alta resistencia al rayado y a cambios de temperatura.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gridProduct_card"> <!-- Cascade Negro Card 3 -->
-                        <div class="lottieContainer">
-                            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-                            <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_gtjpuyiv.json"  background="transparent"  speed="1"  style="width: 80%; height: auto;"  loop  autoplay></lottie-player>
-                        </div>
-                        <div class="gridProduct_card-textContainer">
-                            <div>
-                                <h3>Negro Mate y Brillante</h3>
-                                <p>El complemento ideal para ambientes modernos e inspirados en las últimas tendencias.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gridProduct_card"> <!-- Cascade Negro Card 4 -->
-                        <div class="gridProduct_card-image"><img class="imageContainer"src="./assets/img/CascadeNegro4.jpg" alt=""></div>
-                        <div class="gridProduct_card-textContainer">
-                            <div>
-                                <h3>Compatibilidad con muebles y griferías Corona</h3>
-                                <p>Estos lavamanos son compatibles con la línea de Mobiliario Cascade Plus, Plus Vessel (1.20 y 1.40) y línea de grifería monocontrol Cascade alta.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gridProduct_card"> <!-- Cascade Negro Card 5 -->
-                        <div class="lottieContainer">
-                            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-                            <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_gtjpuyiv.json"  background="transparent"  speed="1"  style="width: 80%; height: auto;"  loop  autoplay></lottie-player>
-                        </div>
-                        <div class="gridProduct_card-textContainer">
-                            <div>
-                                <h3>Pozos amplios y profundos</h3>
-                                <p>Permite mayor comodidad al realizar diferentes actividades cotidianas al momento de su uso.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gridProduct_card cascadeNegro"> <!-- Cascade Negro Card 2 -->
-                        <div class="gridProduct_card-image"><img class="imageContainer"src="./assets/img/CascadeNegro6.jpg" alt=""></div>
-                        <div class="gridProduct_card-textContainer">
-                            <div>
-                                <p>Alta resistencia al rayado y a cambios de temperatura.</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="rightPadd"></div>
-                </div>
-            </div>
-            <h3>Miralo en detalle</h3>
-            <div class="horizontalScrolling_container">
-                <div class="gridProduct_detail">
-                    <div class="gridProduct_detail-card"><img class="imageContainer" src="./assets/img/CascadePlus-Detalle1.jpg" alt=""></div> <!-- Cascade Negro Detail Card 1 -->
-                    <div class="gridProduct_detail-card"><img class="imageContainer" src="./assets/img/CascadePlus-Detalle2.jpg" alt=""></div> <!-- Cascade Negro Card 1 -->
-                    <div class="gridProduct_detail-card"><img class="imageContainer" src="./assets/img/CascadePlus-Detalle3.jpg" alt=""></div> <!-- Cascade Negro Card 1 -->
-                    <div class="gridProduct_detail-card"><img class="imageContainer" src="./assets/img/CascadePlus-Detalle4.jpg" alt=""></div> <!-- Cascade Negro Card 1 -->
-                    <div class="gridProduct_detail-card"><img class="imageContainer" src="./assets/img/CascadePlus-Detalle5.jpg" alt=""></div> <!-- Cascade Negro Card 1 -->
-                    <div class="rightPadd"></div>
-                </div>
-            </div>
-        </section>
-      
-    
-        
-    
-    
-    
-    
     </main>
     
-    <footer>
+    <footer id="footer"></footer>
 
-    </footer>
+    <script src="./index.js"></script>
    
     
 </body>

@@ -1,0 +1,59 @@
+:root {
+    /*COLORES*/
+    --Cocinas: #FCF4DD;
+    --Lavaderos: #3A849A;
+    --Banos: #2E2E82;
+    --Gap: 16px;
+    --PaddingMobile-12px: 12px;
+    --PaddingTablet-48px: 48px;
+    --PaddingLaptop-86px: 86px;
+    --PaddingDesktop-15: 15%;
+    --SpacerMobile-32px: 3.2rem;
+    --SpacerLaptop-64px: 6.4rem;
+    --Shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* SECTION INTRO */
+.intro>div {
+    margin-top: 1.6rem;
+}
+
+/* SECTION PRODUCT */
+.product {
+    padding: 3.2rem 0;
+}
+.stdCard {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 80vw;
+    height: calc(80vw*1.1);
+    border-radius: 10px;
+    box-shadow: var(--Shadow);
+    overflow: hidden;
+    padding-top: 1.6rem;
+}
+.stdCard-textContainer {
+    text-align: center;
+    padding: 1.6rem;
+}
+.bkgCard {
+    position: relative;
+    width: 80vw;
+    height: calc(80vw*1.1);
+    border-radius: 10px;
+    overflow: hidden;
+    color: white;
+}
+.bkgCard .stdCard {
+    position: absolute;
+    background-color: transparent;
+    z-index: 2;
+}
+.lottieContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.6rem 3.2rem;
+}

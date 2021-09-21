@@ -1,0 +1,209 @@
+/*
+CSS will be constructed on Mobile First
+1. Posicioning
+2. Box Model
+3. Tipography
+4. Visuals (shadow, etc)
+5. Others (transformation, etc)
+*/
+
+:root {
+    /*COLORES*/
+    --Cocinas: #FCF4DD;
+    --Lavaderos: #3A849A;
+    --Banos: #2E2E82;
+    --Gap: 16px;
+    --PaddingMobile-12px: 12px;
+    --PaddingTablet-48px: 48px;
+    --PaddingLaptop-86px: 86px;
+    --PaddingDesktop-15: 15%;
+    --SpacerMobile-32px: 3.2rem;
+    --SpacerLaptop-64px: 6.4rem;
+    --Shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.25);
+}
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.banos {
+    color: var(--Banos);
+}
+h2 {
+    font-family: 'brandon-grotesque', sans-serif;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 0.8rem;
+}
+h3 {
+    font-family: 'brandon-grotesque', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: none;
+    margin-bottom: 0.8rem;
+}
+h4 {
+    font-family: 'brandon-grotesque', sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 3.2rem;
+    margin-top: 0.8rem;
+}
+p {
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+/*FOOTER*/
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 32rem;
+        padding: 1.6rem 1.6rem 1.6rem 1.6rem;
+        background-color: var(--Banos);
+        color: white;
+    }
+    footer>div {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 3.2rem;
+    }
+    footer div:last-child {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .icon {
+        display: block;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 6rem;
+        height: 3rem;
+    }
+    .youtube {
+        background-image: url(./assets/icons/youtube.svg);
+        width: 6rem;
+        height: 2.2rem;
+    }
+    .facebook {
+        background-image: url(./assets/icons/facebook.svg);
+    }
+    .instagram {
+        background-image: url(./assets/icons/instagram.svg);
+    }
+    .pinterest {
+        background-image: url(./assets/icons/pinterest.svg);
+    }
+
+/* SECTION TOUR 360° */
+    .ku-embed { /*IMAGEN 360°*/
+        width: 100%;
+        height: 70vh;
+    }
+    .tour360>div {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        padding: 1.6rem;
+    }
+    .tour360>div div:last-child {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    .arrowContainer {
+        display: block;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .arrowDown-banos {
+        width: 2rem;
+        height: 3rem;
+        background-image: url(./assets/icons/arrow_down_banos.svg);
+    }
+
+/*SECTION INTRO*/
+    .intro {
+    padding: 1.6rem;
+    }
+    .videoInterno {
+    margin: 1.6rem 0;
+    }
+
+/*SECTION INDEX*/
+    .index {
+        background-color: #2e2e822a;
+        padding: 3.2rem 0;
+    }
+    .horizontalScrolling_container {
+        width: auto;
+        overflow-x: scroll;
+        padding: 1.6rem 1.6rem;
+    }
+    .index_grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr) auto;
+        gap: 1.6rem;
+        width: auto;
+        height: auto;
+    }
+    .index>h3, .product>h3 {
+        padding-left: 1.6rem;
+        padding-right: 1.6rem;
+        margin-bottom: 0;
+    }
+    .index_card{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        width: 80vw;
+        height:auto;
+        border-radius: 10px;
+        background-color: white;
+        box-shadow: var(--Shadow);
+        overflow: hidden;
+    }
+    .index_card-textContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 1.6rem;
+    }
+    .index_card-textContainer div:last-child {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .arrowDiag-banos {
+        width: 3rem;
+        height: 3rem;
+        background-image: url(./assets/icons/arrow-diagonal.svg);
+    }
+    .rightPadd {
+        width: 0.1rem;
+    }
+    .imageContainer {
+        width: 100%;
+    }
