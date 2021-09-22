@@ -56,7 +56,7 @@ footer.append (footerH4, footerLogoContainer, footerH3, footerOtrosSitios);
 
 //LIGHTBOX//
 function openModal() {
-    document.getElementById("myModal").style.display = "block";
+    document.getElementById("myModal").style.display = "flex";
   }
   
   function closeModal() {
