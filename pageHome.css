@@ -163,7 +163,7 @@ a {
         overflow-x: scroll;
         padding: 1.6rem 1.6rem;
     }
-    .index_grid, .product_grid {
+    .index_grid, .product_grid, .detailed_grid {
         display: grid;
         grid-template-columns: repeat(4, 1fr) auto;
         gap: 1.6rem;
