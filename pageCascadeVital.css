@@ -22,6 +22,10 @@
 .product {
     padding: 3.2rem 0;
 }
+.product_grid {
+    grid-template-columns: repeat(7, 1fr) auto;
+}
+
 .stdCard {
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -31,6 +35,20 @@
     box-shadow: var(--Shadow);
     overflow: hidden;
     padding-top: 1.6rem;
+}
+.ctrCard {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1.6rem;
+    width: 80vw;
+    height: calc(80vw*1.1);
+    border-radius: 10px;
+    box-shadow: var(--Shadow);
+    overflow: hidden;
 }
 .stdCard-textContainer {
     text-align: center;
