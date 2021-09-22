@@ -68,7 +68,7 @@
 .bkgCard .stdCard {
     position: absolute;
     background-color: transparent;
-    z-index: 2;
+    z-index: 1;
 }
 .lottieContainer {
     width: 100%;
