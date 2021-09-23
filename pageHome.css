@@ -277,18 +277,18 @@ a {
 /*LAPTOPS UP TO 1440*/
 @media only screen and (min-width: 1007px) {
     h2 {
-        font-size: 4rem;
+        font-size: 3.2rem;
     }
     h3 {
-        font-size: 3.2rem;
+        font-size: 2.8rem;
         line-height: 3rem;
     }
     h4 {
         font-size: 1.8rem;
     }
     p {
-        font-size: 2rem;
-        line-height: 2.4rem;
+        font-size: 1.6rem;
+        line-height: 2rem;
     }
     a {
         color: white;
@@ -378,18 +378,14 @@ a {
         line-height: 3rem;
     }
     h4 {
-        font-size: 1.8rem;
+        font-size: 2.4rem;
     }
     p {
         font-size: 2rem;
         line-height: 2.4rem;
     }
     a {
-        color: white;
-        text-decoration: none;
-        font-family: 'Roboto', sans-serif;
-        font-size: 1.4rem;
-        font-weight: 300;
+        font-size: 1.8rem;
     }
     .tour360>div {
         padding: 3.2rem 20%;
