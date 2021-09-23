@@ -17,6 +17,7 @@ const vajillasCorona = document.createElement("a");
 const inspirame = document.createElement("a");
 
 footerH4.innerHTML = "construimos sueños a través de los espacios";
+footerH4.classList.add("footerH4")
 
 footerLogoYoutube.appendChild(spanYoutube);
 spanYoutube.classList.add("icon"); 
