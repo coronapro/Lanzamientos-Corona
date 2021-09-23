@@ -312,8 +312,8 @@ a {
         height: auto;
     }
     .imageContainer {
-        height: 100%;
-        width: 75%;
+        height: 105%;
+        width: 90%;
         object-fit: contain;
     }
     footer {
