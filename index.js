@@ -39,6 +39,7 @@ spanPinterest.classList.add("pinterest");
 footerLogoPinterest.href = "https://pinterst.com";
 
 footerLogoContainer.append(footerLogoYoutube, footerLogoFacebook, footerLogoInstagram, footerLogoPinterest);
+footerLogoContainer.classList.add("footerLogoContainer");
 
 footerH3.innerHTML = "Visita nuestros otros sitios";
 coronaCo.href = "https://corona.co";
@@ -50,9 +51,10 @@ vajillasCorona.innerText = "Vajillas Corona";
 inspirame.href = "";
 inspirame.innerText = "Inspirame";
 
-footerOtrosSitios.append (coronaCo, centroCorona, vajillasCorona, inspirame);
+footerOtrosSitios.append (footerH3, coronaCo, centroCorona, vajillasCorona, inspirame);
+footerOtrosSitios.classList.add("footerOtrosSitios");
 
-footer.append (footerH4, footerLogoContainer, footerH3, footerOtrosSitios);
+footer.append (footerH4, footerLogoContainer, footerOtrosSitios);
 
 //LIGHTBOX//
 function openModal() {
