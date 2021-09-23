@@ -144,6 +144,15 @@ a {
         height: 3rem;
         background-image: url(./assets/icons/arrow_down_banos.svg);
     }
+    .line{
+        width: 100%;
+        padding: 3.2rem 1.6rem;
+    }
+    .line>div {
+        width: 100%;
+        height: 1px;
+        background-color: var(--Banos);
+    }
 
 /*SECTION INTRO*/
     .intro {
@@ -216,9 +225,31 @@ a {
 /*TABLETS*/
 @media only screen and (min-width: 641px) {
 
+    .tour360>div {
+        padding: 3.2rem;
+    }
+    .intro {
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1.5fr 1fr;
+        padding: 3.2rem;
+        gap: 1.6rem;
+    }
+    .line{
+        width: 100%;
+        padding: 3.2rem;
+    }
+    .videoInterno {
+        margin: 0;
+    }
+
+    .index>h3, .product>h3 {
+        padding-left: 3.2rem;
+    }
     .horizontalScrolling_container {
         width: 100%;
         overflow-x: hidden;
+        padding: 1.6rem 3.2rem;
     }
     .index_grid, .product_grid, .detailed_grid {
         grid-template-columns: repeat(2, 1fr);
@@ -230,6 +261,11 @@ a {
         width: 100%;
         height: auto;
     }
+    footer {
+        padding: 3.2rem 20%;
+    }
+    
+    
    
     
     
