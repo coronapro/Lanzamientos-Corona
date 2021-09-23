@@ -59,13 +59,18 @@
 .product {
     padding: 3.2rem 0;
 }
+.product_grid, .detailed_grid {
+  display: grid;
+  gap: 1.6rem;
+  width: auto;
+  height: auto;
+} 
 .product_grid {
     grid-template-columns: repeat(7, 1fr) auto;
 }
 .detailed_grid {
     grid-template-columns: repeat(9, 1fr) auto;
 }
-
 .stdCard {
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -75,6 +80,9 @@
     box-shadow: var(--Shadow);
     overflow: hidden;
     padding-top: 1.6rem;
+}
+.imageProductContainer {
+  width: 100%;
 }
 .ctrCard {
     position: absolute;
