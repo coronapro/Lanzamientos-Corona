@@ -223,7 +223,7 @@ a {
 
    /*RESPONSIVE*/
 /*TABLETS*/
-@media only screen and (min-width: 641px) {
+@media only screen and (min-width: 701px) {
 
     .tour360>div {
         padding: 3.2rem;
@@ -260,6 +260,11 @@ a {
         grid-template-rows: 2fr 1fr;
         width: 100%;
         height: auto;
+    }
+    .imageContainer {
+        height: 100%;
+        width: 60%;
+        object-fit: contain;
     }
     footer {
         padding: 3.2rem 20%;
