@@ -179,7 +179,7 @@ a {
         width: auto;
         height: auto;
     } 
-    .index>h3, .product>h3 {
+    .index>h3 {
         padding-left: 1.6rem;
         padding-right: 1.6rem;
         margin-bottom: 0;
@@ -228,7 +228,7 @@ a {
 
 
    /*RESPONSIVE*/
-/*TABLETS*/
+/*CELULARES MEDIANOS Y GRANDES: CAMBIO EN TAMAÑO DE FUENTE*/
 @media only screen and (min-width: 425px) and (max-width: 1007px) {
     h2 {
         font-size: 2.8rem;
@@ -254,7 +254,7 @@ a {
 }
 
 
-
+/*PHABLETS Y TABLETS*/
 @media only screen and (min-width: 640px) {
 
     .tour360>div {
@@ -275,7 +275,7 @@ a {
         margin: 0;
     }
 
-    .index>h3, .product>h3 {
+    .index>h3 {
         padding-left: 3.2rem;
     }
     .horizontalScrolling_container {
@@ -283,12 +283,12 @@ a {
         overflow-x: hidden;
         padding: 1.6rem 3.2rem;
     }
-    .index_grid, .product_grid, .detailed_grid {
+    .index_grid {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 1fr 1fr;
         width: 100%;
     } 
-    .index_card{
+    .index_card {
         grid-template-rows: 1.5fr 1fr;
         width: 100%;
         height: 100vw;
@@ -376,7 +376,7 @@ a {
         overflow-x: hidden;
         padding: 3.2rem 4rem;
     }
-    .index_grid, .product_grid, .detailed_grid {
+    .index_grid {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 1fr 1fr;
         width: 100%;
