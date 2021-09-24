@@ -113,6 +113,10 @@
     width: 100%;
     object-fit: fill;
 }
+.imageProductContainerVertical {
+    height: 90vh;
+    object-fit: contain;
+}
 .ctrCard {
     position: absolute;
     display: flex;
