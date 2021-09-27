@@ -47,6 +47,7 @@
     height: 3rem;
     background-image: url(./assets/icons/arrow-back-white.svg);
 }
+
 .heroVideoTablet {
   display: none;
 }
@@ -391,6 +392,16 @@
 
 /*LAPTOPS UP TO 1440*/
 @media only screen and (min-width: 1440px) {
+  
+  .heroVideoTabletContainer {
+    display: flex;
+    width: 100%;
+    height: 70vh;
+  }
+  
+  .heroVideoTablet {
+    width: 100%;
+  }
   .horizontalScrolling_containerProducts {
     width: 100%;
     max-width: 1400px;

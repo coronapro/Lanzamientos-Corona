@@ -31,6 +31,7 @@ CSS will be constructed on Mobile First
 html {
     font-size: 62.5%;
     font-family: 'Roboto', sans-serif;
+    background-color: #F2F2F2;
 }
 
 .banos {
@@ -311,27 +312,12 @@ a {
 
 /*LAPTOPS UP TO 1440*/
 @media only screen and (min-width: 1007px) {
-    h2 {
-        font-size: 3.2rem;
-    }
-    h3 {
-        font-size: 2.8rem;
-        line-height: 3rem;
-    }
-    h4 {
-        font-size: 1.8rem;
-    }
-    p {
-        font-size: 1.8rem;
-        line-height: 2.2rem;
-    }
-    a {
-        color: white;
-        text-decoration: none;
-        font-family: 'Roboto', sans-serif;
-        font-size: 1.4rem;
-        font-weight: 300;
-    }
+    h2  {font-size: 3.2rem;}
+    h3  {font-size: 2.8rem; line-height: 3rem;}
+    h4  {font-size: 1.8rem;}
+    p   {font-size: 1.8rem; line-height: 2.2rem;}
+    a   {font-size: 1.4rem;}
+
     .tour360>div {
         max-width: 1400px;
         margin: 0 auto;
@@ -340,7 +326,6 @@ a {
     .intro {
         max-width: 1400px;
         margin: 0 auto;
-
         display: grid;
         align-items: center;
         grid-template-columns: 1.5fr 1fr;
@@ -360,13 +345,11 @@ a {
         margin: 0;
     }
     .index {
-
         padding-top: 6.4rem;
     }
     .index>h3, .product>h3 {
         max-width: 1400px;
         margin: 0 auto;
-
         padding-left: 4rem;
     }
     .index_card-textContainer{
@@ -375,7 +358,6 @@ a {
     .horizontalScrolling_container {
         max-width: 1400px;
         margin: 0 auto;
-
         width: 100%;
         overflow-x: hidden;
         padding: 3.2rem 4rem;
@@ -430,26 +412,10 @@ a {
 
 /*LAPTOPS AND DESKTOPS BIGGER THAN 1440*/
 @media only screen and (min-width: 2056px) {
-
-    h2 {
-        font-size: 4rem;
-    }
-    h3 {
-        font-size: 3.2rem;
-        line-height: 3rem;
-    }
-    h4 {
-        font-size: 2.4rem;
-    }
-    p {
-        font-size: 2rem;
-        line-height: 2.4rem;
-    }
-    a {
-        font-size: 1.8rem;
-    }
-   
-  
+    h2  {font-size: 4rem;}
+    h3  {font-size: 3.2rem; line-height: 3rem;}
+    h4  {font-size: 2.4rem;}
+    a   {font-size: 1.6rem;}
 }
 
 
