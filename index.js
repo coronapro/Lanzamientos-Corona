@@ -1,4 +1,5 @@
 const footer = document.getElementById("footer"); 
+const footerContainer = document.createElement("div");
 const footerH4 = document.createElement("h4");
 const footerLogoContainer = document.createElement ("div");
 const footerLogoYoutube = document.createElement ("a");
@@ -55,7 +56,9 @@ inspirame.innerText = "Inspirame";
 footerOtrosSitios.append (footerH3, coronaCo, centroCorona, vajillasCorona, inspirame);
 footerOtrosSitios.classList.add("footerOtrosSitios");
 
-footer.append (footerH4, footerLogoContainer, footerOtrosSitios);
+footerContainer.append (footerH4, footerLogoContainer, footerOtrosSitios);
+footerContainer.classList.add("footerContainer")
+footer.appendChild(footerContainer);
 
 //LIGHTBOX//
 function openModal() {

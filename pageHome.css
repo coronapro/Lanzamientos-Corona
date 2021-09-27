@@ -80,6 +80,10 @@ a {
         background-color: var(--Banos);
         color: white;
     }
+    .footerContainer {
+        width: 100%;
+        background-color: var(--Banos);
+    }
     .footerLogoContainer {
         width: 100%;
         height: auto;
@@ -398,16 +402,7 @@ a {
         width: 100%;
         background-color: var(--Banos);
     }
-    footer {
-        display: grid;
-        max-width: 1400px;
-        margin: 0 auto;
-
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 1.6rem;
-        padding: 4rem;
-        align-items: baseline;
-    }
+   
     .footerH4 {
         order: 2;
     }
@@ -419,6 +414,18 @@ a {
     .footerOtrosSitios {
         order: 1;
         align-items: flex-start;    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .footerContainer {
+        display: grid;
+        max-width: 1400px;
+        margin: 0 auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1.6rem;
+        padding: 4rem;
+        align-items: baseline;
+    }
 }
 
 /*LAPTOPS AND DESKTOPS BIGGER THAN 1440*/
@@ -441,6 +448,7 @@ a {
     a {
         font-size: 1.8rem;
     }
+   
   
 }
 
