@@ -363,8 +363,7 @@ img {
   opacity: 0.6;
 }
 
-.active,
-.demo:hover {
+.active2, .demo:hover {
   opacity: 1;
 }
 
