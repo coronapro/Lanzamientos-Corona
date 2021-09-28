@@ -368,7 +368,7 @@ img {
 }
 
 
-/*TOUR #&=°*/
+/*TOUR 360°*/
 .tour360 {
   width: 100%;
   padding: 1.6rem;
@@ -491,6 +491,9 @@ img {
   }
   .imageGallery {
     border-radius: 10px;
+  }
+  .tour360 {
+    padding: 3.2rem;
   }
 
 }
