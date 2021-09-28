@@ -414,6 +414,7 @@ img {
   .card {
     width: 40vw;
     height: calc(40vw*1.2);
+    background-color: white;
   }
   .product_grid, .detailed_grid {
     padding-right: 3.2rem;
