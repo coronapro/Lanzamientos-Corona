@@ -201,6 +201,17 @@
   margin-left: 0.8rem;
   background-image: url(./assets/icons/arrow-forward-white.svg);
 }
+.detailGallery {
+  position: relative;
+  width: 100%;
+}
+.detailGallerySlides {
+  display: none;
+}
+
+
+
+
 /* MODAL */
 
 /* The Modal (background) */
@@ -326,7 +337,6 @@
   .introProduct {
     padding: 1.6rem 3.2rem 0 3.2rem;
 }
-
   .horizontalScrolling_containerProducts {
     width: 100%;
     max-width: 1400px;
@@ -364,6 +374,9 @@
     border-radius: 10px;
     box-shadow: var(--Shadow);
     overflow: hidden;
+}
+.details {
+  display: none;
 }
 }
 
