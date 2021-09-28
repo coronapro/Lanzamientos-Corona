@@ -41,8 +41,8 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    width: 3rem;
-    height: 3rem;
+    width: 2rem;
+    height: 2rem;
     background-image: url(./assets/icons/arrow-back-white.svg);
 }
 .heroVideoTablet {display: none;}
@@ -96,13 +96,15 @@
   width: 80vw;
   height: calc(80vw*1.1);
   border-radius: 10px;
-  box-shadow: var(--Shadow);
+  overflow: hidden;
+
 }
 .stdCard {
     display: grid;
     grid-template-rows: 1fr 1fr;
     overflow: hidden;
     padding-top: 1.6rem;
+    background-color: white;
 }
 .imageProductContainer {
     height: 100%;
@@ -137,6 +139,9 @@
     background-color: transparent;
     z-index: 1;
     overflow: hidden;
+}
+.videoCVArmadoDesktop{
+  display: none;
 }
 .lottieContainer {
     width: 100%;
@@ -346,8 +351,8 @@ img {
 .row2 {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  gap: 1.6rem;
-  margin-top: 1.6rem;
+  gap: 2.4rem;
+  margin-top: 2.4rem;
 }
 .row2:after {
   content: "";
@@ -414,7 +419,7 @@ img {
   .card {
     width: 40vw;
     height: calc(40vw*1.2);
-    background-color: white;
+    overflow: hidden;
   }
   .product_grid, .detailed_grid {
     padding-right: 3.2rem;
@@ -455,19 +460,26 @@ img {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr 1fr;
-    gap: 1.6rem;
+    gap: 2.4rem;
     width: 100%;
     height: auto;
   } 
   .stdCard, .ctrCard, .bkgCard {
     width: 100%;
     height: 380px;
+    overflow: hidden;
   }
   .product_grid, .detailed_grid {
     padding-right: 0;
   } 
   #CascadeVitalVideoArmado {
     grid-column: 3 / span 2;
+  }
+  .videoCVArmadoMobile{
+    display: none;
+  }
+  .videoCVArmadoDesktop{
+    display: flex;
   }
   .rightPadd {
     display: none;
