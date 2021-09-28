@@ -419,6 +419,12 @@ img {
     padding-right: 3.2rem;
   } 
   .rightPadd {width: 1.6rem;}
+  .botonera {
+    padding: 6.4rem 1.6rem;
+  }
+  .tour360 {
+    padding: 1.6rem 3.2rem;
+  }
   
 }
 
@@ -495,6 +501,9 @@ img {
   .tour360 {
     padding: 3.2rem;
   }
+  .botonera {
+    padding: 6.4rem 1.6rem;
+}
 
 }
 
