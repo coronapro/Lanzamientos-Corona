@@ -1,0 +1,138 @@
+@media only screen and (min-width: 1007px) {
+    h2  {
+        font-size: 3.2rem;
+    }
+
+    h3  {
+        font-size: 2.8rem;
+        line-height: 3rem;
+    }
+
+    h4  {
+        font-size: 1.6rem;
+    }
+
+    a   {
+        font-size: 1.4rem;
+    }
+
+    .tour360>div {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 3.2rem 4rem;
+    }
+
+    .intro {
+        max-width: 1400px;
+        margin: 0 auto;
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1.5fr 1fr;
+        padding: 3.2rem 4rem;
+        gap: 1.6rem;
+    }
+
+    .intro>div {
+        padding-right: 20%;
+    }
+
+    .line{
+        max-width: 1400px;
+        margin: 0 auto;
+        width: 100%;
+        padding: 3.2rem 4rem;
+    }
+
+    .videoInterno {
+        margin: 0;
+    }
+
+    .index {
+        padding-top: 6.4rem;
+    }
+
+    .index>h3,
+    .product>h3 {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding-left: 4rem;
+    }
+    
+    .index_card-textContainer {
+        padding: 3.2rem;
+    }
+
+    .horizontalScrolling_container {
+        max-width: 1400px;
+        margin: 0 auto;
+        width: 100%;
+        overflow-x: hidden;
+        padding: 3.2rem 4rem;
+    }
+    
+    .index_grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr 1fr;
+        width: 100%;
+    } 
+
+    .index_card{
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1.5fr;
+        width: 100%;
+        height: auto;
+        min-height: 300px;
+    }
+
+    .imageContainer {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+        object-position: 0% 100%;
+    }
+
+    .sectionFooter {
+        width: 100%;
+        background-color: var(--Banos);
+    }
+
+    .sectionFooterCocinas {
+        width: 100%;
+        background-color: var(--Lavaderos);
+    }
+   
+    .footerH4 {
+        order: 2;
+    }
+
+    .footerLogoContainer {
+        order: 3;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .footerOtrosSitios {
+        order: 1;
+        align-items: flex-start;    }
+}
+
+@media only screen and (min-width: 1400px) {
+
+    .footerContainer {
+        display: grid;
+        max-width: 1400px;
+        margin: 0 auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1.6rem;
+        padding: 4rem;
+        align-items: baseline;
+    }
+}
+
+/*LAPTOPS AND DESKTOPS BIGGER THAN 1440*/
+@media only screen and (min-width: 2056px) {
+    h2  {font-size: 4rem;}
+    h3  {font-size: 3.2rem; line-height: 3rem;}
+    h4  {font-size: 2.4rem;}
+    a   {font-size: 1.6rem;}
+}

@@ -1,0 +1,173 @@
+@media only screen and (min-width: 640px) {
+    
+    .p {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    }
+
+    .tour360>div {
+        padding: 3.2rem;
+    }
+
+    .intro {
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1.5fr 1fr;
+        padding: 3.2rem;
+        gap: 1.6rem;
+    }
+
+    .line {
+        width: 100%;
+        padding: 3.2rem;
+    }
+    .videoInterno {
+        margin: 0;
+    }
+
+    .index>h3 {
+        padding-left: 3.2rem;
+    }
+
+    .horizontalScrolling_container {
+        padding: 1.6rem 3.2rem;
+    }
+
+    .index_card {
+        width: 256px;
+        height: 340px;
+    }
+
+    .imageContainer {
+        height: 100%;
+        width: 70%;
+        object-fit: contain;
+        object-position: 0% 100%;
+    }
+
+    footer {
+        padding: 3.2rem;
+    }
+
+    .heroText {
+        padding: 6.4rem;
+    }
+
+    .heroVideoMobile {
+        display: none;
+    }
+
+    .heroVideoTablet {
+        display: none;
+    }
+
+    .heroVideoDesktop {
+        display: flex;
+    }
+
+    .container {
+        padding: 6.4rem 0;
+    }
+
+    .introProduct {
+        padding: 1.6rem 3.2rem 0 3.2rem;
+    }
+
+    .horizontalScrolling_containerProducts {
+        width: 100%;
+        max-width: 1400px;
+        margin-left: auto;
+        margin-right: auto;
+        overflow-x: hidden;
+    }
+
+    .product_grid, 
+    .detailed_grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr 1fr;
+        gap: 2.4rem;
+        width: 100%;
+        height: auto;
+    } 
+
+    .stdCard, 
+    .ctrCard, 
+    .bkgCard {
+        width: 100%;
+        height: 380px;
+        overflow: hidden;
+    }
+
+    .product_grid,
+    .detailed_grid {
+        padding-right: 0;
+    } 
+
+    #CascadeVitalVideoArmado {
+        grid-column: 3 / span 2;
+    }
+
+    .videoCVArmadoMobile{
+        display: none;
+    }
+
+    .videoCVArmadoDesktop{
+        display: flex;
+        height: 100%;
+        background-color: rgb(194, 194, 194);
+    }
+
+    .rightPadd {
+        display: none;
+    }
+
+    .responsive {
+        padding-top: 6.4rem;
+    }
+
+    .detailCard {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: var(--Shadow);
+        overflow: hidden;
+    }
+
+    .product.details {
+        display: none;
+    }
+
+    .productGallery {
+        width: 100%;
+        max-width: 1400px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 3.2rem;
+        padding-top: 1.6rem;
+    }
+
+    .gallery {
+        position: relative;
+        display: block;
+    }
+
+    .gallerySlides {
+        display: block;
+    }
+
+    .imageGallery {
+        border-radius: 10px;
+    }
+
+    .tour360 {
+        padding: 3.2rem;
+    }
+
+    .botonera {
+        padding: 6.4rem 1.6rem;
+    }
+}
