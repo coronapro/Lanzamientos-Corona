@@ -19,7 +19,7 @@ CSS will be constructed on Mobile First
     --PaddingDesktop-15: 15%;
     --SpacerMobile-32px: 3.2rem;
     --SpacerLaptop-64px: 6.4rem;
-    --Shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.25);
+    --Shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.1);
 }
 * {
     -webkit-box-sizing: border-box;
