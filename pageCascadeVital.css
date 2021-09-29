@@ -1,17 +1,4 @@
-:root {
-    /*COLORES*/
-    --Cocinas: #FCF4DD;
-    --Lavaderos: #3A849A;
-    --Banos: #2E2E82;
-    --Gap: 16px;
-    --PaddingMobile-16px: 1.6rem;
-    --PaddingTablet-48px: 48px;
-    --PaddingLaptop-86px: 86px;
-    --PaddingDesktop-15: 15%;
-    --SpacerMobile-32px: 3.2rem;
-    --SpacerLaptop-64px: 6.4rem;
-    --Shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.1);
-}
+@import url(./pageHome.css);
 
 /* SECTION HERO */
 .hero {position: relative;}
@@ -72,33 +59,64 @@
   gap: 1.6rem;
 } 
 /* SECTION PRODUCT */
-.responsive {
-  width: 100%;
-  max-width: 1400px;
-  padding: 0 1.6rem;
-  padding-top: 3.2rem;
-}
+
 .horizontalScrolling_containerProducts {
   width: auto;
   overflow-x: scroll;
   padding: 1.6rem 1.6rem;
 }
-.product_grid, .detailed_grid {
+.product_grid, .detailed_grid, .cocinas_grid {
   display: grid;
   grid-template-columns: repeat(7, 1fr) auto;
   gap: 1.6rem;
   width: auto;
   height: auto;
 } 
+.product_grid a {
+  color: var(--Lavaderos);
+}
 .detailed_grid {
     grid-template-columns: repeat(9, 1fr) auto;
+}
+.cocinas_grid {
+    grid-template-columns: repeat(6, 1fr) auto;
 }
 .card {
   width: 80vw;
   height: calc(80vw*1.1);
   border-radius: 10px;
   overflow: hidden;
+}
+.cardCocinas {
+  width: 80vw;
+  height: calc(80vw*.5);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: var(--Shadow);
+}
+.cardCocinas_textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1.6rem;
+}
+.indexCocinas>h3 {
+  margin-left: 1.6rem;
+}
+.indexCocinas div~h3 {
+  margin-top: 3.2rem;
+}
 
+
+.imageContainerCocinas {
+  height: 50%;
+  width: 100%;
+  object-fit: contain;
+  object-position: 0% 100%;
+  overflow: hidden;
 }
 .stdCard {
     display: grid;
