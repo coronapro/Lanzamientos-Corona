@@ -1,10 +1,12 @@
 @media only screen and (min-width: 640px) {
-    
+  
+    /* GLOBAL  */
     .p {
     font-size: 1.6rem;
     line-height: 2.2rem;
     }
 
+    /* BANOS Y COCINAS */
     .ku_content {
         padding: 3.2rem;
     }
@@ -21,38 +23,34 @@
         width: 100%;
         padding: 3.2rem;
     }
-    .videoInterno {
-        margin: 0;
-    }
 
-    .index>h3 {
-        padding-left: 3.2rem;
+    .index {
+        padding: 3.2rem 0 3.2rem 3.2rem;
     }
 
     .scrolling_container {
-        padding: 1.6rem 3.2rem;
+        padding: 1.6rem 0;
+        padding-left: 3.2rem;
+        margin-left: -3.2rem;
     }
 
     .index_card {
         width: 256px;
         height: 340px;
     }
-
-    .imageContainer {
-        height: 100%;
-        width: 70%;
-        object-fit: contain;
-        object-position: 0% 100%;
-    }
-
+    
+    /* FOOTER */
     footer {
         padding: 3.2rem;
     }
+
     .footerLogoContainer {
         width: 70%;
         margin: 0 auto 1.6rem auto;
     }
 
+
+    /* PAGINAS DE PRODUCTO */
     .heroText {
         padding: 6.4rem;
     }
@@ -121,8 +119,8 @@
         background-color: rgb(194, 194, 194);
     }
 
-    .rightPadd {
-        display: none;
+    .index_card-last {
+        width: 1.6rem;
     }
 
     .responsive {
@@ -172,5 +170,16 @@
 
     .botonera {
         padding: 6.4rem 1.6rem;
+    }
+
+    .videoInterno {
+        margin: 0;
+    }
+
+    .imageContainer {
+        height: 100%;
+        width: 70%;
+        object-fit: contain;
+        object-position: 0% 100%;
     }
 }
