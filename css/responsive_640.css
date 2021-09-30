@@ -48,6 +48,10 @@
     footer {
         padding: 3.2rem;
     }
+    .footerLogoContainer {
+        width: 70%;
+        margin: 0 auto 1.6rem auto;
+    }
 
     .heroText {
         padding: 6.4rem;
