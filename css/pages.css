@@ -52,14 +52,15 @@
 
 /*SECTION INTRO*/
 .intro {
+display: grid;
+grid-template-rows: auto auto;
+gap: 3.2rem;
 padding: 1.6rem;
 }
-  .intro div:last-child {
-  margin: 1.6rem 0;
-  }
 
 /*SECTION INDEX*/
-.index {
+.index,
+.products {
   padding: 3.2rem 0 3.2rem 1.6rem;
 }
   .index-banos {
@@ -72,7 +73,8 @@ padding: 1.6rem;
     margin-bottom: 0;
     padding-right: 1.6rem;
   }
-  .index_subtitle {
+  .index_subtitle,
+  .products_subtitle {
     margin-top: 3.2rem;
   }
 
@@ -85,7 +87,8 @@ padding: 1.6rem;
 }
 
 .index_grid,
-.product_grid {
+.kitchen_grid,
+.products_grid {
   display: grid;
   gap: 1.6rem;
   width: auto;
@@ -97,7 +100,7 @@ padding: 1.6rem;
   .index_grid-cocinas {
     grid-template-columns: repeat(5, 1fr) auto;
   }
-  .product_grid-cocinas {
+  .kitchen_grid-cocinas {
     grid-template-columns: repeat(6, 1fr) auto;
   }
 
@@ -139,11 +142,12 @@ padding: 1.6rem;
     height: 3rem;
     background-image: url(../assets/icons/arrow-diagonal-lavaderos.svg);
   }
-  .index_card-last {
+  .index_card-last,
+  .product_card-last {
     width: 0.1rem;
   }
 
-.product_card {
+.kitchen_card {
   width: 256px;
   height: 120px;
   display: grid;
@@ -154,13 +158,13 @@ padding: 1.6rem;
   box-shadow: var(--Shadow);
   overflow: hidden;
 }
-  .product_card_img {
+  .kitchen_card_img {
     height: 100%;
     width: 100%;
     object-fit: cover;
     overflow: hidden;
   } 
-  .product_card_content {
+  .kitchen_card_content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -168,135 +172,73 @@ padding: 1.6rem;
   }
 
 
-/* PAGE CASCADE VITAL */
-/* SECTION HERO */
-.productDetails {
-  padding: 3.2rem 0;
+/* PAGE CASCADE VITAL - SECTION HERO */
+.hero {
+  position: relative;
 }
-.responsive {
-  width: 100%;
-  max-width: 1400px;
-  padding: 0 1.6rem;
+  .hero_video-tablet {
+    display: none;
+  }
+  .hero_vido-desktop {
+    display: none;
+  }
+  .hero_content {
+      width: 100%;
+      height: 100%;
+      padding: 1.6rem;
+      position: absolute;
+      top: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      z-index: 1;
+      color: white;
+  }
+  .hero_content div:first-child {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 4rem;
+      height: 4rem;
+      background-color: var(--Banos);
+      border-radius: 3px;
+      z-index: 1; 
+  }
+  .hero_content span {
+      display: block;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 2rem;
+      height: 2rem;
+      background-image: url(../assets/icons/arrow-back-white.svg);
+  }
+  
+/* PAGE CASCADE VITAL - SECTION INTRO */
+.intro-products {
   padding-top: 3.2rem;
 }
-
-.hero {position: relative;}
-.heroText {
-    width: 100%;
-    height: 100%;
-    padding: 1.6rem;
-    position: absolute;
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    z-index: 1;
-    color: white;
-}
-.heroText div:first-child {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 4rem;
-    height: 4rem;
-    background-color: var(--Banos);
-    border-radius: 3px;
-    z-index: 1; 
-}
-.heroText span {
-    display: block;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 2rem;
-    height: 2rem;
-    background-image: url(./assets/icons/arrow-back-white.svg);
-}
-.heroVideoTablet {display: none;}
-.heroVideoDesktop {display: none;}
-
-/* SECTION INTRO */
-.container {
-  width: 100%;
-  max-width: 1400px;
-  display: flex;
-  justify-content: center;
-  padding: 1.6rem;
-  margin-right: auto;
-  margin-left: auto;
-}
-.introProduct {
-    width: 100%;
+  .intro_content {
     display: grid;
     grid-template-rows: 1fr auto;
     gap: 1.6rem;
-    padding-top: 1.6rem;
-}
-.introProduct>div:last-child{
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  gap: 1.6rem;
-} 
-/* SECTION PRODUCT */
-
-.horizontalScrolling_containerProducts {
-  width: auto;
-  overflow-x: scroll;
-  padding: 1.6rem 1.6rem;
-}
-.detailed_grid, .cocinas_grid {
-  display: grid;
+  }
+  
+/* PAGE CASCADE VITAL - SECTION PRODUCTS */
+.products_grid {
   grid-template-columns: repeat(7, 1fr) auto;
-  gap: 1.6rem;
-  width: auto;
-  height: auto;
-} 
-/* .product_grid a {
-  color: var(--Lavaderos);
-} */
-.detailed_grid {
-    grid-template-columns: repeat(9, 1fr) auto;
 }
-.cocinas_grid {
-    grid-template-columns: repeat(6, 1fr) auto;
+.products_grid-detail {
+  grid-template-columns: repeat(9, 1fr) auto;
 }
+
 .card {
   width: 80vw;
   height: calc(80vw*1.1);
   border-radius: 10px;
   overflow: hidden;
 }
-.cardCocinas {
-  width: 80vw;
-  height: calc(80vw*.5);
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  border-radius: 10px;
-  overflow: hidden;
-  background-color: white;
-  box-shadow: var(--Shadow);
-}
-.cardCocinas_textContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-left: 1.6rem;
-}
-.indexCocinas>h3 {
-  margin-left: 1.6rem;
-}
-.indexCocinas div~h3 {
-  margin-top: 3.2rem;
-}
 
-
-.imageContainerCocinas {
-  height: 50%;
-  width: 100%;
-  object-fit: contain;
-  object-position: 0% 100%;
-  overflow: hidden;
-}
 .stdCard {
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -304,15 +246,18 @@ padding: 1.6rem;
     padding-top: 1.6rem;
     background-color: white;
 }
+
 .imageProductContainer {
     height: 100%;
     width: 100%;
     object-fit: fill;
 }
+
 .imageProductContainerVertical {
     height: 90vh;
     object-fit: contain;
 }
+
 .ctrCard {
     position: absolute;
     display: flex;
@@ -323,24 +268,29 @@ padding: 1.6rem;
     padding: 1.6rem;
     overflow: hidden;
 }
+
 .stdCard-textContainer {
     text-align: center;
     padding: 1.6rem;
 }
+
 .bkgCard {
     position: relative;
     overflow: hidden;
     color: white;
 }
+
 .bkgCard .stdCard {
     position: absolute;
     background-color: transparent;
     z-index: 1;
     overflow: hidden;
 }
+
 .videoCVArmadoDesktop{
   display: none;
 }
+
 .lottieContainer {
     width: 100%;
     height: 100%;
@@ -349,6 +299,7 @@ padding: 1.6rem;
     align-items: center;
     padding: 1.6rem 3.2rem;
 }
+
 .detailCard {
     display: flex;
     justify-content: center;
@@ -359,6 +310,16 @@ padding: 1.6rem;
     box-shadow: var(--Shadow);
     overflow: hidden;
 }
+
+.products_tour360 {
+  padding: 1.6rem;
+}
+  .ku-embed-product {
+    width: 80%;
+    height: 50vh;
+    margin: 0 auto;
+  }
+
 .botonera {
     display: grid;
     grid-template-columns: auto auto;
@@ -366,11 +327,13 @@ padding: 1.6rem;
     justify-content: center;
     padding: 3.2rem 1.6rem;
 }
+
 .botonera a {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .botonera div:first-child {
   display: flex;
   justify-content: center;
@@ -381,6 +344,7 @@ padding: 1.6rem;
   border-radius: 3px;
   box-shadow: var(--Shadow);
 }
+
 .botonera div:last-child {
   display: flex;
   flex-direction: row;
@@ -393,16 +357,18 @@ padding: 1.6rem;
   border-radius: 3px;
   box-shadow: var(--Shadow);
 }
+
 .arrowLeft {
   width: 2rem;
   height: 3rem;
-  background-image: url(./assets/icons/arrow-back-banos.svg);
+  background-image: url(../assets/icons/arrow-back-banos.svg);
 }
+
 .arrowRight {
   width: 2rem;
   height: 3rem;
   margin-left: 0.8rem;
-  background-image: url(./assets/icons/arrow-forward-white.svg);
+  background-image: url(../assets/icons/arrow-forward-white.svg);
 }
 
 

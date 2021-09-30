@@ -12,9 +12,9 @@
     }
 
     .intro {
-        display: grid;
-        align-items: center;
+        grid-template-rows: 1fr;
         grid-template-columns: 1.5fr 1fr;
+        align-items: center;
         padding: 3.2rem;
         gap: 1.6rem;
     }
@@ -55,11 +55,11 @@
         padding: 6.4rem;
     }
 
-    .heroVideoMobile {
+    .hero_video-mobile {
         display: none;
     }
 
-    .heroVideoTablet {
+    .hero_video-tablet {
         display: none;
     }
 
