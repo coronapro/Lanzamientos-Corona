@@ -71,6 +71,9 @@ padding: 1.6rem;
     padding-right: 1.6rem;
     margin-bottom: 0;
   }
+  .index_subtitle {
+    margin-top: 3.2rem;
+  }
 
 .scrolling_container {
   width: auto;
@@ -78,7 +81,8 @@ padding: 1.6rem;
   padding: 1.6rem 1.6rem;
 }
 
-.index_grid{
+.index_grid,
+.product_grid {
   display: grid;
   gap: 1.6rem;
   width: auto;
@@ -89,6 +93,9 @@ padding: 1.6rem;
   }
   .index_grid-cocinas {
     grid-template-columns: repeat(5, 1fr) auto;
+  }
+  .product_grid-cocinas {
+    grid-template-columns: repeat(6, 1fr) auto;
   }
 
 .index_card{
@@ -108,7 +115,7 @@ padding: 1.6rem;
     object-fit: cover;
     overflow: hidden;
   }
-  .index_card_content{
+  .index_card_content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -124,10 +131,38 @@ padding: 1.6rem;
     height: 3rem;
     background-image: url(../assets/icons/arrow-diagonal.svg);
   }
+  .arrowDiag-cocinas {
+    width: 3rem;
+    height: 3rem;
+    background-image: url(../assets/icons/arrow-diagonal-lavaderos.svg);
+  }
   .index_card-last {
     width: 0.1rem;
   }
 
+.product_card {
+  width: 256px;
+  height: 120px;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  border-radius: 10px;
+  background-color: white;
+  color: var(--Lavaderos);
+  box-shadow: var(--Shadow);
+  overflow: hidden;
+}
+  .product_card_img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+  } 
+  .product_card_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.6rem;
+  }
 .productDetails {
   padding: 3.2rem 0;
 }
@@ -202,16 +237,16 @@ padding: 1.6rem;
   overflow-x: scroll;
   padding: 1.6rem 1.6rem;
 }
-.product_grid, .detailed_grid, .cocinas_grid {
+.detailed_grid, .cocinas_grid {
   display: grid;
   grid-template-columns: repeat(7, 1fr) auto;
   gap: 1.6rem;
   width: auto;
   height: auto;
 } 
-.product_grid a {
+/* .product_grid a {
   color: var(--Lavaderos);
-}
+} */
 .detailed_grid {
     grid-template-columns: repeat(9, 1fr) auto;
 }

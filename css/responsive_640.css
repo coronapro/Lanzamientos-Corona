@@ -5,7 +5,7 @@
     line-height: 2.2rem;
     }
 
-    .tour360>div {
+    .ku_content {
         padding: 3.2rem;
     }
 
@@ -29,7 +29,7 @@
         padding-left: 3.2rem;
     }
 
-    .horizontalScrolling_container {
+    .scrolling_container {
         padding: 1.6rem 3.2rem;
     }
 
@@ -85,7 +85,6 @@
         overflow-x: hidden;
     }
 
-    .product_grid, 
     .detailed_grid {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
