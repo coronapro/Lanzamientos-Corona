@@ -233,8 +233,8 @@ padding: 1.6rem;
 }
 
 .card {
-  width: 80vw;
-  height: calc(80vw*1.1);
+  width: 256px;
+  height: 340px;
   border-radius: 10px;
   overflow: hidden;
 }

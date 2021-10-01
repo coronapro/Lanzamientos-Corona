@@ -24,7 +24,8 @@
         padding: 3.2rem;
     }
 
-    .index {
+    .index,
+    .products_grid-cascadeVital {
         padding: 3.2rem 0 3.2rem 3.2rem;
     }
 
@@ -51,6 +52,9 @@
 
 
     /* PAGINAS DE PRODUCTO */
+    .hero_content {
+        padding: 3.2rem;
+    }
     .heroText {
         padding: 6.4rem;
     }
@@ -60,28 +64,21 @@
     }
 
     .hero_video-tablet {
-        display: none;
-    }
-
-    .hero_vido-desktop {
         display: flex;
     }
 
-    .container {
-        padding: 6.4rem 0;
+    .hero_vido-desktop {
+        display: none;
     }
 
-    .introProduct {
-        padding: 1.6rem 3.2rem 0 3.2rem;
+    .intro_content {
+        justify-content: flex-end;
     }
 
-    .horizontalScrolling_containerProducts {
-        width: 100%;
-        max-width: 1400px;
-        margin-left: auto;
-        margin-right: auto;
-        overflow-x: hidden;
-    }
+    .scrolling_container {
+        padding-left: 3.2rem;
+        margin-left: -3.2rem;
+      }
 
     .detailed_grid {
         display: grid;
@@ -96,7 +93,6 @@
     .ctrCard, 
     .bkgCard {
         width: 100%;
-        height: 380px;
         overflow: hidden;
     }
 
