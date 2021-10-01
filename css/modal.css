@@ -86,7 +86,6 @@ img {
 /* Hide the images by default */
 .gallerySlides {
   display: none;
-  display: none;
 }
 
 /* Add a pointer when hovering over the thumbnail images */

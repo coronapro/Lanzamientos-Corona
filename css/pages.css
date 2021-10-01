@@ -316,23 +316,16 @@ padding: 1.6rem;
 }
 
 .products_tour360 {
-  padding: 1.6rem;
+  padding: 3.2rem 1.6rem;
   background-color: rgba(46, 46, 130, 0.2);
 }
-  .products_tour360>h3 {
-    max-width: 1400px;
-    margin: 0 auto;
-  }
-  .products_tour360>div {
-    width: 100%;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 1.6rem;
+  .products_tour360_content>div {
     display: flex;
     justify-content: center;
+    padding: 1.6rem;
   }
   .ku-embed-product {
-    width: 90%;
+    width: 100%;
     height: 40vh;
     margin: 0 auto;
   }
