@@ -89,12 +89,7 @@
         height: auto;
     } 
 
-    .stdCard, 
-    .ctrCard, 
-    .bkgCard {
-        width: 100%;
-        overflow: hidden;
-    }
+    
 
     .product_grid,
     .detailed_grid {
