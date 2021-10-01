@@ -1,0 +1,46 @@
+.contenido-3 {
+    background-image: url("../img/board2BG.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contenido-3 div h2, .contenido-3 div p {
+    color: var(--color-habano);
+}
+
+.contenido-3 div.container-img img {
+    max-width: none;
+    max-height: none;
+    width: 150%;
+    transform: scaleX(-1);
+}
+
+@media screen and (min-width: 540px) and (max-width: 1199px){
+    .contenido-3 div.container-img img {
+        transform: scaleX(1);
+        max-width: 100%;
+    }
+    
+    /* .contenidos div {
+        min-width: 400px;
+    } */
+}
+
+@media screen and (min-width: 1200px){
+
+    .contenido-3 div h2, .contenido-3 div p {
+        text-align: right;
+    }
+
+    .contenido-3 div.container-img img {
+        transform: scaleX(1);
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+    }
+
+    .contenido-3 {
+        flex-direction: row-reverse;
+    }
+}
