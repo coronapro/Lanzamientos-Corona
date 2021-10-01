@@ -39,15 +39,18 @@ html {
 
 .headerHome {
     position: relative;
-    width: 100%;
-    min-height: 100vh;
+    width: 100vw;
+    height: 100vh;
     overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: var(--PaddingMobile-12px);
+    background-image: url(./assets/img/HeroMain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+    .imageHeroBck {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 .heroBackground {
     position: absolute;
     z-index: -2;
@@ -73,8 +76,11 @@ html {
 .heroMain {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     width: 100%;
+    max-width: 1400px;
+    margin: auto auto;
     height: 100%;
 }
 .heroHeader {
