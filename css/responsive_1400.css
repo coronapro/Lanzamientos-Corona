@@ -69,6 +69,7 @@
         max-width: 1200px;
         padding: 0;
         margin: 3.2rem  auto;
+        overflow: hidden;
     }
     
     .index_grid {
