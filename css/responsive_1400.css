@@ -40,19 +40,13 @@
     .intro {
         max-width: 1400px;
         margin: 0 auto;
-        display: grid;
         align-items: center;
-        grid-template-columns: 1.5fr 1fr;
+        grid-template-columns: 1fr 1fr;
         padding: 3.2rem;
-        gap: 1.6rem;
-    }
-
-    .intro>div {
-        padding-right: 20%;
     }
 
     .index {
-        padding: 6.4rem 3.2rem;
+        padding: 0;
     }
     
     .index>h3,
@@ -61,16 +55,15 @@
         margin: 0 auto;
         padding-left: 4rem;
     }
+
+    .index_content {
+        padding: 6.4rem 3.2rem;
+      }
+
     .index_subtitle {
         margin-top: 10rem !important;
     }
     
-    .scrolling_container {
-        max-width: 1200px;
-        padding: 0;
-        margin: 3.2rem  auto;
-        overflow: hidden;
-    }
     
     .index_grid {
         grid-template-columns: repeat(2, 1fr);
@@ -104,6 +97,25 @@
     .index_card_content {
         padding: 3.2rem;
     }
+
+    .kitchen_grid-cocinas {
+        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.4rem;
+
+    }
+    
+    .kitchen_card {
+        width: 100%;
+        height: 240px;
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+        border-radius: 10px;
+        background-color: white;
+        color: var(--Lavaderos);
+        box-shadow: var(--Shadow);
+        overflow: hidden;
+    }
     
     
 /* PAGINAS DE PRODUCTO */
@@ -129,11 +141,14 @@
     .products {
         max-width: 1400px;
         margin: 0 auto;
+        padding: 3.2rem;
     }
+    
 
     .scrolling_container {
         max-width: 1400px;
         margin: 0 auto;
+        padding: 3.2rem 0;
     }
 
     .products_grid {
@@ -166,6 +181,17 @@
         display: flex;
         height: 100%;
         background-color: rgb(194, 194, 194);
+    }
+
+    .detailCard {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: calc(80vw + 16px);
+        height: auto;
+        border-radius: 10px;
+        box-shadow: var(--Shadow);
+        overflow: hidden;
     }
 
 
