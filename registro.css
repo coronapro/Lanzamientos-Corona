@@ -1,3 +1,23 @@
+#spinner-landing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 30;
+    background-color: black;
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+#spinner-landing .lottie {
+    width: 200px;
+    height: 200px;
+}
+
 .section-registro {
     min-height: 568px;
     height: 100vh;
