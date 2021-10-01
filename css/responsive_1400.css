@@ -121,6 +121,23 @@
         padding: 3.2rem;
     }
 
+    #CascadeVitalVideoArmado {
+        grid-column: 3 / span 2;
+    }
+
+    .videoCVArmadoMobile{
+        display: none;
+    }
+
+    .videoCVArmadoDesktop{
+        display: flex;
+        height: 100%;
+        background-color: rgb(194, 194, 194);
+    }
+
+
+
+
     /* FOOTER */
     .sectionFooter {
         width: 100%;

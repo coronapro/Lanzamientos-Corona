@@ -25,7 +25,7 @@
     }
 
     .index,
-    .products_grid-cascadeVital {
+    .products {
         padding: 3.2rem 0 3.2rem 3.2rem;
     }
 
@@ -38,6 +38,11 @@
     .index_card {
         width: 256px;
         height: 340px;
+    }
+
+    .index_card-last,
+    .product_card-last {
+        width: 1.6rem;
     }
     
     /* FOOTER */
@@ -73,6 +78,7 @@
 
     .intro_content {
         justify-content: flex-end;
+        text-align: end;
     }
 
     .scrolling_container {
@@ -80,97 +86,30 @@
         margin-left: -3.2rem;
       }
 
-    .detailed_grid {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: 1fr 1fr;
-        gap: 2.4rem;
-        width: 100%;
-        height: auto;
-    } 
-
-    
-
-    .product_grid,
-    .detailed_grid {
-        padding-right: 0;
-    } 
-
-    #CascadeVitalVideoArmado {
-        grid-column: 3 / span 2;
-    }
-
     .videoCVArmadoMobile{
-        display: none;
+        display: flex;
     }
 
     .videoCVArmadoDesktop{
-        display: flex;
-        height: 100%;
-        background-color: rgb(194, 194, 194);
+        display: none;
     }
 
     .index_card-last {
         width: 1.6rem;
     }
-
-    .responsive {
-        padding-top: 6.4rem;
-    }
-
-    .detailCard {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: auto;
-        border-radius: 10px;
-        box-shadow: var(--Shadow);
-        overflow: hidden;
-    }
-
-    .product.details {
-        display: none;
-    }
-
-    .productGallery {
-        width: 100%;
-        max-width: 1400px;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 3.2rem;
-        padding-top: 1.6rem;
-    }
-
-    .gallery {
-        position: relative;
-        display: block;
-    }
-
-    .gallerySlides {
-        display: block;
-    }
-
-    .imageGallery {
-        border-radius: 10px;
-    }
-
-    .tour360 {
-        padding: 3.2rem;
-    }
-
+    
     .botonera {
         padding: 6.4rem 1.6rem;
     }
 
-    .videoInterno {
-        margin: 0;
-    }
+    .products_tour360 {
+        padding: 3.2rem;
+        background-color: rgba(46, 46, 130, 0.2);
+      }
+        .ku-embed-product {
+          width: 80%;
+          height: 50vh;
+          margin: 0 auto;
+        }
 
-    .imageContainer {
-        height: 100%;
-        width: 70%;
-        object-fit: contain;
-        object-position: 0% 100%;
-    }
 }
