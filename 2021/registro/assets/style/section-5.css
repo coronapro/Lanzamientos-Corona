@@ -55,8 +55,27 @@ label {
     margin: 0;
 }
 
-input[type=text], select {
-    -webkit-appearance: none;
+select, #identidad, #canal {
+    font-family: Roboto, Sans-Serif;
+    font-weight: 400;
+    font-size: 16px;
+    min-height: 46px;
+    height: 46px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 0 0 16px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #3A849A;
+    background-color: white;
+}
+
+input[type=text] {
+    -webkit-appearance: none; /* Safari and Chrome */
+    -moz-appearance:none; /* Firefox */
+    appearance:none;
     font-family: Roboto, Sans-Serif;
     font-weight: 400;
     font-size: 16px;
