@@ -225,8 +225,15 @@ padding: 1.6rem;
   .intro_content {
     display: grid;
     grid-template-rows: 1fr auto;
-    gap: 1.6rem;
+    gap: 3.2rem;
   }
+  .intro_content-info {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    gap: 0.8rem;
+  }
+  
+  
   
 /* PAGE CASCADE VITAL - SECTION PRODUCTS */
 .products_grid {
