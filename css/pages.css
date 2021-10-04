@@ -229,8 +229,13 @@ padding: 1.6rem;
   }
   .intro_content-info {
     display: grid;
-    grid-template-rows: 1fr auto;
+    grid-template-rows: auto auto;
     gap: 0.8rem;
+  }
+  .intro_content-grid {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 3.2rem;
   }
   
   
