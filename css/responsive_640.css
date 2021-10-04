@@ -13,8 +13,8 @@
 
     .intro {
         grid-template-rows: 1fr;
-        grid-template-columns: 1.5fr 1fr;
-        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        align-items: flex-start;
         padding: 3.2rem;
         gap: 1.6rem;
     }
@@ -107,4 +107,10 @@
           margin: 0 auto;
         }
 
+    /* PAGINA CASCADE NEGRO */
+    .intro_content-grid {
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.6rem;
+      }
 }
