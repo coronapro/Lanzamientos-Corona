@@ -13,10 +13,11 @@ footer {
     width: 100%;
     background-color: var(--Banos);
 }
-.sectionFooterCocinas {
+.footer-cocinas {
     width: 100%;
     background-color: var(--Lavaderos);
 }
+
 .footerContainer {
     width: 100%;
 }
