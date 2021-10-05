@@ -446,6 +446,16 @@ padding: 1.6rem;
   grid-template-columns: repeat(9, 1fr) auto;
 }
 
+  /* PAGE COCINAS */
+.hero_img-mobile {
+  display: block;
+}
+.hero_img-tablet {
+  display: none;
+}
+.hero_img-desktop {
+  display: none;
+}
 
 
 

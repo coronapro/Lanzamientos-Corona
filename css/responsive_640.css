@@ -126,6 +126,19 @@
         grid-template-columns: 1fr 1fr;
         gap: 1.6rem;
       }
+
+    /* PAGE COCINAS */
+    .hero_img-mobile {
+        display: none;
+    }
+    .hero_img-tablet {
+        display: block;
+    }
+    .hero_img-desktop {
+        display: none;
+    }
+
+
 }
 
     

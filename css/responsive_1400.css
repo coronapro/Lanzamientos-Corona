@@ -259,6 +259,20 @@
         grid-template-columns: repeat(4, 1fr);
     }
 
+    /* PAGE COCINAS */
+    .hero_img-mobile {
+        display: none;
+    }
+    .hero_img-tablet {
+        display: none;
+    }
+    .hero_img-desktop {
+        display: block;
+    }
+
+
+
+
     /* FOOTER */
     .sectionFooter {
         width: 100%;
