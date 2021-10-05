@@ -73,7 +73,7 @@ h2 {
     font-weight: 400;
 }
 
-p {
+p, a {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -83,6 +83,16 @@ p {
 img {
     max-height: 100%;
     max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-habano);
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
 }
 
 .contenidos {
