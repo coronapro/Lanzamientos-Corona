@@ -13,8 +13,8 @@
 
     .intro {
         grid-template-rows: 1fr;
-        grid-template-columns: 1.5fr 1fr;
-        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        align-items: flex-start;
         padding: 3.2rem;
         gap: 1.6rem;
     }
@@ -35,14 +35,18 @@
         margin-left: -3.2rem;
     }
 
-    .index_card {
-        width: 256px;
-        height: 340px;
-    }
-
     .index_card-last,
     .product_card-last {
         width: 1.6rem;
+    }
+
+    .botonera {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 1.6rem;
+        justify-content: center;
+        padding: 3.2rem 1.6rem;
     }
     
     /* FOOTER */
@@ -100,11 +104,21 @@
     .products_tour360 {
         padding: 3.2rem;
         background-color: rgba(46, 46, 130, 0.2);
-      }
+        }
+        .products_tour360_content>div {
+            padding: 0;
+        }
         .ku-embed-product {
-          width: 80%;
-          height: 50vh;
-          margin: 0 auto;
+            width: 100%;
+            height: 60vh;
+            margin: 1.6rem auto 0 auto;
         }
 
+
+    /* PAGINA CASCADE NEGRO */
+    .intro_content-grid {
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.6rem;
+      }
 }
