@@ -57,6 +57,11 @@ grid-template-rows: auto auto;
 gap: 3.2rem;
 padding: 1.6rem;
 }
+  .intro_video {
+    margin-top: 3.2rem;
+    border-radius: 10px;
+    overflow: hidden;
+  }
 
 /*SECTION INDEX*/
 .index,
@@ -362,11 +367,14 @@ padding: 1.6rem;
     width: 100%;
     height: 40vh;
     margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
   }
 
 .botonera {
+    max-width: 100%;
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto;
     gap: 1.6rem;
     justify-content: center;
     padding: 3.2rem 1.6rem;
@@ -382,12 +390,15 @@ padding: 1.6rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50px;
+  width: auto;
   height: 50px;
   background-color: white;
   border-radius: 3px;
   box-shadow: var(--Shadow);
 }
+  .botonera_boton-banos {
+    color: var(--Banos);
+  }
 
 .botonera div {
   display: flex;
@@ -405,6 +416,7 @@ padding: 1.6rem;
 .arrowLeft {
   width: 2rem;
   height: 3rem;
+  margin-right: 0.8rem;
   background-image: url(../assets/icons/arrow-back-banos.svg);
 }
 
