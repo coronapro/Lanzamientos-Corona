@@ -156,15 +156,19 @@
     }
         .products_grid-cascadeVital {
             grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: 1fr;
         }
 
     .card {
         width: 100%;
-        height: 320px;
+        height: 340px;
     }
 
     .product_card_content {
         padding: 3.2rem;
+    }
+    .product_card-last {
+        display: none;
     }
 
     #CascadeVitalVideoArmado {
@@ -224,7 +228,19 @@
         padding: 3.2rem;
     }
 
-
+    /* CASCADE NEGRO MATE Y BRILLANTE */
+    #cascadeNegro-mate {
+        grid-column: 3 / span 2;
+    }
+    #cascadeNegro-compatible {
+        grid-column: 1 / span 2;
+    }
+    .img_container-mobile {
+        display: none;
+      }
+    .img_container-desktop {
+        display: flex;
+      }
 
 
 
