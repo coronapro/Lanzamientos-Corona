@@ -392,6 +392,10 @@ padding: 1.6rem;
   background-image: url(../assets/icons/arrow-forward-white.svg);
 }
 
+/* PAGE LAVADEROS  */
+.products_grid-lavaderos {
+  grid-template-columns: repeat(9, 1fr) auto;
+}
 
 
 
