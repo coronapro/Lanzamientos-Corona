@@ -253,6 +253,12 @@
         grid-column: 1 / span 2;
     }
 
+    /* PAGE LAVADEROS  */
+    .products_grid-lavaderos {
+        grid-template-rows: auto auto;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
     /* FOOTER */
     .sectionFooter {
         width: 100%;
@@ -294,3 +300,5 @@
     }
 
  }
+
+ 
