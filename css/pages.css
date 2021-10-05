@@ -57,6 +57,11 @@ grid-template-rows: auto auto;
 gap: 3.2rem;
 padding: 1.6rem;
 }
+  .intro_video {
+    margin-top: 3.2rem;
+    border-radius: 10px;
+    overflow: hidden;
+  }
 
 /*SECTION INDEX*/
 .index,
@@ -265,10 +270,27 @@ padding: 1.6rem;
     background-color: white;
 }
 
+.img_container {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+  .img_container-desktop {
+    display: none;
+  }
+
 .imageProductContainer {
     height: 100%;
     width: 100%;
     object-fit: fill;
+}
+.imageProductContainer-fixed {
+    height: 160px;
+    width: auto;
+    margin: 0 auto;
+    object-fit: cover;
 }
 
 .imageProductContainerVertical {
@@ -310,13 +332,18 @@ padding: 1.6rem;
 }
 
 .lottieContainer {
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1.6rem 3.2rem;
+    overflow: hidden;
+    /* padding: 1.6rem 3.2rem; */
 }
+  .lottie-player {
+    width: auto;
+    height: 100%;
+  }
 
 .lottieContainerFull {
   width: 100%;
@@ -351,9 +378,12 @@ padding: 1.6rem;
     width: 100%;
     height: 40vh;
     margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
   }
 
 .botonera {
+    max-width: 100%;
     display: grid;
     grid-template-columns: auto auto;
     gap: 1.6rem;
@@ -371,14 +401,17 @@ padding: 1.6rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50px;
+  width: auto;
   height: 50px;
   background-color: white;
   border-radius: 3px;
   box-shadow: var(--Shadow);
 }
+  .botonera_boton-banos {
+    color: var(--Banos);
+  }
 
-.botonera div:last-child {
+.botonera div {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -394,6 +427,7 @@ padding: 1.6rem;
 .arrowLeft {
   width: 2rem;
   height: 3rem;
+  margin-right: 0.8rem;
   background-image: url(../assets/icons/arrow-back-banos.svg);
 }
 
@@ -402,6 +436,11 @@ padding: 1.6rem;
   height: 3rem;
   margin-left: 0.8rem;
   background-image: url(../assets/icons/arrow-forward-white.svg);
+}
+
+/* PAGE LAVADEROS  */
+.products_grid-lavaderos {
+  grid-template-columns: repeat(9, 1fr) auto;
 }
 
 

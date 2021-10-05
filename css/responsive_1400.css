@@ -156,15 +156,19 @@
     }
         .products_grid-cascadeVital {
             grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: 1fr;
         }
 
     .card {
         width: 100%;
-        height: 320px;
+        height: 340px;
     }
 
     .product_card_content {
         padding: 3.2rem;
+    }
+    .product_card-last {
+        display: none;
     }
 
     #CascadeVitalVideoArmado {
@@ -221,12 +225,33 @@
     .products_tour360_content {
         max-width: 1400px;
         margin: 0 auto;
-        padding: 3.2rem;
+        padding: 1.6rem;
+    }
+    .ku-embed-product {
+        height: 70vh;
     }
 
+    /* CASCADE NEGRO MATE Y BRILLANTE */
+    #cascadeNegro-mate {
+        grid-column: 3 / span 2;
+    }
+    #cascadeNegro-compatible {
+        grid-column: 1 / span 2;
+    }
+    .img_container-mobile {
+        display: none;
+      }
+    .img_container-desktop {
+        display: flex;
+      }
 
-
-
+    /* ANTIMICROBIAL */
+    #antimicrobial-antiViral {
+        grid-column: 3 / span 2;
+    }
+    #antimicrobial-ecoStream {
+        grid-column: 1 / span 2;
+    }
 
     /* FOOTER */
     .sectionFooter {
