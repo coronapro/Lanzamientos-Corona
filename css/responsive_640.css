@@ -48,6 +48,22 @@
         justify-content: center;
         padding: 3.2rem 1.6rem;
     }
+    .arrowLeft {
+        display: block;
+        width: 2rem;
+        height: 3rem;
+        margin-right: 0.8rem;
+        background-image: url(../assets/icons/arrow-back-banos.svg);
+      }
+      
+      .arrowRight {
+        display: block;
+        width: 2rem;
+        height: 3rem;
+        margin-left: 0.8rem;
+        background-image: url(../assets/icons/arrow-forward-white.svg);
+      }
+      
     
     /* FOOTER */
     footer {
