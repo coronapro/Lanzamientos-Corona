@@ -246,8 +246,12 @@ padding: 1.6rem;
   }
   .intro_content-block{
     display: grid;
+    grid-template-rows: 1fr 1fr;
     gap: 1.6rem;
   }
+    .content-spacer{
+      display: none;
+    }
   
   
 /* PAGE CASCADE VITAL - SECTION PRODUCTS */
@@ -410,10 +414,6 @@ padding: 1.6rem;
   border-radius: 3px;
   box-shadow: var(--Shadow);
 }
-  .botonera_boton-banos {
-    color: var(--Banos);
-  }
-
 .botonera div {
   display: flex;
   flex-direction: row;
@@ -425,6 +425,9 @@ padding: 1.6rem;
   background-color: var(--Banos);
   border-radius: 3px;
   box-shadow: var(--Shadow);
+}
+.botonera-cocinas div {
+  background-color: var(--Lavaderos) !important;
 }
 
 .arrowLeft {
@@ -455,6 +458,11 @@ padding: 1.6rem;
 }
 .hero_img-desktop {
   display: none;
+}
+.stdSection {
+  padding: 1.6rem;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 

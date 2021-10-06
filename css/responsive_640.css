@@ -84,11 +84,10 @@
         justify-content: flex-end;
         text-align: end;
     }
-    .intro_content-block {
-        grid-column: 1 / span 2;
-        display: grid;
-        gap: 1.6rem;
+    .content-spacer{
+        display: block;
     }
+    
 
     .videoCVArmadoMobile{
         display: flex;
@@ -137,6 +136,9 @@
     .hero_img-desktop {
         display: none;
     }
+    .stdSection {
+        padding: 3.2rem;
+      }
 
 
 }
