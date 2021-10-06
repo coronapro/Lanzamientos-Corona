@@ -397,6 +397,9 @@ padding: 1.6rem;
     justify-content: center;
     padding: 3.2rem 1.6rem;
 }
+  .botonera-cocinas{
+    grid-template-columns: auto auto auto;
+  }
 
 .botonera a {
   display: flex;
@@ -417,6 +420,9 @@ padding: 1.6rem;
   .botonera div:first-child a {
     color: var(--Banos);
   }
+  .botonera-cocinas div:first-child a {
+    color: var(--Lavaderos);
+  }
 
 .botonera div {
   display: flex;
@@ -431,7 +437,7 @@ padding: 1.6rem;
   box-shadow: var(--Shadow);
 }
 .botonera-cocinas div {
-  background-color: var(--Lavaderos) !important;
+  background-color: var(--Lavaderos);
 }
 
 .arrowLeft {
@@ -459,6 +465,7 @@ padding: 1.6rem;
 }
 .stdSection {
   padding: 1.6rem;
+  padding-bottom: 3.2rem;
   max-width: 1400px;
   margin: 0 auto;
 }

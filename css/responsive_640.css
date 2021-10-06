@@ -48,12 +48,23 @@
         justify-content: center;
         padding: 3.2rem 1.6rem;
     }
+        .botonera-cocinas {
+            grid-template-columns: repeat(6, auto);
+
+        }
     .arrowLeft {
         display: block;
         width: 2rem;
         height: 3rem;
         margin-right: 0.8rem;
         background-image: url(../assets/icons/arrow-back-banos.svg);
+      }
+    .arrowLeft-cocinas {
+        display: block;
+        width: 2rem;
+        height: 3rem;
+        margin-right: 0.8rem;
+        background-image: url(../assets/icons/arrow-back-cocinas.svg);
       }
       
       .arrowRight {
@@ -122,7 +133,7 @@
     }
 
     .products_tour360 {
-        padding: 3.2rem;
+        padding: 6.4rem 3.2rem;
         background-color: rgba(46, 46, 130, 0.2);
         }
         .products_tour360_content>div {
@@ -154,7 +165,12 @@
     }
     .stdSection {
         padding: 3.2rem;
-      }
+        padding-bottom: 6.4rem;
+    }
+    .intro_content-grid-Valenza {
+        grid-template-columns: auto auto;
+        gap: 1.6rem;
+    }
 
 
 }
