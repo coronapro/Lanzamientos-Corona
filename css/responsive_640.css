@@ -96,6 +96,12 @@
         gap: 1.6rem;
     }
 
+    #intro_content-block-lavaderoSavona {
+        grid-column: 1 / span 2;
+        display: grid;
+        gap: 1.6rem;
+    }
+
     .videoCVArmadoMobile{
         display: flex;
     }
