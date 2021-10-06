@@ -396,7 +396,7 @@ padding: 1.6rem;
   border-radius: 3px;
   box-shadow: var(--Shadow);
 }
-  .botonera_boton-banos {
+  .botonera div:first-child a {
     color: var(--Banos);
   }
 
@@ -414,17 +414,11 @@ padding: 1.6rem;
 }
 
 .arrowLeft {
-  width: 2rem;
-  height: 3rem;
-  margin-right: 0.8rem;
-  background-image: url(../assets/icons/arrow-back-banos.svg);
+  display: none;
 }
 
 .arrowRight {
-  width: 2rem;
-  height: 3rem;
-  margin-left: 0.8rem;
-  background-image: url(../assets/icons/arrow-forward-white.svg);
+ display: none;
 }
 
 
