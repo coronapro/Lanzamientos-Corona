@@ -85,6 +85,12 @@
         text-align: end;
     }
     .intro_content-block {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        gap: 1.6rem;
+    }
+
+    #intro_content-block-lavaderoProvenza {
         grid-column: 1 / span 2;
         display: grid;
         gap: 1.6rem;
