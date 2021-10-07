@@ -7,17 +7,18 @@
     }
 
     /* BANOS Y COCINAS */
+    .ku-embed{
+        height: 80vh;
+    }
+   
     .ku_content {
         padding: 3.2rem;
     }
 
-    /* .intro {
-        grid-template-rows: 1fr;
-        grid-template-columns: 1fr 1fr;
-        align-items: flex-start;
+    .intro {
         padding: 3.2rem;
-        gap: 1.6rem;
-    } */
+        gap: 3.2rem;
+    }
 
     .line {
         width: 100%;
@@ -86,7 +87,7 @@
 
     .intro_content {
         display: flex;
-        gap: 1.6rem;
+        gap: 3.2rem;
     }
 
     .intro_content-block {
