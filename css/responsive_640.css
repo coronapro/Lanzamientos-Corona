@@ -157,6 +157,17 @@
         gap: 1.6rem;
       }
 
+    /* PAGINA ANTIMICROBIANO */
+    .XR {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        gap: 3.2rem;
+      }
+        .XR_card {
+          padding: 3.2rem;
+        }
+    
+
     /* PAGE COCINAS */
     .hero_img-mobile {
         display: none;
