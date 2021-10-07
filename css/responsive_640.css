@@ -11,13 +11,13 @@
         padding: 3.2rem;
     }
 
-    .intro {
+    /* .intro {
         grid-template-rows: 1fr;
         grid-template-columns: 1fr 1fr;
         align-items: flex-start;
         padding: 3.2rem;
         gap: 1.6rem;
-    }
+    } */
 
     .line {
         width: 100%;
@@ -88,6 +88,10 @@
 
 
     /* PAGINAS DE PRODUCTO */
+    .intro > div:first-child {
+        padding-right: 50%;
+      }
+   
     .hero_content {
         padding: 3.2rem;
     }
@@ -108,13 +112,17 @@
     }
 
     .intro_content {
-        justify-content: flex-end;
-        text-align: end;
+        display: flex;
+        gap: 1.6rem;
     }
-    .content-spacer{
-        display: block;
+
+    .intro_content-block {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        gap: 1.6rem;
     }
     
+
 
     .videoCVArmadoMobile{
         display: flex;
@@ -173,6 +181,13 @@
     }
 
 
+      /* PAGINA Lavadero Savona */
+      #card_lavaderoSavona-mayorResistencia {
+        grid-column: 1 / span 2;
+      }
+
+      #card_lavaderoSavona-capacidadAlmacenamiento{
+        grid-column: 3 / span 2;
+      }
 }
 
-    
