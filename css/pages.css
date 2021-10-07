@@ -476,6 +476,9 @@ padding: 1.6rem;
   max-width: 1400px;
   margin: 0 auto;
 }
+  .stdSection h3 {
+    margin-bottom: 1.6rem;
+  }
 
 
 

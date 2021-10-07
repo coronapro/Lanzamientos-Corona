@@ -11,13 +11,9 @@
         padding: 3.2rem;
     }
 
-    /* .intro {
-        grid-template-rows: 1fr;
-        grid-template-columns: 1fr 1fr;
-        align-items: flex-start;
+    .intro {
         padding: 3.2rem;
-        gap: 1.6rem;
-    } */
+    }
 
     .line {
         width: 100%;
@@ -113,7 +109,7 @@
 
     .intro_content {
         display: flex;
-        gap: 1.6rem;
+        gap: 3.2rem;
     }
 
     .intro_content-block {
@@ -175,6 +171,9 @@
         padding: 3.2rem;
         padding-bottom: 6.4rem;
     }
+    .stdSection h3 {
+        margin-bottom: 3.2rem;
+      }
     .intro_content-grid-Valenza {
         grid-template-columns: auto auto;
         gap: 1.6rem;
