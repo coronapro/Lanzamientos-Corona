@@ -12,7 +12,7 @@
     }
 
     .intro {
-        grid-template-rows: 2fr;
+        grid-template-rows: 1fr;
         grid-template-columns: 1fr 1fr;
         align-items: flex-start;
         padding: 3.2rem;
