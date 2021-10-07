@@ -102,6 +102,18 @@
         gap: 1.6rem;
     }
 
+    #intro_content-block-lavaderoSoho {
+        grid-column: 1 / span 2;
+        display: grid;
+        gap: 1.6rem;
+    }
+
+    #intro_content-block-lavaderoPraga {
+        grid-column: 1 / span 2;
+        display: grid;
+        gap: 1.6rem;
+    }
+
     .videoCVArmadoMobile{
         display: flex;
     }
