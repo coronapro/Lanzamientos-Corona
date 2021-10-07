@@ -144,9 +144,11 @@ html {
 }
 .arrow-banos {
     background-image: url(./assets/icons/arrow-diagonal.svg);
+    background-repeat: no-repeat;
 }
 .arrow-cocinas {
     background-image: url(./assets/icons/arrow-diagonal-lavaderos.svg);
+    background-repeat: no-repeat;
 }
 .line {
     margin: var(--SpacerMobile-32px) 0;
