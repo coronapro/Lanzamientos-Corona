@@ -457,7 +457,9 @@ padding: 1.6rem;
 .arrowLeft {
   display: none;
 }
-
+.arrowLeft-cocinas {
+  display: none;
+}
 .arrowRight {
  display: none;
 }
