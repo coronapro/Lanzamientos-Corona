@@ -69,7 +69,9 @@ function openModal() {
     document.getElementById("myModal").style.display = "none";
   }
   
- 
+  var slideIndex = 1;
+  showSlides(slideIndex);
+  
   function plusSlides(n) {
     showSlides(slideIndex += n);
   }
@@ -93,10 +95,6 @@ function openModal() {
     }
     slides[slideIndex-1].style.display ="flex";
   }
-
-  var slideIndex = 1;
-  showSlides(slideIndex);
-  
 
   //GALLERY//
 
