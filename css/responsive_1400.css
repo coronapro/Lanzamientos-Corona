@@ -121,6 +121,11 @@
     .hero_content {
         padding: 6.4rem;
     }
+
+    .hero_content-name{
+        padding: 4.8rem;
+    }
+
     .heroText {
         padding: 6.4rem;
     }
@@ -133,7 +138,7 @@
         display: none;
     }
 
-    .hero_vido-desktop {
+    .hero_video-desktop {
         display: flex;
     }
      
