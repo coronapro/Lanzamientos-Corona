@@ -41,7 +41,7 @@
     }
 
     .intro > div:first-child {
-        padding-right: 60%;
+        padding-right: 10%;
       }
 
     .intro {
@@ -60,7 +60,7 @@
       }
 
     .index_subtitle {
-        margin-top: 10rem !important;
+        margin-top: 3.2rem !important;
     }
     
     
@@ -258,6 +258,15 @@
     #antimicrobial-ecoStream {
         grid-column: 1 / span 2;
     }
+    .XR {
+        width: 100%;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 3.2rem;
+      }
+        .XR_card {
+          padding: 3.2rem 3.2rem 0rem 3.2rem;
+        }
 
     /* PAGE LAVADEROS  */
     .products_grid-lavaderos {
