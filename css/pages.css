@@ -59,6 +59,7 @@ padding: 1.6rem;
 }
   .intro_video {
     margin-top: 3.2rem;
+    margin-bottom: 3.2rem;
     border-radius: 10px;
     overflow: hidden;
   }
@@ -203,13 +204,13 @@ padding: 1.6rem;
       z-index: 1;
       color: white;
   }
-    .hero_content-name {
-      width: fit-content;
-      padding: 1.6rem;
-      background-color: rgba(3, 3, 3, 0.25);
-      backdrop-filter: blur(10px);
-      border-radius: 3px;
-    }
+  .hero_content-name {
+    width: fit-content;
+    padding: 1.6rem;
+    background-color: rgba(3, 3, 3, 0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 3px;
+  }
   .hero_content div:first-child {
       display: flex;
       justify-content: center;
@@ -262,9 +263,9 @@ padding: 1.6rem;
     grid-template-rows: auto auto;
     gap: 1.6rem;
   }
-    .content-spacer{
-      display: none;
-    }
+  .content-spacer{
+    display: none;
+  }
   
   
   
@@ -411,9 +412,9 @@ padding: 1.6rem;
     justify-content: center;
     padding: 3.2rem 1.6rem;
 }
-  .botonera-cocinas{
-    grid-template-columns: auto auto auto;
-  }
+.botonera-cocinas{
+  grid-template-columns: auto auto auto;
+}
 
 .botonera a {
   display: flex;
@@ -431,12 +432,12 @@ padding: 1.6rem;
   border-radius: 3px;
   box-shadow: var(--Shadow);
 }
-  .botonera div:first-child a {
-    color: var(--Banos);
-  }
-  .botonera-cocinas div:first-child a {
-    color: var(--Lavaderos);
-  }
+.botonera div:first-child a {
+  color: var(--Banos);
+}
+.botonera-cocinas div:first-child a {
+  color: var(--Lavaderos);
+}
 
 .botonera div {
   display: flex;
@@ -450,6 +451,7 @@ padding: 1.6rem;
   border-radius: 3px;
   box-shadow: var(--Shadow);
 }
+
 .botonera-cocinas div {
   background-color: var(--Lavaderos);
 }
@@ -457,11 +459,13 @@ padding: 1.6rem;
 .arrowLeft {
   display: none;
 }
+
 .arrowLeft-cocinas {
-  display: none;
+    display: none;
 }
+
 .arrowRight {
- display: none;
+  display: none;
 }
 
 /* PAGE LAVADEROS  */
@@ -469,7 +473,7 @@ padding: 1.6rem;
   grid-template-columns: repeat(9, 1fr) auto;
 }
 
-  /* PAGE COCINAS */
+/* PAGE COCINAS */
 .hero_img-mobile {
   display: block;
 }
@@ -499,7 +503,7 @@ padding: 1.6rem;
       background-color: white;
       border-radius: 10px;
       overflow: hidden;
-      padding: 1.6rem;
+      padding: 1.6rem 1.6rem 0rem 1.6rem;
       max-width: 1024px;
       max-height: 1024px;
     }
@@ -512,16 +516,23 @@ padding: 1.6rem;
       overflow: hidden; 
       border-radius: 10px;
     }
-    
 
-
-
-
-
-
-
-
-
-
-
-
+    /* SPINNERS       */
+#spinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 30;
+  background-color: black;
+  opacity: 1;
+  transition: opacity 2s;
+}
+#spinner .lottie {
+  width: 200px;
+  height: 200px;
+}

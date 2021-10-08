@@ -90,7 +90,7 @@
 
     /* PAGINAS DE PRODUCTO */
     .intro > div:first-child {
-        padding-right: 50%;
+        padding-right: 10%;
       }
    
     .hero_content {
@@ -169,11 +169,15 @@
         gap: 3.2rem;
       }
         .XR_card {
-          padding: 3.2rem;
+          padding: 3.2rem 3.2rem 0rem 3.2rem;
         }
     
 
     /* PAGE COCINAS */
+    #intro_cocinas{
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
     .hero_img-mobile {
         display: none;
     }
@@ -193,6 +197,12 @@
     .intro_content-grid-Valenza {
         grid-template-columns: auto auto;
         gap: 1.6rem;
+    }
+
+    /* PAGE BANOS */
+    #intro_banos{
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 
 

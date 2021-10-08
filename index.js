@@ -127,11 +127,11 @@ function openModal() {
 
 // spinner
 
-const spinner = document.getElementById("loader");
+const spinner = document.getElementById("spinner");
 window.onload = () => {
     // console.log("Video cargado!");
     spinner.style.opacity = 0;
-    setTimeout(()=>{
-        spinner.style.display = "none";
+    setTimeout( () => {
+      spinner.style.display = "none";
     }, 2000);
 };
