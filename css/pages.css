@@ -124,6 +124,9 @@ padding: 1.6rem;
   box-shadow: var(--Shadow);
   overflow: hidden;
 }
+  .index_card:hover {
+    box-shadow: var(--ShadowHover);
+  }
   .index_card_img {
     height: 100%;
     width: 70%;
@@ -262,6 +265,7 @@ padding: 1.6rem;
     grid-template-rows: auto auto;
     gap: 1.6rem;
   }
+    
   .content-spacer{
     display: none;
   }
@@ -282,6 +286,7 @@ padding: 1.6rem;
   border-radius: 10px;
   overflow: hidden;
 }
+  
 
 .stdCard {
     display: grid;
