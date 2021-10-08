@@ -7,12 +7,17 @@
     }
 
     /* BANOS Y COCINAS */
+    .ku-embed{
+        height: 80vh;
+    }
+   
     .ku_content {
         padding: 3.2rem;
     }
 
     .intro {
         padding: 3.2rem;
+        gap: 3.2rem;
     }
 
     .line {
