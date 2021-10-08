@@ -125,3 +125,13 @@ function openModal() {
     dots[slideIndex2-1].className += " active2";
   }
 
+// spinner
+
+const spinner = document.getElementById("loader");
+window.onload = () => {
+    // console.log("Video cargado!");
+    spinner.style.opacity = 0;
+    setTimeout(()=>{
+        spinner.style.display = "none";
+    }, 2000);
+};
