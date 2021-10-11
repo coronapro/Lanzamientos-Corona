@@ -108,13 +108,17 @@
         display: flex;
     }
 
-    .hero_vido-desktop {
+    .hero_video-desktop {
         display: none;
     }
 
     .intro_content {
         display: flex;
         gap: 3.2rem;
+    }
+
+    .hero_content-name{
+        padding: 3.2rem;
     }
 
     .intro_content-block {
