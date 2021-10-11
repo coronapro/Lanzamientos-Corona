@@ -85,6 +85,13 @@
         height: auto;
         max-height: 300px;
     }
+    .index_card-banos{
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1.5fr;
+        width: 100%;
+        height: auto;
+        max-height: 300px;
+    }
 
     .index_card_img {
         height: 100%;
@@ -153,7 +160,7 @@
         max-width: 1400px;
         margin: 0 auto;
         padding: 3.2rem 0;
-        overflow: hidden;
+        overflow: visible;
     }
     .scrolling_container-detailCard {
         display: none;

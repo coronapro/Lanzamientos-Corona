@@ -73,10 +73,10 @@ padding: 1.6rem;
     margin: 0 auto;
   }
   .index-banos {
-    background-color: rgba(46, 46, 130, 0.2);
+    background-color: rgba(46, 46, 130, 0.1);
   }
   .index-cocinas {
-    background-color: rgba(58, 132, 154, 0.2);
+    background-color: rgba(58, 132, 154, 0.1);
   }
   .index>h3 {
     margin-bottom: 0;
@@ -126,6 +126,7 @@ padding: 1.6rem;
 }
   .index_card:hover {
     box-shadow: var(--ShadowHover);
+    transition: box-shadow 0.5s;
   }
   .index_card_img {
     height: 100%;
@@ -144,6 +145,21 @@ padding: 1.6rem;
     justify-content: space-between;
     align-items: flex-start;
   }
+  .index_card-banos{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 256px;
+    height: 340px;
+    max-height: 420px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: var(--Shadow);
+    overflow: hidden;
+  }
+    .index_card-banos:hover {
+      box-shadow: var(--ShadowHoverBanos);
+      transition: box-shadow 0.5s;
+    }
   .arrowDiag-banos {
     width: 3rem;
     height: 3rem;
@@ -169,6 +185,10 @@ padding: 1.6rem;
   color: var(--Lavaderos);
   box-shadow: var(--Shadow);
   overflow: hidden;
+}
+.kitchen_card:hover {
+  box-shadow: var(--ShadowHover);
+  transition: box-shadow 0.5s;
 }
   .kitchen_card_img {
     height: 100%;

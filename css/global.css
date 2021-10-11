@@ -20,7 +20,8 @@ CSS will be constructed on Mobile First
     --SpacerMobile-32px: 3.2rem;
     --SpacerLaptop-64px: 6.4rem;
     --Shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.1);
-    --ShadowHover: 0px 0px 16px 0px rgba(58, 132, 154, 0.6);
+    --ShadowHover: 0px 0px 30px 0px rgba(58, 132, 154, 0.4);
+    --ShadowHoverBanos: 0px 0px 30px 0px rgba(46, 46, 130, 0.4);
 }
 
 * {
