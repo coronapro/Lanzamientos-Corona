@@ -529,7 +529,7 @@ padding: 1.6rem;
     width: 80%;
     margin: 0 auto;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     gap: 1.6rem;
   }
     .XR_card {
