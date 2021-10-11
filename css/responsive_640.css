@@ -168,8 +168,8 @@
 
     /* PAGINA ANTIMICROBIANO */
     .XR {
-        grid-template-rows: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
         gap: 3.2rem;
       }
         .XR_card {
