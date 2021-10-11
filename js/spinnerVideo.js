@@ -35,6 +35,6 @@ setTimeout(()=>{
     spinnerVideo.style.opacity = 0;
     setTimeout(()=>{
         spinnerVideo.style.display = "none";
-    }, 5000);
-}, 5000);
+    }, 1000);
+}, 3000);
 
