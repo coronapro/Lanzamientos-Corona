@@ -49,6 +49,7 @@
         margin: 0 auto;
         padding: 6.4rem 3.2rem;
     }
+        
 
     .index {
         padding: 0;
@@ -272,8 +273,6 @@
     }
     .XR {
         width: 100%;
-        grid-template-rows: 1fr;
-        grid-template-columns: 1fr;
         gap: 3.2rem;
       }
         .XR_card {

@@ -19,6 +19,9 @@
         padding: 3.2rem;
         gap: 3.2rem;
     }
+        .intro_video {
+            margin-top: 0rem;
+        }
 
     .line {
         width: 100%;
@@ -147,7 +150,7 @@
 
     .products_tour360 {
         padding: 6.4rem 3.2rem;
-        background-color: rgba(46, 46, 130, 0.2);
+        background-color: rgba(46, 46, 130, 0.1 );
         }
         .products_tour360_content>div {
             padding: 0;
@@ -168,14 +171,14 @@
 
     /* PAGINA ANTIMICROBIANO */
     .XR {
-        grid-template-rows: 1fr;
-        grid-template-columns: 1fr;
+        max-height: 600px;
         gap: 3.2rem;
       }
         .XR_card {
-          padding: 3.2rem 3.2rem 0rem 3.2rem;
+          max-width: 1000px;
+          top: 0px;
         }
-    
+
 
     /* PAGE COCINAS */
     #intro_cocinas{

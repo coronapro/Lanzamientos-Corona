@@ -339,7 +339,7 @@ padding: 1.6rem;
 .imageProductContainer {
     height: 100%;
     width: 100%;
-    object-fit: fill;
+    object-fit: cover;
 }
 .imageProductContainer-fixed {
     height: 160px;
@@ -393,7 +393,7 @@ padding: 1.6rem;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    /* padding: 1.6rem 3.2rem; */
+    padding: 1.6rem 3.2rem;
 }
   .lottie-player {
     width: auto;
@@ -422,7 +422,7 @@ padding: 1.6rem;
 
 .products_tour360 {
   padding: 3.2rem 1.6rem;
-  background-color: rgba(46, 46, 130, 0.2);
+  background-color: rgba(46, 46, 130, 0.1);
 }
   .products_tour360_content>div {
     display: flex;
@@ -531,23 +531,27 @@ padding: 1.6rem;
     display: grid;
     grid-template-rows: 1fr;
     gap: 1.6rem;
+    align-items: center;
   }
     .XR_card {
       background-color: white;
       border-radius: 10px;
       overflow: hidden;
-      padding: 1.6rem 1.6rem 0rem 1.6rem;
-      max-width: 1024px;
-      max-height: 1024px;
+      max-width: 1000px;
+      max-height: 600px;
+
     }
     .XR_card_iframeContainer {
       position: relative; 
-      left: 0px; 
       width: 100%; 
       height: 0px; 
       padding-bottom: 100%; 
       overflow: hidden; 
       border-radius: 10px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      justify-items: center;
     }
 
     /* SPINNERS       */
