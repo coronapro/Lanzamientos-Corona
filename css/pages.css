@@ -339,7 +339,7 @@ padding: 1.6rem;
 .imageProductContainer {
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: fill;
 }
 .imageProductContainer-fixed {
     height: 160px;
