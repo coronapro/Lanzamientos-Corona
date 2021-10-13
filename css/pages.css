@@ -233,7 +233,7 @@ padding: 1.6rem;
     height: 100%;
     padding: 1.6rem;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 39.06%, rgba(0, 0, 0, 0) 51.56%, rgba(0, 0, 0, 0.5) 100%);
-    backdrop-filter: blur(10px);
+    /* backdrop-filter: blur(10px); */
     border-radius: 3px;
     position: absolute;
     top: 0;
