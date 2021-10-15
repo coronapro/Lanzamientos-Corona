@@ -35,7 +35,7 @@
             <a href="../"><span></span></a>
           </div>
         <div class="hero_content-name">
-          <p>Cocina plus</p>
+          <p>Cocina plus 180x60 cm</p>
           <h2>Cocina Valenza</h2>
         </div>
       </div>
@@ -93,10 +93,58 @@
     </section>
 
     <section class="stdSection">
-      <h3>Conoce sus atriutos</h3>
+      <h3>Conoce sus atributos</h3>
       <div style="padding:56.25% 0 0 0;position:relative; border-radius: 10px; overflow: hidden;">
         <iframe src="https://player.vimeo.com/video/624647943?h=1bdf66a803&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
       </div>
+    </section>
+
+    <section class="products">
+      <h3 class="products_subtitle">Mírala en detalle</h3>
+  
+        <div class="scrolling_container scrolling_container-detailCard">
+          <div class="products_grid products_grid-detail"> <!-- Este es el contenedor de las tarjetas de detalles -->
+            <div class="detailCard">
+                <img class="imageProductContainer hover-shadow cursor" src="../../../assets/img/valenzaVertical-thumb1.jpg" alt="" onclick="openModal();currentSlide(1)">
+            </div>
+  
+            <div class="detailCard">
+              <img class="imageProductContainer hover-shadow cursor" src="../../../assets/img/valenzaVertical-thumb2.jpg" alt="" onclick="openModal();currentSlide(2)">
+            </div>
+  
+            <div class="product_card-last"></div> <!-- Index Card final -->
+          </div>
+        </div>
+  
+        <div class="productsGallery">
+          <div class="gallery">
+            <div class="gallerySlides">
+              <div class="numbertext2">1 / 2</div>
+              <img class="imageGallery" src="../../../assets/img/valenzaHorizontal1.jpg" style="width:100%">
+            </div>
+        
+            <div class="gallerySlides">
+              <div class="numbertext2">2 / 2</div>
+              <img class="imageGallery"  src="../../../assets/img/valenzaHorizontal2.jpg" style="width:100%">
+            </div>
+              
+              
+            <a class="prev2" onclick="plusSlides2(-1)">❮</a>
+            <a class="next2" onclick="plusSlides2(1)">❯</a>
+          
+            
+          
+            <div class="row2">
+              <div class="column2">
+                <img class="demo imageGallery"  class="demo2 cursor2" src="../../../assets/img/valenzaHorizontal1.jpg" style="width:100%" onclick="currentSlide2(1)" alt="">
+              </div>
+              <div class="column2">
+                <img class="demo imageGallery"  class="demo2 cursor2" src="../../../assets/img/valenzaHorizontal2.jpg" style="width:100%" onclick="currentSlide2(2)" alt="">
+              </div>
+            </div>
+          </div>
+    
+        </div>
     </section>
     
     <section class="products_tour360" style="background-color: rgba(58, 132, 154, 0.2);">  <!-- Tour 360 -->
@@ -117,6 +165,32 @@
       <div><a href="../cocinaOslo/">Oslo<span class="arrowContainer arrowRight"></span></a></div>
     </section>
 
+        <!-- MODAL: Estas son las imagenes que se verán en pantalla completa -->
+        <div id="myModal" class="modal">
+          <span class="close cursor" onclick="closeModal()">&times;</span>
+          <div class="modal-content">
+        
+            <div class="mySlides">
+              <div class="numbertext">1 / 2</div>
+              <img class="imageProductContainerVertical" src="../../../assets/img/valenzaVertical1.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+              <div class="numbertext">2 / 2</div>
+              <img class="imageProductContainerVertical"  src="../../../assets/img/valenzaVertical2.jpg" style="width:100%">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div>
+          </div>
+        </div>
+           
+      </section>
+
   </main>
     
   <section class="footer-cocinas">
@@ -126,6 +200,7 @@
   <script src="https://player.vimeo.com/api/player.js"></script>  <!--VIMEO-->
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> <!--LOTTIE FILES-->
   <script src="../../../index.js"></script>
+  <script src="../../../js/mySlides.js"></script>
   <script src="../../../js/spinner.js"></script>
   
 </body>
