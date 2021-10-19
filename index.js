@@ -16,6 +16,7 @@ const coronaCo = document.createElement ("a");
 const centroCorona = document.createElement("a");
 const vajillasCorona = document.createElement("a");
 const inspirame = document.createElement("a");
+const politica = document.createElement("a");
 
 footerH4.innerHTML = "construimos sueños a través de los espacios";
 footerH4.classList.add("footerH4")
@@ -52,8 +53,10 @@ vajillasCorona.href = "https://www.vajillascorona.com.co/";
 vajillasCorona.innerText = "Vajillas Corona";
 inspirame.href = "https://www.inspirame.com.co/";
 inspirame.innerText = "Inspirame";
+politica.href = "https://b2bcorona.blob.core.windows.net/b2bresources/B2B/mediacoronaco/Politica-Tratamiento-de-Datos-Personales-V3.pdf";
+politica.innerText = "Política de datos";
 
-footerOtrosSitios.append (footerH3, coronaCo, centroCorona, vajillasCorona, inspirame);
+footerOtrosSitios.append (footerH3, coronaCo, centroCorona, vajillasCorona, inspirame, politica);
 footerOtrosSitios.classList.add("footerOtrosSitios");
 
 footerContainer.append (footerH4, footerLogoContainer, footerOtrosSitios);
