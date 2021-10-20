@@ -1,0 +1,113 @@
+footer {
+    position: relative;
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.tagline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-verde);
+    margin: 0.5rem 0.5rem 0 0.5rem;
+    padding: 2rem 1rem;
+    border-radius: 10px;
+}
+
+.tagline h2 {
+    text-align: center;
+}
+
+.contacto {
+    margin: 3rem 0.5rem;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.enlaces {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.enlaces h3 {
+    font-family: 'Brandon Text', brandon-grotesque, sans-serif;
+    font-size: 18px;
+    font-weight: 420;
+    margin-bottom: 1rem;
+    color: var(--color-verde);
+}
+
+.enlaces a {
+    text-decoration: none;
+    color: var(--color-verde);
+}
+
+@media screen and (min-width: 540px) and (max-width: 1199px){
+    .tagline {
+        margin: 0.63rem;
+        padding: 2rem 6rem;
+    }
+
+    .contacto {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin: 3rem 4rem;
+    }
+
+    .redes {
+        min-width: 140px;
+        width: 40%;
+        margin-bottom: 0;
+    }
+
+    .enlaces {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .enlaces h3 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .tagline {
+        margin: 1rem;
+        padding: 2rem 6rem;
+    }
+
+    .contacto {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin: 3rem 10rem;
+    }
+
+    .redes {
+        width: 40%;
+        margin-bottom: 0;
+    }
+
+    .enlaces {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .enlaces h3 {
+        font-size: 24px;
+    }
+}
