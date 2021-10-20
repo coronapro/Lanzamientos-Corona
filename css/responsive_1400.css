@@ -1,0 +1,344 @@
+@import url(./global.css);
+
+@media only screen and (min-width: 1400px) {
+    
+    /* GLOBAL */
+    h2  {
+        font-size: 2.8rem;
+    }
+
+    h3  {
+        font-size: 2.2rem;
+    }
+
+    h4  {
+        font-size: 2rem;
+    }
+
+    p   {
+        font-size: 1.6rem;
+    }
+
+    a   {
+        font-size: 1.6rem;
+    }
+
+    /* BANOS Y COCINAS */
+    .ku-embed{
+        height: 80vh;
+    }
+    .ku_content {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 3.2rem;
+    }
+
+    .line{
+        max-width: 1400px;
+        margin: 0 auto;
+        width: 100%;
+        padding: 3.2rem;
+    }
+
+    .intro > div:first-child {
+        padding-right: 10%;
+      }
+
+    .intro {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 6.4rem 3.2rem;
+    }
+        
+
+    .index {
+        padding: 0;
+    }
+    
+
+    .index_content {
+        padding: 6.4rem 3.2rem;
+      }
+
+    .index_subtitle {
+        margin-top: 3.2rem !important;
+    }
+    
+    
+    .index_grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr 1fr;
+        gap: 2.4rem;
+        width: 100%;
+    }
+    .index_grid-cocinas {
+        grid-template-columns: repeat(3, 1fr);
+    } 
+
+    .index_card-provenza {
+        grid-column: 1 / span 2;
+    }
+
+    .index_card{
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1.5fr;
+        width: 100%;
+        height: auto;
+        max-height: 300px;
+    }
+    .index_card-banos{
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1.5fr;
+        width: 100%;
+        height: auto;
+        max-height: 300px;
+    }
+
+    .index_card_img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        overflow: hidden;
+      }
+
+    .index_card_content {
+        padding: 3.2rem;
+    }
+
+    .kitchen_grid-cocinas {
+        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.4rem;
+
+    }
+    
+    .kitchen_card {
+        width: 100%;
+        height: 200px;
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+        border-radius: 10px;
+        background-color: white;
+        color: var(--Lavaderos);
+        box-shadow: var(--Shadow);
+        overflow: hidden;
+    }
+    
+    
+/* PAGINAS DE PRODUCTO */
+    .hero_content {
+        padding: 6.4rem;
+    }
+
+    .hero_content-name{
+        padding: 4.8rem;
+    }
+
+    .heroText {
+        padding: 6.4rem;
+    }
+
+    .hero_video-mobile {
+        display: none;
+    }
+
+    .hero_video-tablet {
+        display: none;
+    }
+
+    .hero_video-desktop {
+        display: flex;
+    }
+     
+    .products {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 3.2rem;
+    }
+    
+
+    .scrolling_container {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 3.2rem 0;
+        overflow: visible;
+    }
+    .scrolling_container-detailCard {
+        display: none;
+    }
+
+    .products_grid {
+        grid-template-rows: 1fr 1fr;
+        gap: 2.4rem;
+        width: 100%;
+    }
+        .products_grid-cascadeVital {
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: 1fr;
+        }
+
+    .card {
+        width: 100%;
+        height: 340px;
+    }
+
+    .product_card_content {
+        padding: 3.2rem;
+    }
+    .product_card-last {
+        display: none;
+    }
+
+    #CascadeVitalVideoArmado {
+        grid-column: 3 / span 2;
+    }
+
+    .videoCVArmadoMobile{
+        display: none;
+    }
+
+    .videoCVArmadoDesktop{
+        display: flex;
+        height: 100%;
+        background-color: rgb(194, 194, 194);
+    }
+
+    .detailCard {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: calc(80vw + 16px);
+        height: auto;
+        border-radius: 10px;
+        box-shadow: var(--Shadow);
+        overflow: hidden;
+    }
+
+    .productsGallery {
+        max-width: 1400px;
+        margin: 0 auto;
+        margin-top: 3.2rem;
+        margin-bottom: 3.2rem;
+        padding: 3.2rem;
+        background-color: rgba(128, 128, 128, 0.25);
+        border-radius: 10px;
+    }
+    .gallery {
+        padding: 0;
+        position: relative;
+        display: block;
+    }
+
+    .gallerySlides {
+        display: block;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .imageGallery {
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .products_tour360_content {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 3.2rem;
+    }
+    
+    .ku-embed-product {
+        height: 70vh;
+    }
+
+    /* CASCADE NEGRO MATE Y BRILLANTE */
+    #cascadeNegro-mate {
+        grid-column: 3 / span 2;
+    }
+    #cascadeNegro-compatible {
+        grid-column: 1 / span 2;
+    }
+    .img_container-mobile {
+        display: none;
+      }
+    .img_container-desktop {
+        display: flex;
+      }
+
+    /* ANTIMICROBIAL */
+    #antimicrobial-antiViral {
+        grid-column: 3 / span 2;
+    }
+    #antimicrobial-ecoStream {
+        grid-column: 1 / span 2;
+    }
+    .XR {
+        width: 100%;
+        gap: 3.2rem;
+      }
+        .XR_card {
+          padding: 3.2rem 3.2rem 0rem 3.2rem;
+        }
+
+    /* PAGE LAVADEROS  */
+    .products_grid-lavaderos {
+        grid-template-rows: auto auto;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    /* PAGE COCINAS */
+    .hero_img-mobile {
+        display: none;
+    }
+    .hero_img-tablet {
+        display: none;
+    }
+    .hero_img-desktop {
+        display: block;
+    }
+
+
+
+
+    /* FOOTER */
+    .sectionFooter {
+        width: 100%;
+        background-color: var(--Banos);
+    }
+
+    .sectionFooterCocinas {
+        width: 100%;
+        background-color: var(--Lavaderos);
+    }
+   
+    .footerH4 {
+        order: 2;
+    }
+
+    .videoInterno {
+        margin: 0;
+    }
+
+    .footerContainer {
+        display: grid;
+        max-width: 1400px;
+        margin: 0 auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1.6rem;
+        padding: 4rem;
+        align-items: baseline;
+    }
+
+    .footerLogoContainer {
+        order: 3;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .footerOtrosSitios {
+        order: 1;
+        align-items: flex-start;
+    }
+
+ }
+
+ 

@@ -1,0 +1,225 @@
+@media only screen and (min-width: 640px) {
+  
+    /* GLOBAL  */
+    .p {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    }
+
+    /* BANOS Y COCINAS */
+    .ku-embed{
+        height: 80vh;
+    }
+   
+    .ku_content {
+        padding: 3.2rem;
+    }
+
+    .intro {
+        padding: 3.2rem;
+        gap: 3.2rem;
+    }
+        .intro_video {
+            margin-top: 0rem;
+        }
+
+    .line {
+        width: 100%;
+        padding: 3.2rem;
+    }
+
+    .index,
+    .products {
+        padding: 3.2rem 0 3.2rem 3.2rem;
+    }
+
+    .scrolling_container {
+        padding: 3.2rem 0;
+        padding-left: 3.2rem;
+        margin-left: -3.2rem;
+    }
+
+    .index_card-last,
+    .product_card-last {
+        width: 1.6rem;
+    }
+
+    .botonera {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 1.6rem;
+        justify-content: center;
+        padding: 3.2rem 1.6rem;
+    }
+        .botonera-cocinas {
+            grid-template-columns: repeat(6, auto);
+
+        }
+    .arrowLeft {
+        display: block;
+        width: 2rem;
+        height: 3rem;
+        margin-right: 0.8rem;
+        background-image: url(../assets/icons/arrow-back-banos.svg);
+      }
+    .arrowLeft-cocinas {
+        display: block;
+        width: 2rem;
+        height: 3rem;
+        margin-right: 0.8rem;
+        background-image: url(../assets/icons/arrow-back-cocinas.svg);
+      }
+      
+      .arrowRight {
+        display: block;
+        width: 2rem;
+        height: 3rem;
+        margin-left: 0.8rem;
+        background-image: url(../assets/icons/arrow-forward-white.svg);
+      }
+      
+    
+    /* FOOTER */
+    footer {
+        padding: 3.2rem;
+    }
+
+    .footerLogoContainer {
+        width: 70%;
+        margin: 0 auto 1.6rem auto;
+    }
+
+
+    /* PAGINAS DE PRODUCTO */
+    .intro > div:first-child {
+        padding-right: 10%;
+      }
+   
+    .hero_content {
+        padding: 3.2rem;
+    }
+    .heroText {
+        padding: 6.4rem;
+    }
+
+    .hero_video-mobile {
+        display: none;
+    }
+
+    .hero_video-tablet {
+        display: flex;
+    }
+
+    .hero_video-desktop {
+        display: none;
+    }
+
+    .intro_content {
+        display: flex;
+        gap: 3.2rem;
+    }
+
+    .hero_content-name{
+        padding: 3.2rem;
+    }
+
+    .intro_content-block {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        gap: 1.6rem;
+    }
+    
+
+
+    .videoCVArmadoMobile{
+        display: flex;
+    }
+
+    .videoCVArmadoDesktop{
+        display: none;
+    }
+
+    .index_card-last {
+        width: 1.6rem;
+    }
+    
+    .botonera {
+        padding: 6.4rem 1.6rem;
+    }
+
+    .products_tour360 {
+        padding: 6.4rem 3.2rem;
+        background-color: rgba(46, 46, 130, 0.1 );
+        }
+        .products_tour360_content>div {
+            padding: 0;
+        }
+        .ku-embed-product {
+            width: 100%;
+            height: 60vh;
+            margin: 1.6rem auto 0 auto;
+        }
+
+
+    /* PAGINA CASCADE NEGRO */
+    .intro_content-grid {
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.6rem;
+      }
+
+    /* PAGINA ANTIMICROBIANO */
+    .XR {
+        max-height: 600px;
+        gap: 3.2rem;
+      }
+        .XR_card {
+          max-width: 1000px;
+          top: 0px;
+        }
+
+
+    /* PAGE COCINAS */
+    #intro_cocinas{
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+    .hero_img-mobile {
+        display: none;
+    }
+    .hero_img-tablet {
+        display: block;
+    }
+    .hero_img-desktop {
+        display: none;
+    }
+    .stdSection {
+        padding: 3.2rem;
+        padding-bottom: 6.4rem;
+    }
+    .stdSection h3 {
+        margin-bottom: 3.2rem;
+      }
+    .intro_content-grid-Valenza {
+        grid-template-columns: auto auto;
+        gap: 1.6rem;
+    }
+
+    /* PAGE BANOS */
+    #intro_banos{
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+      /* PAGINA Lavadero Savona */
+      #card_lavaderoSavona-mayorResistencia {
+        grid-column: 1 / span 2;
+      }
+
+      #card_lavaderoSavona-capacidadAlmacenamiento{
+        grid-column: 3 / span 2;
+      }
+}
+

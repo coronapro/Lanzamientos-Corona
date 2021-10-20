@@ -1,0 +1,92 @@
+/*
+CSS will be constructed on Mobile First
+1. Posicioning
+2. Box Model
+3. Tipography
+4. Visuals (shadow, etc)
+5. Others (transformation, etc)
+*/
+
+:root {
+    /*COLORES*/
+    --Cocinas: #FCF4DD;
+    --Lavaderos: #3A849A;
+    --Banos: #2E2E82;
+    --Gap: 16px;
+    --PaddingMobile-12px: 12px;
+    --PaddingTablet-48px: 48px;
+    --PaddingLaptop-86px: 86px;
+    --PaddingDesktop-15: 15%;
+    --SpacerMobile-32px: 3.2rem;
+    --SpacerLaptop-64px: 6.4rem;
+    --Shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.1);
+    --ShadowHover: 0px 0px 30px 0px rgba(58, 132, 154, 0.4);
+    --ShadowHoverBanos: 0px 0px 30px 0px rgba(46, 46, 130, 0.4);
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F2F2F2;
+}
+
+.banos {
+    color: var(--Banos);
+}
+
+.cocinas {
+    color: var(--Lavaderos);
+}
+
+h2 {
+    font-family: 'brandon-grotesque', sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.2em;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 0.8rem;
+}
+
+h3 {
+    font-family: 'brandon-grotesque', sans-serif;
+    font-size: 2rem;
+    line-height: 1.2em;
+    font-weight: 500;
+    text-transform: none;
+    margin-bottom: 0.8rem;
+}
+
+h4 {
+    font-family: 'brandon-grotesque', sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 3.2rem;
+    margin-top: 0.8rem;
+}
+
+p {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+
+
+

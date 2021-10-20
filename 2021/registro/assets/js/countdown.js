@@ -17,6 +17,7 @@ simplyCountdown('#conteo', {
     // in case of inline set to false
     enableUtc: false, //Use UTC or not - default : false
     onEnd: function() {
+        window.location.href = "../";
         return;
     }, //Callback on countdown end, put your own function here
     refresh: 1000, // default refresh every 1s

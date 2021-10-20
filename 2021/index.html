@@ -4,65 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="apple-touch-startup-image" href="../Corona-favicon.svg">
+    <link rel="icon" href="../Corona-favicon.svg">
+
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../index.css">
     <link rel="stylesheet" href="https://use.typekit.net/wib4mjw.css">
-
-    <!-- UIkit CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.3/dist/css/uikit.min.css" />
-
-    <!-- UIkit JS -->
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.3/dist/js/uikit.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.3/dist/js/uikit-icons.min.js"></script>
-    
-    <link rel="stylesheet" href="./registro/index.css">
-    <link rel="stylesheet" href="../registro.css">
-
-    <title>Registro Exitoso | Lanzamiento 2021</title>
+    <title>Lanzamiento 2021</title>
 </head>
 <body>
-    <div id="spinner-landing">
-    </div>
-    <section class="section-registro">
-        <div class="img-container uk-cover-container">
-            <img src="./registro/assets/img/BGRegistro.png" alt="Espacio de exposicion difuminado" uk-cover>
-        </div>
-
-        <div class="contenido">
-            <div class="header">
-                <img src="./registro/assets/img/logo-white.png" alt="Logo de Corona 140 años">
-                <svg width="91" height="45" viewBox="0 0 91 45" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0 8.74406C0 8.8706 0.104202 8.98449 0.24748 8.98449H4.88447C5.02775 8.98449 5.13195 8.8706 5.13195 8.74406V8.04808C5.13195 7.92153 5.02775 7.80765 4.88447 7.80765H1.35463V0.366972C1.35463 0.24043 1.2374 0.126542 1.10715 0.126542H0.24748C0.104202 0.126542 0 0.24043 0 0.366972V8.74406Z" fill="white"/>
-                    <path d="M5.62661 8.98449H6.4472C6.6035 8.98449 6.7077 8.88326 6.74678 8.79468L7.54132 7.06105H11.8006L12.6081 8.79468C12.6602 8.90856 12.7514 8.98449 12.9077 8.98449H13.7283C13.9237 8.98449 14.0279 8.81998 13.9497 8.65548L9.97704 0.139196C9.93797 0.0632711 9.82074 0 9.75561 0H9.62536C9.56023 0 9.44301 0.0632711 9.40393 0.139196L5.40518 8.65548C5.32703 8.81998 5.43123 8.98449 5.62661 8.98449ZM8.0493 5.97279L9.63839 2.50553H9.70351L11.3056 5.97279H8.0493Z" fill="white"/>
-                    <path d="M15.2131 8.74406C15.2131 8.8706 15.3303 8.98449 15.4606 8.98449H16.2812C16.4244 8.98449 16.5286 8.8706 16.5286 8.74406V2.58146H16.5547L22.0383 8.93387C22.1946 9.11103 22.2858 9.11103 22.4161 9.11103H22.5333C22.6635 9.11103 22.7808 9.0098 22.7808 8.88326V0.366972C22.7808 0.24043 22.6635 0.126542 22.5333 0.126542H21.6997C21.5564 0.126542 21.4522 0.24043 21.4522 0.366972V6.35241H21.4261L15.9555 0.189813C15.7862 -1.45984e-07 15.695 0 15.5648 0H15.4606C15.3303 0 15.2131 0.101234 15.2131 0.227776V8.74406Z" fill="white"/>
-                    <path d="M24.5482 8.98449H30.0188C30.1621 8.98449 30.2663 8.8706 30.2663 8.74406V8.02277C30.2663 7.89623 30.1621 7.78234 30.0188 7.78234H26.2155V7.76968L30.4356 0.695981C30.5268 0.531477 30.5268 0.493514 30.5268 0.366972C30.5268 0.24043 30.4096 0.126542 30.2794 0.126542H24.926C24.7957 0.126542 24.6785 0.24043 24.6785 0.366972V1.10092C24.6785 1.22746 24.7957 1.34135 24.926 1.34135H28.5991V1.39196L24.405 8.33912C24.3008 8.51628 24.3008 8.57955 24.3008 8.74406C24.3008 8.8706 24.418 8.98449 24.5482 8.98449Z" fill="white"/>
-                    <path d="M31.1938 8.98449H32.0144C32.1707 8.98449 32.2749 8.88326 32.3139 8.79468L33.1085 7.06105H37.3677L38.1753 8.79468C38.2274 8.90856 38.3186 8.98449 38.4749 8.98449H39.2955C39.4909 8.98449 39.5951 8.81998 39.5169 8.65548L35.5442 0.139196C35.5051 0.0632711 35.3879 0 35.3228 0H35.1925C35.1274 0 35.0102 0.0632711 34.9711 0.139196L30.9723 8.65548C30.8942 8.81998 30.9984 8.98449 31.1938 8.98449ZM33.6165 5.97279L35.2055 2.50553H35.2707L36.8728 5.97279H33.6165Z" fill="white"/>
-                    <path d="M40.2332 8.69344C40.2071 8.8706 40.2983 8.98449 40.4807 8.98449H41.3273C41.4315 8.98449 41.5487 8.89591 41.5618 8.80733L42.4996 3.1509C42.5126 3.1509 42.5387 3.1509 42.5517 3.1509L44.9093 8.97184C44.9353 9.04776 45.0265 9.11103 45.1307 9.11103H45.3651C45.4824 9.11103 45.5605 9.04776 45.5866 8.97184L47.9311 3.1509C47.9311 3.1509 47.9572 3.1509 47.9702 3.1509L48.9341 8.80733C48.9601 8.89591 49.0643 8.98449 49.1815 8.98449H50.0282C50.2105 8.98449 50.3017 8.8706 50.2626 8.69344L48.6605 0.189813C48.6345 0.0885797 48.5303 0 48.4261 0H48.2177C48.1265 0 48.0223 0.0632711 47.9962 0.139196L45.287 6.6055H45.2349L42.5126 0.139196C42.4866 0.0632711 42.3693 0 42.2912 0H42.0828C41.9786 0 41.8744 0.0885797 41.8483 0.189813L40.2332 8.69344Z" fill="white"/>
-                    <path d="M52.101 8.74406C52.101 8.8706 52.2183 8.98449 52.3485 8.98449H53.2082C53.3384 8.98449 53.4557 8.8706 53.4557 8.74406V0.366972C53.4557 0.24043 53.3384 0.126542 53.2082 0.126542H52.3485C52.2183 0.126542 52.101 0.24043 52.101 0.366972V8.74406Z" fill="white"/>
-                    <path d="M55.828 8.74406C55.828 8.8706 55.9322 8.98449 56.0755 8.98449H61.2856C61.4288 8.98449 61.533 8.8706 61.533 8.74406V8.04808C61.533 7.92153 61.4288 7.80765 61.2856 7.80765H57.1696V5.08699H60.6473C60.7776 5.08699 60.8948 4.98576 60.8948 4.84656V4.13793C60.8948 4.01138 60.7776 3.8975 60.6473 3.8975H57.1696V1.31604H61.2856C61.4288 1.31604 61.533 1.20215 61.533 1.07561V0.366972C61.533 0.24043 61.4288 0.126542 61.2856 0.126542H56.0755C55.9322 0.126542 55.828 0.24043 55.828 0.366972V8.74406Z" fill="white"/>
-                    <path d="M63.3328 8.74406C63.3328 8.8706 63.45 8.98449 63.5802 8.98449H64.4008C64.5441 8.98449 64.6483 8.8706 64.6483 8.74406V2.58146H64.6744L70.158 8.93387C70.3143 9.11103 70.4055 9.11103 70.5357 9.11103H70.653C70.7832 9.11103 70.9004 9.0098 70.9004 8.88326V0.366972C70.9004 0.24043 70.7832 0.126542 70.653 0.126542H69.8194C69.6761 0.126542 69.5719 0.24043 69.5719 0.366972V6.35241H69.5458L64.0752 0.189813C63.9059 -1.45984e-07 63.8147 0 63.6845 0H63.5802C63.45 0 63.3328 0.101234 63.3328 0.227776V8.74406Z" fill="white"/>
-                    <path d="M74.791 8.74406C74.791 8.8706 74.9083 8.98449 75.0385 8.98449H75.8982C76.0284 8.98449 76.1457 8.8706 76.1457 8.74406V1.31604H78.2688C78.4121 1.31604 78.5163 1.20215 78.5163 1.07561V0.366972C78.5163 0.24043 78.4121 0.126542 78.2688 0.126542H72.6679C72.5246 0.126542 72.4204 0.24043 72.4204 0.366972V1.07561C72.4204 1.20215 72.5246 1.31604 72.6679 1.31604H74.791V8.74406Z" fill="white"/>
-                    <path d="M79.1687 4.56817C79.1687 7.09901 81.2398 9.11103 83.8448 9.11103C86.4499 9.11103 88.5339 7.09901 88.5339 4.56817C88.5339 2.03733 86.4499 0 83.8448 0C81.2398 0 79.1687 2.03733 79.1687 4.56817ZM80.4713 4.56817C80.4713 2.77127 81.9952 1.22746 83.8448 1.22746C85.7074 1.22746 87.2314 2.77127 87.2314 4.56817C87.2314 6.37772 85.7074 7.88357 83.8448 7.88357C81.9952 7.88357 80.4713 6.37772 80.4713 4.56817Z" fill="white"/>
-                    <path d="M7.36893 40.4237C10.1673 37.2973 13.4786 33.5365 15.9971 30.5913C18.6089 27.5556 20.6144 25.1088 20.6144 21.5293C20.6144 16.6358 16.9765 12.3766 10.074 12.3766C4.38405 12.3766 0.79286 16.953 0.79286 16.953C0.419749 17.3155 0.513027 17.9045 0.839499 18.1763L2.47186 19.7622C2.84497 20.1247 3.358 20.1247 3.73111 19.7622C5.03699 18.4029 7.22902 16.6358 9.84079 16.6358C14.0849 16.6358 15.7639 19.3544 15.7639 21.7105C15.7639 23.6136 14.5047 25.8791 12.1261 28.5071C8.72146 32.3584 4.05758 37.8863 0.559666 41.8283C0 42.4626 0 42.6892 0 43.2782V43.6407C0 44.1391 0.37311 44.5469 0.932776 44.5469H19.495C20.0081 44.5469 20.4278 44.2297 20.4278 43.6407V41.4205C20.4278 40.7861 20.0081 40.5143 19.495 40.5143H7.36893V40.4237Z" fill="white"/>
-                    <path d="M38.5135 45C46.069 45 50.4064 38.8831 50.4064 28.6883C50.4064 18.4482 46.069 12.3766 38.5135 12.3766C30.958 12.3766 26.6206 18.4482 26.6206 28.6883C26.6206 38.8831 30.958 45 38.5135 45ZM38.5135 40.7861C34.0361 40.7861 31.471 36.4364 31.471 28.6883C31.471 21.0309 34.0361 16.6811 38.5135 16.6811C42.9908 16.6811 45.5559 21.0309 45.5559 28.6883C45.5559 36.4364 42.9908 40.7861 38.5135 40.7861Z" fill="white"/>
-                    <path d="M62.9803 40.4237C65.7786 37.2973 69.09 33.5365 71.6085 30.5913C74.2202 27.5556 76.2257 25.1088 76.2257 21.5293C76.2257 16.6358 72.5879 12.3766 65.6853 12.3766C59.9954 12.3766 56.4042 16.953 56.4042 16.953C56.0311 17.3155 56.1244 17.9045 56.4508 18.1763L58.0832 19.7622C58.4563 20.1247 58.9693 20.1247 59.3424 19.7622C60.6483 18.4029 62.8403 16.6358 65.4521 16.6358C69.6963 16.6358 71.3753 19.3544 71.3753 21.7105C71.3753 23.6136 70.116 25.8791 67.7374 28.5071C64.3328 32.3584 59.6689 37.8863 56.171 41.8283C55.6113 42.4626 55.6113 42.6892 55.6113 43.2782V43.6407C55.6113 44.1391 55.9844 44.5469 56.5441 44.5469H75.1064C75.6194 44.5469 76.0391 44.2297 76.0391 43.6407V41.4205C76.0391 40.7861 75.6194 40.5143 75.1064 40.5143H62.9803V40.4237Z" fill="white"/>
-                    <path d="M86.2895 43.6407C86.2895 44.1391 86.7092 44.5469 87.2223 44.5469H90.1605C90.6269 44.5469 91 44.1391 91 43.6407V13.6906C91 13.2375 90.6269 12.8297 90.1605 12.8297H88.7147C88.0618 12.8297 87.5954 13.011 87.0823 13.4188L80.9726 18.8107C80.7861 19.0372 80.6928 19.3997 80.8327 19.7622L81.3924 21.3934C81.5323 21.8012 82.0453 21.8918 82.4651 21.7105L86.2895 19.9434V43.6407Z" fill="white"/>
-                </svg>
+    <script type="text/javascript">
+        if (Date.now() <= 1634731200000) {
+            window.location.href = "./registro/";
+        }
+    </script>
+    <header class="headerHome">
+        <div class="heroBackground"><img class="imageHeroBck" src="" alt=""></div>
+        <div class="heroBackground backgroundfilter"></div>
+        <div class="heroMain">
+            <div class="heroHeader">
+                <img src="../assets/img/logo140.png" alt="logo Corona">
+                <img class="logoLanzamiento" src="../assets/icons/lanzamiento2021.svg" alt="logo lanzamiento2021">
             </div>
-            <div class="middle">
-                <div class="mensaje">
-                    <h1>PRONTO CONOCERÁS TODO LO QUE TRAEMOS PARA TI...</h1>
-                    <P>Recuerda que nuestro lanzamiento es el miércoles 20 de octubre a las 8:00 a.m. - COL.</P>
+            <div class="heroCard-container">
+                <a class="heroCard banos" href="./banos/" style="text-decoration: none;">
+                    <div>
+                        <h2>TRANSFORMACIÓN PARA EL BAÑO</h2>
+                        <p>Conoce todas las novedades en muebles de baño y lavamanos que Corona trae para el baño.</p>
+                    </div>
+                    <div class="arrow-container">
+                        <span class="arrow-banos"></span>
+                    </div>                  
+                </a>
+                <a class="heroCard cocinas" href="./cocinas/" style="text-decoration: none;">
+                    <div>
+                        <h2>RENOVACIÓN PARA LA COCINA</h2>
+                        <p>Conoce todas las novedades en cocinas y lavaderos que Corona trae para el hogar.</p>
+                    </div>
+                    <div class="arrow-container">
+                        <span class="arrow-cocinas"></span>
+                    </div>                  
+                </a>                
+            </div>
+            <div class="line"></div>
+            <div class="heroFooter">
+                <div class="heroFooter-logos">
+                    <a href="https://www.youtube.com/user/OrganizacionCorona"><span class="youtube"></span></a>
+                    <a href="https://www.facebook.com/coronamejoratuvida/"><span class="facebook"></span></a>
+                    <a href="https://www.instagram.com/corona_inspira/"><span class="instagram"></span></a>
+                    <a href="https://co.pinterest.com/coronainspira/"><span class="pinterest"></span></a>
                 </div>
-            </div>
-            <div class="foot">
-                <P>Si aún no te has registrado, ¿qué esperas?</P>
-                <a class="boton" href="/2021/registro/">Reservar</a>
+                                
+                <div>
+                    <h2>Otros sitios</h2>
+                    <a href="https://corona.co">Corona.co</a>
+                    <a href="https://centrocorona.corona.co/">Centros Corona</a>
+                    <a href="https://www.vajillascorona.com.co/">Vajillas Corona</a>
+                    <a href="https://www.inspirame.com.co/">Inspirame</a>
+                    <a href="https://b2bcorona.blob.core.windows.net/b2bresources/B2B/mediacoronaco/Politica-Tratamiento-de-Datos-Personales-V3.pdf">Política de datos</a>
+                </div>              
             </div>
         </div>
-    </section>
-    <script src="../index.js"></script>
+        
+    </header>
 </body>
 </html>

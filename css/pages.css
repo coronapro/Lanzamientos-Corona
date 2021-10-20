@@ -1,0 +1,602 @@
+@import url(./global.css);
+@import url(./footer.css);
+@import url(./modal.css);
+
+
+/* SECTION TOUR 360° */
+.ku-embed { /*IMAGEN 360°*/
+  width: 100%;
+  height: 70vh;
+}
+
+.ku_content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 1.6rem;
+}
+  .ku_content-icon {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  .arrowContainer {
+    width: 2rem;
+    height: 3rem;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .arrowDown-banos {
+    background-image: url(../assets/icons/arrow_down_banos.svg);
+  }
+  .arrowDown-cocinas {
+    background-image: url(../assets/icons/arrow_down_cocinas.svg);
+  }
+
+.line{
+  width: 100%;
+  padding: 3.2rem 1.6rem;
+}
+  .line-banos {
+  width: 100%;
+  height: 1px;
+  background-color: var(--Banos);
+  }
+  .line-cocinas {
+  width: 100%;
+  height: 1px;
+  background-color: var(--Lavaderos);
+  }
+
+/*SECTION INTRO*/
+.intro {
+display: grid;
+grid-template-rows: auto auto;
+gap: 3.2rem;
+padding: 1.6rem;
+}
+  .intro_video {
+    margin-top: 3.2rem;
+    margin-bottom: 3.2rem;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+/*SECTION INDEX*/
+.index,
+.products {
+  padding: 3.2rem 0 3.2rem 1.6rem;
+}
+  .index_content {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  .index-banos {
+    background-color: rgba(46, 46, 130, 0.1);
+  }
+  .index-cocinas {
+    background-color: rgba(58, 132, 154, 0.1);
+  }
+  .index>h3 {
+    margin-bottom: 0;
+    padding-right: 1.6rem;
+  }
+  .index_subtitle,
+  .products_subtitle {
+    margin-top: 3.2rem;
+  }
+
+.scrolling_container {
+  width: auto;
+  overflow-x: scroll;
+  padding: 1.6rem 0;
+  padding-left: 1.6rem;
+  margin-left: -1.6rem;
+}
+
+.index_grid,
+.kitchen_grid,
+.products_grid {
+  display: grid;
+  gap: 1.6rem;
+  width: auto;
+  height: auto;
+} 
+  .index_grid-banos {
+    grid-template-columns: repeat(4, 1fr) auto;
+  }
+  .index_grid-cocinas {
+    grid-template-columns: repeat(5, 1fr) auto;
+  }
+  .kitchen_grid-cocinas {
+    grid-template-columns: repeat(6, 1fr) auto;
+  }
+
+.index_card{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  width: 256px;
+  height: 340px;
+  max-height: 420px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: var(--Shadow);
+  color: var(--Lavaderos);
+  overflow: hidden;
+}
+  .index_card:hover {
+    box-shadow: var(--ShadowHover);
+    transition: box-shadow 0.5s;
+  }
+  .index_card_img {
+    height: 100%;
+    width: 70%;
+    object-fit: cover;
+    overflow: hidden;
+  }
+  .index_card_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.6rem;
+  }
+  .index_card_content div:last-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .index_card-banos{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 256px;
+    height: 340px;
+    max-height: 420px;
+    border-radius: 10px;
+    background-color: white;
+    color: var(--Banos);
+    box-shadow: var(--Shadow);
+    overflow: hidden;
+  }
+    .index_card-banos:hover {
+      box-shadow: var(--ShadowHoverBanos);
+      transition: box-shadow 0.5s;
+    }
+  .arrowDiag-banos {
+    width: 3rem;
+    height: 3rem;
+    background-image: url(../assets/icons/arrow-diagonal.svg);
+  }
+  .arrowDiag-cocinas {
+    width: 3rem;
+    height: 3rem;
+    background-image: url(../assets/icons/arrow-diagonal-lavaderos.svg);
+  }
+  .index_card-last,
+  .product_card-last {
+    width: 0.1rem;
+  }
+
+.kitchen_card {
+  width: 256px;
+  height: 120px;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  border-radius: 10px;
+  background-color: white;
+  color: var(--Lavaderos);
+  box-shadow: var(--Shadow);
+  overflow: hidden;
+}
+.kitchen_card:hover {
+  box-shadow: var(--ShadowHover);
+  transition: box-shadow 0.5s;
+}
+  .kitchen_card_img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+  } 
+  .kitchen_card_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.6rem;
+  }
+
+
+/* PAGE CASCADE VITAL - SECTION HERO */
+.hero {
+  position: relative;
+}
+  .hero_video-tablet {
+    display: none;
+  }
+  .hero_video-desktop {
+    display: none;
+  }
+  .hero_content {
+      width: 100%;
+      height: 100%;
+      padding: 1.6rem;
+      position: absolute;
+      top: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      z-index: 1;
+      color: white;
+  }
+  .hero_content-name {
+    width: 100%;
+    height: 100%;
+    padding: 1.6rem;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 39.06%, rgba(0, 0, 0, 0) 51.56%, rgba(0, 0, 0, 0.5) 100%);
+    /* backdrop-filter: blur(10px); */
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .hero_content div:first-child {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 4rem;
+      height: 4rem;
+      background-color: var(--Banos);
+      border-radius: 3px;
+      z-index: 1; 
+  }
+  
+  
+  .hero_content span {
+      display: block;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 2rem;
+      height: 2rem;
+      background-image: url(../assets/icons/arrow-back-white.svg);
+  }
+  
+/* PAGE CASCADE VITAL - SECTION INTRO */
+.intro-products {
+  padding-top: 3.2rem;
+}
+  .intro > div:first-child {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+  }
+
+  .intro_content {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    gap: 3.2rem;
+  }
+  .intro_content-info {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 0.8rem;
+  }
+  .intro_content-grid {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 3.2rem;
+  }
+  .intro_content-block{
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 1.6rem;
+  }
+    
+  .content-spacer{
+    display: none;
+  }
+  
+  
+  
+/* PAGE CASCADE VITAL - SECTION PRODUCTS */
+.products_grid {
+  grid-template-columns: repeat(7, 1fr) auto;
+}
+.products_grid-detail {
+  grid-template-columns: repeat(9, 1fr) auto;
+}
+
+.card {
+  width: 256px;
+  height: 340px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+  
+
+.stdCard {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    overflow: hidden;
+    padding-top: 1.6rem;
+    background-color: white;
+}
+
+.img_container {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+  .img_container-desktop {
+    display: none;
+  }
+
+.imageProductContainer {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+.imageProductContainer-fixed {
+    height: 160px;
+    width: auto;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.imageProductContainerVertical {
+    height: 90vh;
+    object-fit: contain;
+}
+
+.ctrCard {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1.6rem;
+    overflow: hidden;
+}
+
+.stdCard-textContainer {
+    text-align: center;
+    padding: 1.6rem;
+}
+
+.bkgCard {
+    position: relative;
+    overflow: hidden;
+    color: white;
+}
+
+.bkgCard .stdCard {
+    position: absolute;
+    background-color: transparent;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.videoCVArmadoDesktop{
+  display: none;
+}
+
+.lottieContainer {
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 1.6rem 3.2rem;
+}
+  .lottie-player {
+    width: auto;
+    height: 100%;
+  }
+
+.lottieContainerFull {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.detailCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(80vw + 16px);
+    height: auto;
+    border-radius: 10px;
+    box-shadow: var(--Shadow);
+    overflow: hidden;
+}
+
+.products_tour360 {
+  padding: 3.2rem 1.6rem;
+  background-color: rgba(46, 46, 130, 0.1);
+}
+  .products_tour360_content>div {
+    display: flex;
+    justify-content: center;
+    padding: 1.6rem;
+  }
+  .ku-embed-product {
+    width: 100%;
+    height: 40vh;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+.botonera {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1.6rem;
+    justify-content: center;
+    padding: 3.2rem 1.6rem;
+}
+.botonera-cocinas{
+  grid-template-columns: auto auto auto;
+}
+
+.botonera a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botonera div:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 50px;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: var(--Shadow);
+}
+.botonera div:first-child a {
+  color: var(--Banos);
+}
+.botonera-cocinas div:first-child a {
+  color: var(--Lavaderos);
+}
+
+.botonera div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 50px;
+  padding: 0.8rem 1.6rem;
+  background-color: var(--Banos);
+  border-radius: 3px;
+  box-shadow: var(--Shadow);
+}
+
+.botonera-cocinas div {
+  background-color: var(--Lavaderos);
+}
+
+.arrowLeft {
+  display: none;
+}
+
+.arrowLeft-cocinas {
+    display: none;
+}
+
+.arrowRight {
+  display: none;
+}
+
+/* PAGE LAVADEROS  */
+.products_grid-lavaderos {
+  grid-template-columns: repeat(9, 1fr) auto;
+}
+
+/* PAGE COCINAS */
+.hero_img-mobile {
+  display: block;
+}
+.hero_img-tablet {
+  display: none;
+}
+.hero_img-desktop {
+  display: none;
+}
+.stdSection {
+  padding: 1.6rem;
+  padding-bottom: 3.2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+  .stdSection h3 {
+    margin-bottom: 1.6rem;
+  }
+  .XR {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 1.6rem;
+    align-items: center;
+    justify-items: center;
+  }
+    .XR_card {
+      background-color: white;
+      border-radius: 10px;
+      overflow: hidden;
+      max-width: 1000px;
+      max-height: 600px;
+      width: 100%;
+      height: 100%;
+
+    }
+    .XR_card_iframeContainer {
+      position: relative; 
+      width: 100%; 
+      height: 0px; 
+      padding-bottom: 100%; 
+      overflow: hidden; 
+      border-radius: 10px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      justify-items: center;
+    }
+
+    /* SPINNERS       */
+#spinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 30;
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 1;
+  transition: opacity 2s;
+}
+#spinner .lottie {
+  width: 200px;
+  height: 200px;
+}
+
+#spinner_video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 30;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 1;
+    transition: opacity 5s;
+}
+
+#spinner_video .lottie {
+    width: 200px;
+    height: 200px;
+}
+
+.video_spinner{
+
+}
