@@ -11,7 +11,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>KeyShotXR</title>
     <style type="text/css">
-      body { -ms-touch-action: none; }
+      body { 
+        -ms-touch-action: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
     </style>
     <script type="text/javascript" src="griferias_cascadekoral_xr/files/KeyShotXR.js"></script>
     <script type="text/javascript">
@@ -22,7 +27,7 @@
         var folderName = "griferias_cascadekoral_xr";
         var viewPortWidth = 720;
         var viewPortHeight = 720;
-        var backgroundColor = "#000000";
+        var backgroundColor = "#dedee7";
         var uCount = 44;
         var vCount = 10;
         var uWrap = true;
@@ -39,7 +44,7 @@
         var downloadOnInteraction = false;
         var imageExtension = "jpg";
         var showLoading = true;
-        var loadingIcon = "CORONA_80x80.jpg"; // Set to empty string for default icon.
+        var loadingIcon = "bc.png"; // Set to empty string for default icon.
         var allowFullscreen = true; // Double-click in desktop browsers for fullscreen.
         var uReverse = false;
         var vReverse = false;
