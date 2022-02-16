@@ -1,0 +1,180 @@
+@media only screen and (min-width: 1440px) {
+    body {
+        padding: 0px;
+    }
+
+    h1 {
+        font-size: 64px;
+        line-height: 68px;
+    }
+    
+    h2 {
+        font-size: 40px;
+        line-height: 44px;
+    }
+    
+    h3 {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    
+    p {
+        font-size: 32px;
+        line-height: 37.5px;
+    }
+
+    #section1 {
+        width: 100vw;
+        padding: 48px 0px 0px;
+        gap: 32px;
+        height: 100vh;
+        justify-content: flex-start;
+        align-items: start;
+    }
+    
+        .logoCorona {
+            width: 315.28px;
+            height: 120px;
+        }
+    
+        .logoLanzamiento {
+            height: 120px;
+            filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25)) drop-shadow(0px 9px 8px rgba(0, 0, 0, 0.15));
+        }
+
+        .desktop-hero {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            width: 90vw;
+            height: 100%;
+        }
+
+    
+        .hero {
+            width: 60%;
+            height: 256px;
+            order: 1;
+        }
+    
+        .cta {
+            order: 2;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            width: 50%;
+            gap: 32px;
+        }
+
+        #title{
+            text-align: right;
+        }
+
+        #subtitle{
+            text-align: right !important;
+            padding-right: 0 !important;
+
+        }
+    
+        .intro-text {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+    
+        .botonRegistro {
+            width: 208px;
+            height: 64px;
+           font-size: 24px;
+        }
+
+    #section2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+        padding:  0px 5vw 40px 5vw;
+        gap: 40px;
+        overflow: hidden;
+        width: 100vw;
+    }
+    
+        .lottie-hand {
+            width: 25%;
+            position: absolute;
+            left: -2%;
+            z-index: 5;
+        }
+
+        #texto2 {
+            padding-right: 0;
+            order: 2;
+        }
+
+        #title2{
+            text-align: right !important;
+        }
+
+        #subtitle2 {
+            text-align: right !important;
+        }
+
+        .section2-artwork {
+            width: 100%;
+            padding: 16px ;
+            padding-right: 0px;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            order: 1;
+        }
+
+        .mini-grid {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            gap: 32px;
+            width: 100%;
+            justify-content: end;
+            left: 0;
+            position: relative;
+            z-index: 1;
+                
+        }
+
+        .lanzamiento-card {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 24px;
+            gap: 0px;
+            min-width: 160px;
+            min-height: 184px;
+            height: 30vw;
+            width: 25vw;
+
+        }
+
+    #section3 {
+        height: 80vh;
+        width: 100%;
+        padding: 40px 48px;
+        justify-content: space-evenly;
+    }
+        .section3-artwork {
+            height: 35vw;
+            order: 2;
+        }
+
+        #reservar {
+            right: 0px !important;
+            position: relative;
+        }
+
+    #form-reservar {
+        padding: 80px 32px;
+    }
+    
+}
