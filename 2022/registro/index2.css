@@ -22,33 +22,13 @@ html{
     -webkit-appearance: none;
 }
 
-@font-face {
-    font-family: 'Brandon Text';
-    src: url('./assets/fonts/BrandonText-Regular.ttf');
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Brandon Text';
-    src: url('./assets/fonts/BrandonText-Medium.ttf');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Brandon Text';
-    src: url('./assets/fonts/BrandonText-Bold.ttf');
-    font-weight: 700;
-    font-style: normal;
-}
-
 body {
-    background-size: 32px 32px;
+    background-size: 8vw 8vw;
     background-image:
       linear-gradient(to right, rgba(0, 56, 101, 0.08) 1px, transparent 1px),
       linear-gradient(to bottom, rgba(0, 56, 101, 0.08) 1px, transparent 1px),
       linear-gradient(to bottom, #DEE3E8 1px, #DEE3E8 1px);
+    background-attachment: fixed;
   }
 
   h1, h2, h3 {
@@ -124,12 +104,12 @@ label {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        padding: 0px 32px;
+        padding: 0px 8vw;
     }
 
     .desktop-hero {
         box-sizing: border-box;
-        width: 100vw
+        width: 100vw;
         margin: 0px;
     }
 
@@ -164,6 +144,7 @@ label {
     }
 
     .botonRegistro {
+        letter-spacing: 0.15em;
         width: 176px;
         height: 50px;
         display: flex;
@@ -231,20 +212,43 @@ label {
 
 
     .lanzamiento-card {
+        height: 35vw;
+        width: 30vw;
+        min-width: 160px;
+        min-height: 184px;
+
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        padding: 24px;
-        gap: 0px;
-        min-width: 160px;
-        min-height: 184px;
-        height: 35vw;
-        width: 30vw;
-        /* height: 184px; */
-        border-radius: 8px;
-        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25), 0px 9px 8px rgba(0, 0, 0, 0.15);
         justify-content: space-between;
+        background-color: rgba(255, 255, 255, 0.1);
+        border: 2px;
+
+        
+        gap: 0px;
+        
+        border-radius: 8px;
+        border: 2px;
+        overflow: hidden;
+
+        box-shadow: 
+        0px 2px 2px rgba(0, 0, 0, 0.25), 
+        0px 9px 8px rgba(0, 0, 0, 0.15);
+
+        backdrop-filter: blur(2px);
+        -webkit-backdrop-filter: blur(2px);
     }
+
+    .card-title {
+        padding: 16px 16px 8px 16px;
+        width: 100%;
+    }
+
+    .date {
+        margin-bottom: 16px;
+        margin-left: 16px;
+    }
+
 
 #section3 {
     height: 60vh;
@@ -402,7 +406,7 @@ label.consentimiento {
 #reservar {
     box-sizing: border-box;
     -webkit-appearance: none;
-    max-width: 300px;
+    max-width: none;
     width: 100%;
     height: 50px;
     display: flex;
@@ -424,6 +428,9 @@ label.consentimiento {
     font-size: 18px;
     color: #003865;
     cursor: pointer;
+
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
 
 }
 
