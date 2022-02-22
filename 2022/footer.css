@@ -1,0 +1,60 @@
+/*FOOTER*/
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 32rem;
+    padding: 1.6rem 1.6rem 1.6rem 1.6rem;
+    color: white;
+}
+.footer-banos {
+    width: 100%;
+    background-color: var(--Banos);
+}
+.footer-cocinas {
+    width: 100%;
+    background-color: var(--Lavaderos);
+}
+
+.footerContainer {
+    width: 100%;
+}
+.footerLogoContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 3.2rem;
+}
+.footerOtrosSitios {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.icon {
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 6rem;
+    height: 3rem;
+}
+.youtube {
+    background-image: url(assets/youtube.svg);
+    width: 6rem;
+    height: 2.2rem;
+}
+.facebook {
+    background-image: url(assets/facebook.svg);
+}
+.instagram {
+    background-image: url(assets/instagram.svg);
+}
+.pinterest {
+    background-image: url(assets/pinterest.svg);
+}
