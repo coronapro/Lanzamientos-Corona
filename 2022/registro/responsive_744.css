@@ -1,0 +1,201 @@
+@media only screen and (min-width: 744px) {
+    h1 {
+        font-size: 64px;
+        line-height: 68px;
+    }
+    
+    h2 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+    
+    h3 {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    
+    p {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    
+   
+    
+
+
+    #section1 {
+        padding: 16px 0px 0px;
+        gap: 40px;
+        justify-content: top;/* height: 100vh; */
+    }
+    
+        .logoCorona {
+            width: 215px;
+            height: 80px;
+        }
+    
+        .logoLanzamiento {
+            height: 104px;
+        }
+    
+        .header {
+            width: 100%;
+            padding: 0px 8vw;
+        }
+    
+        .hero {
+            height: 256px;
+        }
+    
+        .cta {
+            width: 744px;
+            gap: 32px;
+            padding: 0 0 20vh;
+        }
+    
+        .botonRegistro {
+            letter-spacing: 0.20em;
+            width: 256px;
+            height: 88px;
+            font-size: 20px;
+            bottom: 3%;
+        }
+
+
+    #section2 {
+        height: 60%;
+        padding: 80px 0px;
+        gap: 40px;
+        overflow: hidden;
+    }
+        .text {
+            padding: 0px 24px;
+            gap: 16px;
+            max-width: 512px;
+        }
+    
+        .lottie-hand {
+            width: 50%;
+            position: absolute;
+            left: 0;
+        }
+    
+        .section2-artwork {
+            width: 100%;
+        }
+    
+        .mini-grid {
+            gap: 5%;
+            right: -15%;
+        }
+    
+        .lanzamiento-card {
+            
+            min-width: 160px;
+            height: 45vw;
+            width: 40vw;
+            max-width: 328px;
+            max-height: 384px;
+            border-radius: 16px;
+            
+            /* height: 184px; */
+        }
+
+        .card-title {
+            padding: 40px 40px 24px 40px;
+        }
+
+        .date {
+            margin-bottom: 40px;
+            margin-left: 40px;
+        }
+
+
+    #section3 {
+        height: 70vh;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 40px 48px;
+
+    }
+    
+        .section3-artwork {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 16px;
+            height: 45vw;
+            width: 60vw;
+        }
+
+        .lotties-productos {
+            width:50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 4%;
+        }
+    
+        .lottie-products1 {
+            width: 100%;
+            height: 48%;
+            border-radius: 16px;
+        }
+
+        .lottie-products2 {
+            width: 100%;
+            height: 48%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 16px;
+        }
+    
+
+        .lottie-hand2 {
+            display: none;
+        }
+        
+        .lottie-hand3 {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: flex-end;
+            padding: 0%;
+
+            height: 100%;
+            border-radius: 16px;
+            background: var(--azul-medio);
+            box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25), 0px 9px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        .lottie1 {
+            position: relative;
+            bottom: 0px;
+        }
+            .lottie1.child {
+                height: 300px;
+            }
+
+        #texto2 {
+            width: 50%;
+        }
+
+    #form-reservar {
+        padding: 80px 80px;
+    }
+
+    #reservar {
+        background-image: url('../assets/botonAmarilloXL.png');
+    }
+
+
+
+}

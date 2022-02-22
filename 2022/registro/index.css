@@ -1,0 +1,564 @@
+html, body, section, div, p, a, h1, h2, h3, img, form, label, input, lottie-player {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Efecto smooth INICIO*/
+html{
+	scroll-behavior: smooth;
+}
+/* Efecto smooth FIN*/
+
+:root {
+    --color-fondo: #DEE3E8;
+    --azul-profundo: #003865;
+    --azul-medio: #005EB8;
+    --verde-grival: #008C96;
+    --amarillo-grival: #FFD300;
+    --blanco: #fff;
+
+    -webkit-appearance: none;
+}
+
+body {
+    background-size: 8vw 8vw;
+    background-image:
+      linear-gradient(to right, rgba(0, 56, 101, 0.08) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(0, 56, 101, 0.08) 1px, transparent 1px),
+      linear-gradient(to bottom, #DEE3E8 1px, #DEE3E8 1px);
+    background-attachment: fixed;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Brandon Text', brandon-grotesque, sans-serif;
+  }
+
+h1 {
+    color: var(--azul-profundo);
+    font-size: 40px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: var(--azul-profundo);
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--amarillo-grival);
+}
+
+p {
+    font-family: roboto;
+    color: var(--azul-profundo);
+    font-size: 16px;
+    line-height: 19px;
+}
+
+a {
+    font-family: 'Roboto';
+    text-decoration: none;
+    color: white;
+}
+
+label {
+    font-family: 'Roboto';
+    color: white;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 8px;
+}
+
+#section1 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0px 0px;
+    gap: 32px;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+    .logoCorona {
+        width: 137px;
+        height: 48px;
+    }
+
+    .logoLanzamiento {
+        height: 80px;
+        filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25)) drop-shadow(0px 9px 8px rgba(0, 0, 0, 0.15));
+    }
+
+    .header {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 8vw;
+    }
+
+    .desktop-hero {
+        box-sizing: border-box;
+        width: 100vw;
+        margin: 0px;
+    }
+
+    .hero {
+        box-sizing: border-box;
+        width: 120vw;
+        height: 256px;
+    }
+
+    .desktop-hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100vw;
+        height: 100%;
+    }
+
+    .cta {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0% 0% 40%;
+        width: 336px;
+        gap: 32px;
+    }
+
+    .intro-text {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .botonRegistro {
+        letter-spacing: 0.15em;
+        width: 176px;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 24px;
+        filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25)) drop-shadow(0px 9px 16px rgba(0, 0, 0, 0.25));
+        background-image: url('../assets/botonAzul.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: fixed;
+        bottom: 10%;
+        z-index: 5;
+    }
+
+
+#section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    padding:  0px 0px 40px 0px;
+    gap: 40px;
+    overflow: hidden;
+}
+    .text {
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+        padding: 0px 48px;
+        gap: 8px
+    }
+
+    .lottie-hand {
+        width: 50%;
+        position: absolute;
+        left: 0;
+        z-index: 5;
+    }
+
+    .section2-artwork {
+        width: 100%;
+        padding: 16px ;
+        padding-right: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .mini-grid {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        gap: 16px;
+        width: 100%;
+        justify-content: end;
+        right: -15%;
+        position: relative;
+        z-index: 1;
+            
+    }
+
+
+    .lanzamiento-card {
+        height: 35vw;
+        width: 30vw;
+        min-width: 160px;
+        min-height: 184px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        background-color: rgba(255, 255, 255, 0.1);
+        border: 2px;
+
+        
+        gap: 0px;
+        
+        border-radius: 8px;
+        border: 2px;
+        overflow: hidden;
+
+        box-shadow: 
+        0px 2px 2px rgba(0, 0, 0, 0.25), 
+        0px 9px 8px rgba(0, 0, 0, 0.15);
+
+        backdrop-filter: blur(2px);
+        -webkit-backdrop-filter: blur(2px);
+    }
+
+    .card-title {
+        padding: 16px 16px 8px 16px;
+        width: 100%;
+    }
+
+    .date {
+        margin-bottom: 16px;
+        margin-left: 16px;
+    }
+
+
+#section3 {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: default;
+    align-items: center;
+    padding: 40px 48px;
+}
+
+    .section3-artwork {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 16px;
+    }
+
+    .lottie-products1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        width: 140px;
+        height: 140px;
+        border-radius: 8px;
+        background: var(--verde-grival);
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25), 0px 9px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    .lottie-products2 {
+        display: none;
+        /* flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+
+        width: 140px;
+        height: 140px;
+        border-radius: 8px;
+        background: var(--verde-grival);
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25), 0px 9px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    .lottie-hand2 {
+        display: inline-block;
+        /* flex-direction: column; */
+        
+
+        width: 140px;
+        height: 140px;
+        border-radius: 8px;
+        background: var(--azul-medio);
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25), 0px 9px 8px rgba(0, 0, 0, 0.15);
+    }
+    .lottie-hand3 {
+        display: none;
+        /* flex-direction: column; */
+        
+
+        width: 140px;
+        height: 140px;
+        border-radius: 8px;
+        background: var(--azul-medio);
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25), 0px 9px 8px rgba(0, 0, 0, 0.15);
+    }
+
+#form-reservar {
+    background-color: var(--azul-profundo);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 56px 32px;
+    position: relative;
+    z-index: 99;
+    box-shadow: 0px -2px 2px rgba(0, 0, 0, 0.25), 0px -9px 24px rgba(0, 0, 0, 0.15);
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, Sans-Serif;
+    font-size: 16px;
+}
+
+div.form-personaldata {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+    gap: 8px;
+}
+
+
+select, #identidad, #canal {
+    font-family: Roboto, Sans-Serif;
+    font-weight: 400;
+    font-size: 16px;
+    min-height: 46px;
+    height: 46px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 0 0 16px 0;
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: var(--azul-profundo);
+    background-color: white;
+}
+
+input[type=text] {
+    -webkit-appearance: none; /* Safari and Chrome */
+    -moz-appearance:none; /* Firefox */
+    appearance:none;
+    font-family: Roboto, Sans-Serif;
+    font-weight: 400;
+    font-size: 16px;
+    min-height: 46px;
+    height: 46px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 0 0 16px 0;
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: var(--azul-profundo);
+    background-color: white;
+}
+
+input[type=text]:active {
+    border: 2px solid var(--amarillo-grival);
+}
+
+::placeholder {
+    font-family: Roboto, Sans-Serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--azul-profundo);
+}
+
+label.consentimiento {
+    display: flex;
+    align-items: center;
+}
+
+#consentimiento {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 4px;
+    margin: 0 14px 0 0;
+}
+
+#consentimiento::after {
+    position: static;
+    border-color: var(--amarillo-grival);
+}
+
+
+
+#reservar {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    max-width: none;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    margin-top: 24px;
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25)) drop-shadow(0px 9px 16px rgba(0, 0, 0, 0.25));
+   
+    background-image: url('../assets/botonAmarillo.png');
+    background-size: 100% 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    background-color: none;
+    border-radius: 8px;
+    background-color: #003865;
+    font-size: 18px;
+    color: #003865;
+    cursor: pointer;
+
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+
+}
+
+
+footer {
+    position: relative;
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--azul-profundo);
+}
+
+.tagline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem 0.5rem 0 0.5rem;
+    padding: 2rem 1rem;
+    border-radius: 10px;
+}
+
+.tagline h2 {
+    text-align: center;
+    color: white;
+}
+
+.contacto {
+    margin: 3rem 0.5rem;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.enlaces {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.enlaces h3 {
+    font-family: 'Brandon Text', brandon-grotesque, sans-serif;
+    font-size: 18px;
+    font-weight: 420;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.enlaces a {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (min-width: 540px) and (max-width: 1199px){
+    .tagline {
+        margin: 0.63rem;
+        padding: 2rem 6rem;
+    }
+
+    .contacto {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin: 3rem 4rem;
+    }
+
+    .redes {
+        min-width: 140px;
+        width: 40%;
+        margin-bottom: 0;
+    }
+
+    .enlaces {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .enlaces h3 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .tagline {
+        margin: 1rem;
+        padding: 2rem 6rem;
+    }
+
+    .contacto {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin: 3rem 10rem;
+    }
+
+    .redes {
+        width: 40%;
+        margin-bottom: 0;
+    }
+
+    .enlaces {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        color: white;
+    }
+
+    .enlaces h3 {
+        font-size: 24px;
+        color: white;
+    }
+
+}

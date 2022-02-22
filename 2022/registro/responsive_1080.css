@@ -1,0 +1,178 @@
+@media only screen and (min-width: 1080px) {
+    body {
+        padding: 0px;
+        background-size: 4vw 4vw
+    }
+
+    h1 {
+        font-size: 64px;
+        line-height: 68px;
+    }
+    
+    h2 {
+        font-size: 40px;
+        line-height: 44px;
+    }
+    
+    h3 {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    
+    p {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    #section1 {
+        width: 100vw;
+        padding: 48px 0px 0px;
+        gap: 32px;
+        height: 100vh;
+        justify-content: flex-start;
+        align-items: start;
+    }
+
+        .desktop-hero {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            width: 100vw;
+        }
+
+        .header {
+            padding: 0 8vw;
+        }
+    
+        .hero {
+            width: 60%;
+            height: 256px;
+            order: 1;
+        }
+    
+        .cta {
+            margin: 0 8vw;
+            order: 2;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            width: 60%;
+            gap: 32px;
+        }
+
+        #title{
+            text-align: right;
+        }
+
+        #subtitle{
+            text-align: right !important;
+            padding-right: 0 !important;
+
+        }
+    
+        .intro-text {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+    
+        .botonRegistro {
+            width: 208px;
+            height: 64px;
+            font-size: 20px;
+            background-size: contain ;
+            bottom: 10%;
+            right: 8vw;
+        }
+
+    #section2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 80vh;
+        padding:  0px 8vw 40px 4vw;
+        gap: 40px;
+        overflow: hidden;
+        width: 100vw;
+    }
+    
+        .lottie-hand {
+            width: 25%;
+            position: absolute;
+            left: -2%;
+            z-index: 5;
+        }
+
+        #texto2 {
+            padding-right: 0;
+            order: 2;
+        }
+
+        #title2{
+            text-align: right !important;
+        }
+
+        #subtitle2 {
+            text-align: right !important;
+        }
+
+        .section2-artwork {
+            width: 100%;
+            padding: 16px ;
+            padding-right: 0px;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            order: 1;
+        }
+
+        .mini-grid {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            gap: 32px;
+            width: 100%;
+            justify-content: end;
+            left: 0;
+            position: relative;
+            z-index: 1;
+                
+        }
+
+        .lanzamiento-card {
+            border: 4px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 0px;
+            min-width: 160px;
+            min-height: 184px;
+            height: 30vw;
+            width: 25vw;
+
+        }
+
+    #section3 {
+        height: 80vh;
+        width: 100%;
+        padding: 40px 4vw;
+        justify-content: space-evenly;
+    }
+        .section3-artwork {
+            width: 40vw;
+            height: 30vw;
+            order: 2;
+        }
+
+        #reservar {
+            right: 0px !important;
+            position: relative;
+        }
+
+    #form-reservar {
+        padding: 80px 32px;
+    }
+    
+}
