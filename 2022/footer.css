@@ -9,19 +9,12 @@ footer {
     padding: 1.6rem 1.6rem 1.6rem 1.6rem;
     color: white;
 }
-.footer-banos {
-    width: 100%;
-    background-color: var(--Banos);
-}
-.footer-cocinas {
-    width: 100%;
-    background-color: var(--Lavaderos);
-}
+
 
 .footerContainer {
     width: 100%;
 }
-.footerLogoContainer {
+.footer-logos {
     width: 100%;
     height: auto;
     display: flex;
@@ -36,18 +29,9 @@ footer {
     justify-content: flex-start;
     align-items: center;
 }
-.icon {
-    display: block;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 6rem;
-    height: 3rem;
-}
+
 .youtube {
     background-image: url(assets/youtube.svg);
-    width: 6rem;
-    height: 2.2rem;
 }
 .facebook {
     background-image: url(assets/facebook.svg);
