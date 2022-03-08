@@ -1,0 +1,41 @@
+#conteo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 1rem;
+
+    max-width: 524px;
+}
+
+#conteo div {
+    display: flex;
+    flex-direction: column;
+}
+
+#conteo div div span {
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+}
+
+.simply-amount {
+    font-size: 40px;
+}
+
+.simply-word {
+    font-size: 14px;
+}
+
+@media screen and (min-width: 960px){
+    #conteo {
+        gap: 4rem;
+    }
+    .simply-amount {
+        font-size: 4.5rem;
+    }
+    
+    .simply-word {
+        font-size: 1rem;
+    }
+}
