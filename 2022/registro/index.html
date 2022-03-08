@@ -17,6 +17,17 @@
     <link rel="stylesheet" href="responsive_1080.css">
 </head>
 <body>
+    <div id="modalRegistroBG" style="display: none;">
+        <div class="modalRegistroCard">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 1L21 21M21 1L1 21" stroke="#2E2E82" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            <div class="mensaje">
+                <h2>¡TE HAS REGISTRADO<br>EXITOSAMENTE!</h2>
+                <P>A tu correo llegará la confirmación del registro. Recuerda agendarte para el 23 de marzo a las 9 a.m. </P>
+            </div>
+        </div>
+    </div>
     <section id="section1">
         <div class="header">
             <img class="logoCorona" src="../assets/logoCoronaGrival.svg" alt="logo de corona">
@@ -196,7 +207,7 @@
         </div>
     </footer>
 
-
+    <script src="./assets/js/sendForm.js"></script>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </body>
 </html>
