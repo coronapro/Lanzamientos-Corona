@@ -1,0 +1,402 @@
+html, body, section, div, p, a, h1, h2, h3, h4, h5, img, form, label, input, lottie-player, iframe {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+:root {
+    --color-fondo: #DEE3E8;
+    --azul-profundo: #003865;
+    --azul-medio: #005EB8;
+    --verde-grival: #008C96;
+    --amarillo-grival: #FFD300;
+    --blanco: #fff;
+
+    -webkit-appearance: none;
+}
+
+body {
+    /* padding: 2vw 4vw 0 4vw; */
+    background-size: 8vw 8vw;
+    background-image:
+      linear-gradient(to right, rgba(0, 56, 101, 0.08) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(0, 56, 101, 0.08) 1px, transparent 1px),
+      linear-gradient(to bottom, #DEE3E8 1px, #DEE3E8 1px);
+    background-attachment: fixed;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Brandon Text', brandon-grotesque, sans-serif;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 44px;
+    text-align: center;
+}
+
+h2 {
+    
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.15em;
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 300;
+    letter-spacing: 0.15em;
+}
+
+h4 {
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 500;
+    text-transform: none !important;
+
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 900;
+    color: white;
+    letter-spacing: .1em;
+}
+
+p {
+    font-family: 'roboto', roboto, Roboto, sans-serif ;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+}
+
+.residencial {
+    color: var(--azul-profundo);
+}
+
+.corona {
+    background-color: var(--azul-medio);
+}
+
+.grival {
+    background-color: var(--verde-grival);
+}
+
+.institucional {
+    background-color: var(--azul-profundo);
+}
+
+
+/* HERO SECTION **********************************************************/
+
+.hero_section {
+    position: relative;
+
+    height: 100vh;
+    padding: 2vw 5vw 8vw 5vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-color: rgba(0, 0, 0, 0.1);
+    
+    box-shadow: inset 0px -4px 24px rgba(0, 0, 0, 0.25);
+    /* overflow: hidden; */
+}
+
+    .hero_video {
+        position: absolute;
+        overflow: hidden;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        padding: 0;
+    }
+
+    .hero_video iframe {
+        position: absolute;
+        top: 50vh;
+        left: 30%;
+        width: 100vw;
+        height: 100vh;
+        transform: translate(-50%, -50%);
+    }
+
+    @media (min-aspect-ratio: 16/9) {
+        .hero_video iframe {
+          /* height = 100 * (9 / 16) = 56.25 */
+          height: 56.25vw;
+        }
+      }
+      @media (max-aspect-ratio: 16/9) {
+        .hero_video iframe {
+          /* width = 100 / (9 / 16) = 177.777777 */
+          width: 177.78vh;
+        }
+      }
+
+
+
+    .logos {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1;
+    }
+
+    .logoCorona {
+        height: 48px;
+    }
+
+    .logoLanzamiento {
+        height: 80px;
+        filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25)) 
+                drop-shadow(0px 9px 8px rgba(0, 0, 0, 0.15));
+    }
+
+    .hero_text {
+        gap: 8px;
+        display: flex;
+        flex-direction: column;
+        z-index: 1;
+    }
+
+    .title {
+        gap: 8px;
+    }
+
+    .arrow_down {
+
+    }
+
+
+
+/* INTRO SECTION **********************************************************/
+.intro_section {
+    position: relative;
+
+    padding: 10vw 5vw 10vw 5vw;
+
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 32px;    
+}
+    
+    .intro_text {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .wrapper {
+        padding: 56.25% 0 0 0;
+        width: 100%;
+        position:relative; 
+        border-radius: 10px; 
+        -webkit-border-radius: 10px; 
+        overflow: hidden;
+
+        box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.25), 
+                        0px 2px 2px rgba(0, 0, 0, 0.35);
+        -moz-box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.25), 
+                            0px 2px 2px rgba(0, 0, 0, 0.35);
+    }
+
+    .intro_section iframe {
+        position:absolute;
+        top:0;
+        left:0;
+        right: 0;
+        bottom: 0;
+        width:100%;
+        height:100%; 
+        border-radius: 10px; 
+        -webkit-border-radius: 10px; 
+        overflow: hidden;
+
+        
+    }
+
+/* LANZAMIENTOS **********************************************************/
+
+.lanzamientos {
+    position: relative;
+
+    padding: 10vw 5vw 5vw 5vw;
+
+    display: flex;
+    flex-direction: column;
+    /* gap: 32px;     */
+}
+
+    .scrolling_container {
+        width: 100vw;
+        overflow-x: scroll;
+        padding: 1.6rem 0;
+        padding-left: 1.6rem;
+        margin-left: -1.6rem;
+    }
+
+    .index_grid {
+        display: grid;
+        gap: 1.6rem;
+        width: auto;
+        height: auto;
+        grid-template-columns: repeat(4, 1fr) auto;}
+
+    .card_Corona {
+        position: relative;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        width: 256px;
+        height: 340px;
+        max-height: 420px;
+
+        border: 2px solid var(--azul-medio);
+        border-radius: 10px;
+        background: rgba(255, 255, 255, 0.15);
+        overflow: hidden;
+
+        box-shadow: 0px 5px 2px rgba(0, 0, 0, 0.1), 
+                    0px 2px 2px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 0px 5px 2px rgba(0, 0, 0, 0.1), 
+                        0px 2px 2px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(2px);
+        -webkit-backdrop-filter: blur(2px);
+
+        transition: all 0.5s;
+    }
+
+    .card_Corona:hover {
+        box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.25), 
+                        0px 2px 2px rgba(0, 0, 0, 0.35);
+        -moz-box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.25), 
+                            0px 2px 2px rgba(0, 0, 0, 0.35);
+    }
+
+    .card_Image {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        overflow: hidden;
+    }
+
+    .card_Content {
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .arrow {
+        width: 32px;
+        height: 32px;
+
+        position: absolute;
+        top: 16px;
+        right: 16px;
+
+        background-image: url(./assets/arrowLine.svg);
+        object-fit: contain;
+    }
+
+    .card_Grival {
+        position: relative;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        width: 256px;
+        height: 340px;
+        max-height: 420px;
+
+        border: 2px solid var(--verde-grival);
+        border-radius: 10px;
+        background: rgba(255, 255, 255, 0.15);
+        overflow: hidden;
+
+        box-shadow: 0px 5px 2px rgba(0, 0, 0, 0.1), 
+                    0px 2px 2px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 0px 5px 2px rgba(0, 0, 0, 0.1), 
+                        0px 2px 2px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(2px);
+        -webkit-backdrop-filter: blur(2px);
+
+        transition: all 0.5s;
+    }
+
+    .card_Grival:hover {
+        box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.25), 
+                        0px 2px 2px rgba(0, 0, 0, 0.35);
+        -moz-box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.25), 
+                            0px 2px 2px rgba(0, 0, 0, 0.35);
+    }
+
+    .index_card-last {
+        width: 0.1rem;
+    }
+
+footer {
+    position: relative;
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--azul-profundo);
+}
+    
+    .tagline {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0.5rem 0.5rem 0 0.5rem;
+        padding: 2rem 1rem;
+        border-radius: 10px;
+    }
+    
+    .tagline h2 {
+        text-align: center;
+        color: white;
+    }
+    
+    .contacto {
+        margin: 3rem 0.5rem;
+    }
+    
+    .redes {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+    
+    .enlaces {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .enlaces h3 {
+        font-family: 'Brandon Text', brandon-grotesque, sans-serif;
+        font-size: 18px;
+        font-weight: 420;
+        margin-bottom: 1rem;
+        color: white;
+    }
+    
+    .enlaces a {
+        text-decoration: none;
+        color: white;
+    }

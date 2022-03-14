@@ -1,0 +1,63 @@
+@media only screen and (min-width: 1080px) {
+    
+    :root {
+        --color-fondo: #DEE3E8;
+        --azul-profundo: #003865;
+        --azul-medio: #005EB8;
+        --verde-grival: #008C96;
+        --amarillo-grival: #FFD300;
+        --blanco: #fff;
+    
+        -webkit-appearance: none;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    h4 {
+        font-size: 24px;
+    }
+
+    h5 {
+        font-size: 24px
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 24px;
+
+    }
+
+    /* HERO SECTION **********************************************************/
+
+    .hero_section {
+        padding: 4vw 10vw 4vw 10vw;
+    }
+
+     /* INTRO SECTION **********************************************************/
+
+     .intro_section {
+        padding: 6vw 10vw 4vw 10vw;
+     }
+
+        .intro_text {
+            width:80%;
+        }
+
+    /* LANZAMIENTOS **********************************************************/
+
+    .lanzamientos {
+        padding: 4vw 10vw 4vw 10vw;
+    }
+
+
+
+
+
+}

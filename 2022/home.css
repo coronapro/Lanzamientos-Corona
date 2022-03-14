@@ -141,7 +141,7 @@ a {
         color: var(--verde-grival);
         border: 2px solid var(--verde-grival);
         background: url(assets/fondoResidencialS.png), 
-                    rgba(255, 255, 255, 0.35);
+                    rgba(255, 255, 255, 0.15);
         background-position: 0;
         background-size: cover;
     }
@@ -150,7 +150,7 @@ a {
         color: var(--azul-profundo);
         border: 2px solid var(--azul-profundo);
         background: url(assets/fondoInstitucionalS.png), 
-                    rgba(255, 255, 255, 0.35);
+                    rgba(255, 255, 255, 0.15);
         background-position: 0;
         background-size: cover;
     }
@@ -199,7 +199,7 @@ a {
          flex-direction: row;
          width: 50%;
          align-items: flex-start;
-         justify-content: end;
+         justify-content: flex-end;
      }
 
      .youtube {
