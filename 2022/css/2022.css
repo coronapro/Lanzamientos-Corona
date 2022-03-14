@@ -179,9 +179,9 @@ a {
         gap: 8px;
     }
 
-    .arrow_down {
+    /* .arrow_down {
 
-    }
+    } */
 
 
 
@@ -227,8 +227,6 @@ a {
         border-radius: 10px; 
         -webkit-border-radius: 10px; 
         overflow: hidden;
-
-        
     }
 
 /* LANZAMIENTOS **********************************************************/
@@ -397,6 +395,7 @@ footer {
     }
     
     .enlaces a {
+        font-family: roboto;
         text-decoration: none;
         color: white;
     }

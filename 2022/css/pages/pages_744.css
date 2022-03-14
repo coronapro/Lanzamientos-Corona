@@ -1,0 +1,82 @@
+@media only screen and (min-width: 768px) {
+
+    :root {
+        --color-fondo: #DEE3E8;
+        --azul-profundo: #003865;
+        --azul-medio: #005EB8;
+        --verde-grival: #008C96;
+        --amarillo-grival: #FFD300;
+        --blanco: #fff;
+    
+        -webkit-appearance: none;
+    } 
+
+    /* HERO SECTION *********************************/
+    
+    .section_hero {
+        height: auto;
+    }
+    
+        .hero_video-mobile {
+            display: none;
+        }
+
+        .hero_video-tablet {
+            display: flex;
+        }
+    
+        .hero_video-desktop {
+            display: none;
+        }
+
+        .arrowBackL {
+            top: 4vw;
+            left: 4vw;
+        }
+
+    .section_intro {
+        grid-template-rows: auto;
+        grid-template-columns: auto auto;
+        height: auto;
+        margin-bottom: 5vw;
+        box-sizing: content-box;
+        padding-bottom: 0;
+    }
+
+        .section_intro {
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+        }
+
+        .wrapper {
+            min-width: 50vw;
+               
+        }
+
+        .intro_text {
+            max-width: 50vw;
+        }
+
+    .section_productos {
+        padding-bottom: 0;
+    }
+
+    .section_atributos {
+        padding-bottom: 0;
+    }
+
+    .section_imagenes {
+        padding-bottom: 0;
+    }
+
+    
+    .detailCard {
+        width: 504px;
+    }
+    
+    .botonera {
+        max-width: 100%;
+        display: flex;
+    }
+
+        .

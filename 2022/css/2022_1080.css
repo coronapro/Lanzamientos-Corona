@@ -11,6 +11,10 @@
         -webkit-appearance: none;
     }
 
+    body {
+        background-size: 4vw 4vw;
+    }
+
     h2 {
         font-size: 32px;
     }
@@ -54,6 +58,52 @@
 
     .lanzamientos {
         padding: 4vw 10vw 4vw 10vw;
+    }
+
+    .index_grid {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        width: 80vw;
+        gap: 24px
+        
+    }
+
+    .card_Corona {
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        /* max-width: 500px; */
+        height: 300px;
+
+    }
+
+    .card_Grival {
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        height: 300px;
+
+    }
+
+    .card_Image {
+        order: 2;
+        object-fit: contain;
+        object-position: bottom;
+        bottom: 0;
+    }
+
+    .card_Content {
+
+        order: 1;
+    }
+
+    footer {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .redes {
+        width: 100%;
     }
 
 
