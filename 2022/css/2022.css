@@ -399,3 +399,44 @@ footer {
         text-decoration: none;
         color: white;
     }
+
+
+    /* SPINNERS*****************************************************/
+#spinner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 30;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 1;
+    transition: opacity 2s;
+  }
+
+  #spinner .lottie {
+    width: 200px;
+    height: 200px;
+  }
+  
+  #spinner_video{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: fixed;
+      left: 0;
+      top: 0;
+      height: 100vh;
+      width: 100vw;
+      z-index: 30;
+      background-color: rgba(0, 0, 0, 0.8);
+      opacity: 1;
+      transition: opacity 5s;
+  }
+  
+  #spinner_video .lottie {
+      width: 200px;
+      height: 200px;}

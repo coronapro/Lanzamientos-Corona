@@ -65,6 +65,10 @@
         padding-bottom: 0;
     }
 
+        /* .atributos_grid {
+
+        } */
+
     .section_imagenes {
         padding-bottom: 0;
     }
@@ -79,4 +83,39 @@
         display: flex;
     }
 
-        .
+        .botonera :first-child {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        .botonera div {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            /* padding: 0 2% 0 2%; */
+        }
+
+        .botonera a {
+            margin-right: 40px;
+            
+        }
+
+        .botonNext {
+            width: 24px;
+            height: 24px;
+            display: block;
+            right: 2vw;
+            /* margin-left: 16px; */
+
+        }
+
+        .arrowLeft {
+            width: 24px;
+            height: 24px;
+            display: block;
+        }
+
+}
