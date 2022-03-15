@@ -39,6 +39,11 @@
         .hero_text p {
             width: 30%;
         }
+
+        .arrow_down {
+            width: 64px;
+            height: 64px;
+        }
     
 
     /* INTRO SECTION **********************************************************/   

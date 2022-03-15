@@ -41,13 +41,18 @@
     /* HERO SECTION **********************************************************/
 
     .hero_section {
-        padding: 4vw 10vw 4vw 10vw;
+        padding: 4vw 5vw 4vw 5vw;
+    }
+
+    .arrow_down {
+        width: 72px;
+        height: 72px;
     }
 
      /* INTRO SECTION **********************************************************/
 
      .intro_section {
-        padding: 6vw 10vw 4vw 10vw;
+        padding: 6vw 5vw 4vw 5vw;
      }
 
         .intro_text {
@@ -57,31 +62,37 @@
     /* LANZAMIENTOS **********************************************************/
 
     .lanzamientos {
-        padding: 4vw 10vw 4vw 10vw;
+        padding: 4vw 5vw 4vw 5vw;
     }
 
     .index_grid {
         grid-template-rows: 1fr 1fr;
         grid-template-columns: repeat(2, 1fr);
-        width: 80vw;
+        width: 90vw;
         gap: 24px
         
     }
 
     .card_Corona {
         grid-template-rows: 1fr;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 40% 60%;
         width: 100%;
         /* max-width: 500px; */
         height: 300px;
+        border: 3px solid var(--azul-medio);        
+    }
 
+    .card_Corona h5 {
+        font-size: 20px;
+        display: inline-block;
     }
 
     .card_Grival {
         grid-template-rows: 1fr;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 40% 60%;
         width: 100%;
         height: 300px;
+        border: 3px solid var(--verde-grival);
 
     }
 
@@ -93,7 +104,7 @@
     }
 
     .card_Content {
-
+        padding:10%;
         order: 1;
     }
 

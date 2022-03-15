@@ -6,6 +6,7 @@ html, body, section, div, p, a, h1, h2, h3, h4, h5, img, form, label, input, lot
 
 html{
 	scroll-behavior: smooth;
+    width: 100vw;
 }
 
 :root {
@@ -27,6 +28,7 @@ body {
       linear-gradient(to bottom, rgba(0, 56, 101, 0.08) 1px, transparent 1px),
       linear-gradient(to bottom, #DEE3E8 1px, #DEE3E8 1px);
     background-attachment: fixed;
+
 }
 
 h1, h2, h3, h4, h5 {
@@ -179,9 +181,25 @@ a {
         gap: 8px;
     }
 
-    /* .arrow_down {
+    .hero_details {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
-    } */
+    .hero_details p {
+        width: 60%;
+    }
+
+    .arrow_down {
+        display: inline-block;
+        background-image: url(../assets/arrowDownWhite.svg);
+        width: 48px;
+        height: 48px;
+        object-fit: contain;
+        object-position: center;
+        background-repeat: no-repeat;
+    }
 
 
 

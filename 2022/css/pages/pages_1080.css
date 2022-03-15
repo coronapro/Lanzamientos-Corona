@@ -6,7 +6,8 @@
 
     h2 {
         font-size: 32px;
-        line-height: 36px;
+        line-height: 38px;
+        margin-top: 8px;
     }
 
     h3 {
@@ -184,21 +185,24 @@
     /* BOTONERA SECTION *****************************************/
 
     .botonera{
+        display: flex;
         width: 100%;
     }
 
         .botonera  a{
-            font-size: 24px;
+            font-size: 20px;
             letter-spacing: 0.05em;
-            font-weight: 300;
+            text-transform: uppercase;
+            font-weight: 600;
         }
 
         .botonera :first-child {
-            height: 80px !important;
+            height: 64px !important;
         }
 
         .botonera div {
-            height: 80px;
+            height: 64px;
+            
         }
 
         .arrowLeft {
@@ -209,7 +213,7 @@
         .botonNext {
             width: 32px;
             height: 32px;
-            right: 1vw;
+
         }
 
     
