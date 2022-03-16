@@ -26,8 +26,11 @@ html{
 }
 
 body {
-
-    padding: 2vw 4vw 0 4vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2vw 4vw 2vw 4vw;
     background-size: 8vw 8vw;
     background-image:
       linear-gradient(to right, rgba(0, 56, 101, 0.08) 1px, transparent 1px),
@@ -95,7 +98,7 @@ a {
 .logoLanzamiento {
     height: 80px;
     filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25)) 
-            drop-shadow(0px 9px 8px rgba(0, 0, 0, 0.15));
+            /* drop-shadow(0px 9px 8px rgba(0, 0, 0, 0.15)); */
 }
 
 .cardContainer {
@@ -203,7 +206,7 @@ a {
      }
 
      .youtube {
-        background-image: url(/assets/icons/youtube.svg);
+        background-image: url(/2022/assets/youtube.svg);
         display: block;
         width: 50px;
         height: 50px;
@@ -213,7 +216,7 @@ a {
     }
 
     .facebook {
-        background-image: url(/assets/icons/facebook.svg);
+        background-image: url(/2022/assets/facebook.svg);
         display: block;
         width: 50px;
         height: 50px;
@@ -223,7 +226,7 @@ a {
     }
 
     .instagram {
-        background-image: url(/assets/icons/instagram.svg);
+        background-image: url(/2022/assets/instagram.svg);
         display: block;
         width: 50px;
         height: 50px;
@@ -233,7 +236,7 @@ a {
     }
 
     .pinterest {
-        background-image: url(/assets/icons/pinterest.svg);display: block;
+        background-image: url(/2022/assets/pinterest.svg);display: block;
         width: 50px;
         height: 50px;
         background-size: 30px 30px;
@@ -247,7 +250,7 @@ a {
 @media only screen and (min-width: 744px) {
    
     body {
-        padding: 4vw 8vw 0 8vw;
+        padding: 4vw 8vw 4vw 8vw;
         background-size: 4vw 4vw;
     }
 
@@ -274,6 +277,14 @@ a {
         display: inline-block;
         height: 20px;
         gap: 8px;
+    }
+
+    .logoCorona {
+        height: 64px;
+    }
+
+    .logoLanzamiento {
+        height:100px;
     }
 
     .salaCard_Header {
@@ -313,8 +324,10 @@ a {
 @media only screen and (min-width: 1080px) {
    
     body {
-        padding: 4vw 4vw 0 4vw;
+        padding: 4vw 4vw 4vw 4vw;
         justify-content: space-between;
+        max-width: 1800px;
+        margin: auto;
     }
 
     
@@ -339,6 +352,8 @@ a {
 
     .cardContainer {
         flex-direction: row;
+        justify-content: space-between;
+        
     }
     
     .title {
@@ -347,6 +362,7 @@ a {
     
     .salaCard {
         padding: 5% 40px 15% 40px;
+        height: 496px;
     }
 
     #residencial {
