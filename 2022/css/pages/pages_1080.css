@@ -37,6 +37,26 @@
         object-position: center;
     }
 
+    /* .section_hero {
+    } */
+
+    .hero_video-mobile {
+        display: none;
+    }
+
+    .hero_video-tablet {
+        display: none;
+    }
+
+    .hero_video-desktop {
+        display: flex;
+    }
+
+
+    .section_intro {
+        padding-bottom: 0;
+    }
+
     .intro_section h4{
         font-size: 24px !important;
      }
@@ -49,8 +69,11 @@
     /* PRODUCTOS SECTION *****************************************/
     
     .section_productos {
-        padding-top: 3vw;
         gap: 24px;
+    }
+
+    .atributoGrival {
+        border: 3px solid var(--verde-grival) !important;
     }
     
     .index_grid {
@@ -98,7 +121,6 @@
  
         /* ATRIBUTOS SECTION *****************************************/
     .section_atributos {
-        padding-top: 3vw;
         gap: 24px;
     }
 

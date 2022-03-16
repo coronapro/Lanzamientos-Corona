@@ -17,6 +17,7 @@
 
     h2 {
         font-size: 32px;
+        line-height: 38px;
     }
 
     h3 {
@@ -45,8 +46,8 @@
     }
 
     .arrow_down {
-        width: 72px;
-        height: 72px;
+        width: 48px;
+        height: 48px;
     }
 
      /* INTRO SECTION **********************************************************/
@@ -62,13 +63,21 @@
     /* LANZAMIENTOS **********************************************************/
 
     .lanzamientos {
-        padding: 4vw 5vw 4vw 5vw;
+        padding: 4vw 5vw 0vw 5vw;
+    }
+
+    .scrolling_container {
+        width: 100%;
+        overflow: hidden ;
+
+        margin: 0;
+        padding: 16px 0 0 0;
     }
 
     .index_grid {
         grid-template-rows: 1fr 1fr;
         grid-template-columns: repeat(2, 1fr);
-        width: 90vw;
+        width: 100%;
         gap: 24px
         
     }
@@ -107,6 +116,10 @@
         padding:10%;
         order: 1;
     }
+
+    /* .arrow {
+
+    } */
 
     footer {
         align-items: center;
