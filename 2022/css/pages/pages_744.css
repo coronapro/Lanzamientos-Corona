@@ -36,11 +36,8 @@
 
     .section_intro {
         grid-template-rows: auto;
-        grid-template-columns: auto auto;
-        height: auto;
-        margin-bottom: 5vw;
-        box-sizing: content-box;
-        padding-bottom: 0;
+        grid-template-columns: 1fr 1fr;
+        box-sizing: border-box;
     }
 
         .section_intro {
@@ -49,8 +46,8 @@
         }
 
         .wrapper {
-            min-width: 50vw;
-               
+            min-width: 40vw;
+            max-width: 50vw;
         }
 
         .intro_text {
@@ -81,7 +78,6 @@
     }
     
     .botonera {
-        max-width: 100%;
         grid-template-rows: 50% 50%;
     }
 

@@ -50,9 +50,7 @@
     
     .intro_section {
         grid-template-rows: auto;
-        grid-template-columns: auto auto;
-        height: 40vh;
-        margin-bottom: 5vw;
+        grid-template-columns: 1fr 1fr;
         box-sizing: border-box;
     }
 

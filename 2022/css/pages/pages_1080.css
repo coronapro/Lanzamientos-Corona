@@ -51,14 +51,20 @@
     .hero_video-desktop {
         display: flex;
     }
+    
 
 
     .section_intro {
-        padding-bottom: 0;
+        padding: 5vw 5vw 3vw 5vw;
     }
+
 
     .intro_section h4{
         font-size: 24px !important;
+     }
+
+     .intro_text {
+         width: 100%;
      }
 
     .intro_text p {
@@ -67,43 +73,54 @@
     }
 
     /* PRODUCTOS SECTION *****************************************/
-    
+
     .section_productos {
+        max-width: 1400px;
+        margin: 0 auto;
         gap: 24px;
     }
 
     .atributoGrival {
         border: 3px solid var(--verde-grival) !important;
     }
-    
-    .index_grid {
-        grid-template-columns: repeat(3, 1fr);
-        width: 90vw;
+
+    .atributoInsti {
+        border: 3px solid var(--azul-profundo) !important;
     }
 
-    .scrolling_cointainer {
-        overflow-x: scroll;
+    .index_grid {
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
     }
-    
+
+    .scrolling_container {
+        overflow: visible;
+        overflow-x: visible;
+        width: 100%;
+
+        padding-left: 0;
+        margin-left: 0;
+    }
+
     .card_Product {
         grid-template-rows: 60% 60%;
         width: 100%;
-        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2), 
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2),
                     0px 2px px rgba(0, 0, 0, 0.2);
-        -moz-box-shadow: 0px 5px 2px rgba(0, 0, 0, 0.2), 
+        -moz-box-shadow: 0px 5px 2px rgba(0, 0, 0, 0.2),
                         0px 2px 2px rgba(0, 0, 0, 0.2);
     }
 
         .card_Content {
             padding: 16px 16px;
-            
+
         }
 
         .card_Image {
             object-fit: cover;
             object-position: center;
         }
-        
+
 
         #sahara {
             border: 3px solid #D2C6A3;
@@ -117,15 +134,17 @@
         #black {
             border: 3px solid #666;
         }
- 
- 
+
+
         /* ATRIBUTOS SECTION *****************************************/
     .section_atributos {
+        max-width: 1400px;
+        margin: 0 auto;
         gap: 24px;
     }
 
         .atributos_grid {
-            width: 90vw;
+            width: 100%;
             grid-template-columns: repeat(3, 1fr);
             grid-template-rows: 1fr 1fr;
         }
@@ -154,14 +173,16 @@
 
          /* IMAGENES SECTION *****************************************/
 
-        .section_imagenes{
-            gap: 24px;
-        }
+    .section_imagenes{
+        max-width: 1400px;
+        margin: 0 auto;
+        gap: 24px;
+    }
 
         .scrolling_container-detailCard{
             display: none;
         }
-        
+
          .detailCard {
             display: flex;
             justify-content: center;
@@ -172,9 +193,9 @@
             box-shadow: var(--Shadow);
             overflow: hidden;
         }
-    
+
         .productsGallery {
-            width: 90vw;
+            width: 100%;
             margin: 0 auto;
             margin-bottom: 3.2rem;
             padding: 3.2rem;
@@ -184,26 +205,26 @@
             -webkit-backdrop-filter: blur(2px);
 
             border-radius: 10px;
-            border: 3px solid var(--azul-profundo);
+            border: 3px solid var(--azul-medio);
         }
         .gallery {
             padding: 0;
             position: relative;
             display: block;
         }
-    
+
         .gallerySlides {
             display: block;
             border-radius: 10px;
             overflow: hidden;
         }
-    
+
         .imageGallery {
             border-radius: 10px;
             overflow: hidden;
         }
 
-    
+
     /* BOTONERA SECTION *****************************************/
 
     .botonera{
@@ -224,7 +245,7 @@
 
         .botonera div {
             height: 64px;
-            
+
         }
 
         .arrowLeft {
@@ -238,6 +259,6 @@
 
         }
 
-    
-    
+
+
 }

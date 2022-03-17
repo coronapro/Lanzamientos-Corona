@@ -53,7 +53,7 @@
      /* INTRO SECTION **********************************************************/
 
      .intro_section {
-        padding: 6vw 5vw 4vw 5vw;
+        padding: 5vw 5vw 3vw 5vw;
      }
 
         .intro_text {
@@ -63,12 +63,13 @@
     /* LANZAMIENTOS **********************************************************/
 
     .lanzamientos {
-        padding: 4vw 5vw 0vw 5vw;
+        padding: 4vw 5vw 4vw 5vw;
     }
 
     .scrolling_container {
         width: 100%;
-        overflow: hidden ;
+        overflow: visible;
+        overflow-x: visible;
 
         margin: 0;
         padding: 16px 0 0 0;
