@@ -64,5 +64,45 @@
             padding-top: 5vw;
         }
 
+    .botonera {
+        grid-template-rows: 50% 50%;
+    }
+
+        .botonera :first-child {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        .botonera div {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        .botonera a {
+            margin-right: 40px;
+            font-size: 12px;
+        }
+
+        .botonNext {
+            width: 24px;
+            height: 24px;
+            display: block;
+            right: 2vw;
+            /* margin-left: 16px; */
+
+        }
+
+        .arrowLeft {
+            width: 24px;
+            height: 24px;
+            display: block;
+            right: 2vw;
+        }
+
    
 }

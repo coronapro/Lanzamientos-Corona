@@ -125,6 +125,40 @@
         
     }
 
+    /* BOTONERA SECTION *****************************************/
+
+    .botonera{
+        display: flex;
+        width: 100%;
+    }
+
+        .botonera  a{
+            font-size: 20px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+
+        .botonera :first-child {
+            height: 64px !important;
+        }
+
+        .botonera div {
+            height: 64px;
+
+        }
+
+        .arrowLeft {
+            width: 32px;
+            height: 32px;
+        }
+
+        .botonNext {
+            width: 32px;
+            height: 32px;
+
+        }
+
     footer {
         align-items: center;
         justify-content: center;
