@@ -18,50 +18,50 @@ const vajillasCorona = document.createElement("a");
 const inspirame = document.createElement("a");
 const politica = document.createElement("a");
 
-footerH4.innerHTML = "construimos sueños a través de los espacios";
-footerH4.classList.add("footerH4")
+// footerH4.innerHTML = "construimos sueños a través de los espacios";
+// footerH4.classList.add("footerH4")
 
-footerLogoYoutube.appendChild(spanYoutube);
-spanYoutube.classList.add("icon"); 
-spanYoutube.classList.add("youtube"); 
-footerLogoYoutube.href = "https://www.youtube.com/user/OrganizacionCorona";
+// footerLogoYoutube.appendChild(spanYoutube);
+// spanYoutube.classList.add("icon"); 
+// spanYoutube.classList.add("youtube"); 
+// footerLogoYoutube.href = "https://www.youtube.com/user/OrganizacionCorona";
 
-footerLogoFacebook.appendChild(spanFacebook);
-spanFacebook.classList.add("icon");
-spanFacebook.classList.add("facebook");
-footerLogoFacebook.href = "https://www.facebook.com/coronamejoratuvida/";
+// footerLogoFacebook.appendChild(spanFacebook);
+// spanFacebook.classList.add("icon");
+// spanFacebook.classList.add("facebook");
+// footerLogoFacebook.href = "https://www.facebook.com/coronamejoratuvida/";
 
-footerLogoInstagram.appendChild(spanInstagram);
-spanInstagram.classList.add("icon");
-spanInstagram.classList.add("instagram");
-footerLogoInstagram.href = "https://www.instagram.com/corona_inspira/";
+// footerLogoInstagram.appendChild(spanInstagram);
+// spanInstagram.classList.add("icon");
+// spanInstagram.classList.add("instagram");
+// footerLogoInstagram.href = "https://www.instagram.com/corona_inspira/";
 
-footerLogoPinterest.appendChild(spanPinterest);
-spanPinterest.classList.add("icon");
-spanPinterest.classList.add("pinterest");
-footerLogoPinterest.href = "https://co.pinterest.com/coronainspira/";
+// footerLogoPinterest.appendChild(spanPinterest);
+// spanPinterest.classList.add("icon");
+// spanPinterest.classList.add("pinterest");
+// footerLogoPinterest.href = "https://co.pinterest.com/coronainspira/";
 
-footerLogoContainer.append(footerLogoYoutube, footerLogoFacebook, footerLogoInstagram, footerLogoPinterest);
-footerLogoContainer.classList.add("footerLogoContainer");
+// footerLogoContainer.append(footerLogoYoutube, footerLogoFacebook, footerLogoInstagram, footerLogoPinterest);
+// footerLogoContainer.classList.add("footerLogoContainer");
 
-footerH3.innerHTML = "Visita nuestros otros sitios";
-coronaCo.href = "https://corona.co";
-coronaCo.innerText = "Corona.co";
-centroCorona.href ="https://centrocorona.corona.co/";
-centroCorona.innerText = "Centros Corona";
-vajillasCorona.href = "https://www.vajillascorona.com.co/";
-vajillasCorona.innerText = "Vajillas Corona";
-inspirame.href = "https://www.inspirame.com.co/";
-inspirame.innerText = "Inspirame";
-politica.href = "https://b2bcorona.blob.core.windows.net/b2bresources/B2B/mediacoronaco/Politica-Tratamiento-de-Datos-Personales-V3.pdf";
-politica.innerText = "Política de datos";
+// footerH3.innerHTML = "Visita nuestros otros sitios";
+// coronaCo.href = "https://corona.co";
+// coronaCo.innerText = "Corona.co";
+// centroCorona.href ="https://centrocorona.corona.co/";
+// centroCorona.innerText = "Centros Corona";
+// vajillasCorona.href = "https://www.vajillascorona.com.co/";
+// vajillasCorona.innerText = "Vajillas Corona";
+// inspirame.href = "https://www.inspirame.com.co/";
+// inspirame.innerText = "Inspirame";
+// politica.href = "https://b2bcorona.blob.core.windows.net/b2bresources/B2B/mediacoronaco/Politica-Tratamiento-de-Datos-Personales-V3.pdf";
+// politica.innerText = "Política de datos";
 
-footerOtrosSitios.append (footerH3, coronaCo, centroCorona, vajillasCorona, inspirame, politica);
-footerOtrosSitios.classList.add("footerOtrosSitios");
+// footerOtrosSitios.append (footerH3, coronaCo, centroCorona, vajillasCorona, inspirame, politica);
+// footerOtrosSitios.classList.add("footerOtrosSitios");
 
-footerContainer.append (footerH4, footerLogoContainer, footerOtrosSitios);
-footerContainer.classList.add("footerContainer")
-footer.appendChild(footerContainer);
+// footerContainer.append (footerH4, footerLogoContainer, footerOtrosSitios);
+// footerContainer.classList.add("footerContainer")
+// footer.appendChild(footerContainer);
 
 //LIGHTBOX//
 function openModal() {

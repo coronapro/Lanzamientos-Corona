@@ -12,20 +12,28 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="css/home.css">
+
+    <link rel="apple-touch-startup-image" href="/Corona-favicon.svg">
+   <link rel="icon" href="/Corona-favicon.svg">
     <!-- <link rel="stylesheet" href="footer.css"> -->
     <!-- <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="responsive_744.css">
     <link rel="stylesheet" href="responsive_1080.css"> -->
 </head>
 <body>
+
+    <div id="spinner_video">
+        <lottie-player class="lottie" src="https://assets8.lottiefiles.com/packages/lf20_phdadl7o.json" background="transparent"  speed="2" loop  autoplay></lottie-player>
+    </div>
+
     <div class="logos">
         <img class="logoCorona" src="assets/logoCoronaGrival.svg" alt="">
         <img class="logoLanzamiento" src="assets/logoLanzamiento.png" alt="">
     </div>
 
     <div class="cardContainer">
-        <a href="">
+        <a href="residencial/index.html">
             <div id="residencial" class="salaCard">
                 <div class="salaCard_Header">
                     <div class="title" style="color: #008C96;">
@@ -39,7 +47,7 @@
             </div>
         </a>
 
-        <a href="">
+        <a href="institucional/index.html">
             <div id="institucional" class="salaCard">
                 <div class="salaCard_Header">
                     <div class="title">
@@ -62,6 +70,7 @@
         <div style="color: #003865; width: 50%; display: inline-block;">
             <h4>Otros sitios</h4>
             <div class="links">
+                <a href="/2021/index.html">LANZAMIENTO 2021</a>
                 <a href="https://b2bcorona.blob.core.windows.net/b2bresources/B2B/mediacoronaco/Politica-Tratamiento-de-Datos-Personales-V3.pdf">Política de datos</a>
                 <a href="https://centrocorona.corona.co/">Centros Corona</a>
                 <a href="https://www.vajillascorona.com.co/">Vajillas Corona</a>
@@ -79,5 +88,8 @@
                         
     </div>
     
+
+    <script src="../../../js/spinnerVideo.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> <!--LOTTIE FILES-->
 </body>
 </html>

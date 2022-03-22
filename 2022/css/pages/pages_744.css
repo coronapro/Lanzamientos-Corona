@@ -1,0 +1,120 @@
+@media only screen and (min-width: 768px) {
+
+    :root {
+        --color-fondo: #DEE3E8;
+        --azul-profundo: #003865;
+        --azul-medio: #005EB8;
+        --verde-grival: #008C96;
+        --amarillo-grival: #FFD300;
+        --blanco: #fff;
+    
+        -webkit-appearance: none;
+    } 
+
+    /* HERO SECTION *********************************/
+    
+    .section_hero {
+        height: auto;
+    }
+    
+        .hero_video-mobile {
+            display: none;
+        }
+
+        .hero_video-tablet {
+            display: flex;
+        }
+    
+        .hero_video-desktop {
+            display: none;
+        }
+
+        .arrowBackL {
+            top: 4vw;
+            left: 4vw;
+        }
+
+    .section_intro {
+        grid-template-rows: auto;
+        grid-template-columns: 1fr 1fr;
+        box-sizing: border-box;
+    }
+
+        .section_intro {
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+        }
+
+        .wrapper {
+            min-width: 40vw;
+            max-width: 50vw;
+        }
+
+        .intro_text {
+            max-width: 50vw;
+        }
+
+    .section_productos {
+        padding-top: 2vw;
+        padding-bottom: 0;
+    }
+
+    .section_atributos {
+        padding-top: 2vw;
+        padding-bottom: 0;
+    }
+
+        /* .atributos_grid {
+
+        } */
+
+    .section_imagenes {
+        padding-bottom: 0;
+    }
+
+    
+    .detailCard {
+        width: 504px;
+    }
+    
+    .botonera {
+        grid-template-rows: 50% 50%;
+    }
+
+        .botonera :first-child {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        .botonera div {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        .botonera a {
+            margin-right: 40px;
+            font-size: 12px;
+        }
+
+        .botonNext {
+            width: 24px;
+            height: 24px;
+            display: block;
+            right: 2vw;
+            /* margin-left: 16px; */
+
+        }
+
+        .arrowLeft {
+            width: 24px;
+            height: 24px;
+            display: block;
+            right: 2vw;
+        }
+
+}

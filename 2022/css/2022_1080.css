@@ -1,0 +1,175 @@
+@media only screen and (min-width: 1080px) {
+    
+    :root {
+        --color-fondo: #DEE3E8;
+        --azul-profundo: #003865;
+        --azul-medio: #005EB8;
+        --verde-grival: #008C96;
+        --amarillo-grival: #FFD300;
+        --blanco: #fff;
+    
+        -webkit-appearance: none;
+    }
+
+    body {
+        background-size: 4vw 4vw;
+    }
+
+    h2 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    h3 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    h4 {
+        font-size: 24px;
+    }
+
+    h5 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 24px;
+
+    }
+
+    /* HERO SECTION **********************************************************/
+
+    .hero_section {
+        padding: 4vw 5vw 4vw 5vw;
+    }
+
+    .arrow_down {
+        width: 48px;
+        height: 48px;
+    }
+
+     /* INTRO SECTION **********************************************************/
+
+     .intro_section {
+        padding: 5vw 5vw 3vw 5vw;
+     }
+
+        .intro_text {
+            width:80%;
+        }
+
+    /* LANZAMIENTOS **********************************************************/
+
+    .lanzamientos {
+        padding: 4vw 5vw 4vw 5vw;
+    }
+
+    .scrolling_container {
+        width: 100%;
+        overflow: visible;
+        overflow-x: visible;
+
+        margin: 0;
+        padding: 16px 0 0 0;
+    }
+
+    .index_grid {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        gap: 24px
+        
+    }
+
+    .card_Corona {
+        grid-template-rows: 1fr;
+        grid-template-columns: 40% 60%;
+        width: 100%;
+        /* max-width: 500px; */
+        height: 300px;
+        border: 3px solid var(--azul-medio);        
+    }
+
+    .card_Corona h5 {
+        font-size: 20px;
+        display: inline-block;
+    }
+
+    .card_Grival {
+        grid-template-rows: 1fr;
+        grid-template-columns: 40% 60%;
+        width: 100%;
+        height: 300px;
+        border: 3px solid var(--verde-grival);
+
+    }
+
+    .card_Image {
+        order: 2;
+        object-fit: contain;
+        object-position: bottom;
+        bottom: 0;
+    }
+
+    .card_Content {
+        padding:10%;
+        order: 1;
+    }
+
+    .arrow {
+        top: 24px;
+        width: 40px;
+        height: 40px;
+        
+    }
+
+    /* BOTONERA SECTION *****************************************/
+
+    .botonera{
+        display: flex;
+        width: 100%;
+    }
+
+        .botonera  a{
+            font-size: 20px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+
+        .botonera :first-child {
+            height: 64px !important;
+        }
+
+        .botonera div {
+            height: 64px;
+
+        }
+
+        .arrowLeft {
+            width: 32px;
+            height: 32px;
+        }
+
+        .botonNext {
+            width: 32px;
+            height: 32px;
+
+        }
+
+    footer {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .redes {
+        width: 100%;
+    }
+
+
+
+
+
+}
