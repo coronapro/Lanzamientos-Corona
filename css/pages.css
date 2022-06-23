@@ -560,6 +560,10 @@ padding: 1.6rem;
       justify-items: center;
     }
 
+    #KeyShotXR {
+      margin: 0px auto;
+    }
+
     /* SPINNERS       */
 #spinner {
   display: flex;
