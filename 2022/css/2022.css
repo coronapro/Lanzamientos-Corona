@@ -282,13 +282,17 @@ a {
     }
 
     .index_grid {
+        scroll-snap-type: x mandatory;
+        scroll-padding: 0 1.6rem;
+
         display: grid;
         gap: 1.6rem;
         width: auto;
         height: auto;
-        grid-template-columns: repeat(4, 1fr) auto;}
+        grid-template-columns: repeat(7, 1fr) auto;}
 
     .card_Corona {
+        scroll-snap-align: start;
         position: relative;
         display: grid;
         grid-template-rows: 1fr 1fr;
