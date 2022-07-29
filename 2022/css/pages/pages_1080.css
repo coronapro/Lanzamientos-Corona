@@ -149,6 +149,10 @@
             grid-template-rows: 1fr 1fr;
         }
 
+            .espejos {
+                grid-template-rows: 1fr !important;
+            }
+
         .card_Atributo {
             width: 100%;
             height: 400px;
